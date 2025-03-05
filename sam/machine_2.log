@@ -1,0 +1,1122 @@
+2025-03-05 02:05:46.f - SEND - System Time: 2025-03-05 02:05:46.294658, Logical Clock: 1, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:46.f - SEND - System Time: 2025-03-05 02:05:46.558473, Logical Clock: 2, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:46.f - INTERNAL - System Time: 2025-03-05 02:05:46.812551, Logical Clock: 3
+2025-03-05 02:05:47.f - INTERNAL - System Time: 2025-03-05 02:05:47.068100, Logical Clock: 4
+2025-03-05 02:05:47.f - SEND - System Time: 2025-03-05 02:05:47.322276, Logical Clock: 5, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:47.f - SEND - System Time: 2025-03-05 02:05:47.578670, Logical Clock: 6, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:47.f - SEND - System Time: 2025-03-05 02:05:47.580675, Logical Clock: 7, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:47.f - SEND - System Time: 2025-03-05 02:05:47.836291, Logical Clock: 8, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:48.f - INTERNAL - System Time: 2025-03-05 02:05:48.089820, Logical Clock: 9
+2025-03-05 02:05:48.f - SEND - System Time: 2025-03-05 02:05:48.345223, Logical Clock: 10, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:48.f - SEND - System Time: 2025-03-05 02:05:48.349115, Logical Clock: 11, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:48.f - SEND - System Time: 2025-03-05 02:05:48.605717, Logical Clock: 12, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:48.f - SEND - System Time: 2025-03-05 02:05:48.866021, Logical Clock: 13, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:49.f - INTERNAL - System Time: 2025-03-05 02:05:49.122633, Logical Clock: 14
+2025-03-05 02:05:49.f - SEND - System Time: 2025-03-05 02:05:49.377964, Logical Clock: 15, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:49.f - INTERNAL - System Time: 2025-03-05 02:05:49.634288, Logical Clock: 16
+2025-03-05 02:05:49.f - INTERNAL - System Time: 2025-03-05 02:05:49.889611, Logical Clock: 17
+2025-03-05 02:05:50.f - SEND - System Time: 2025-03-05 02:05:50.145071, Logical Clock: 18, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:50.f - SEND - System Time: 2025-03-05 02:05:50.401636, Logical Clock: 19, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:50.f - SEND - System Time: 2025-03-05 02:05:50.403272, Logical Clock: 20, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:50.f - SEND - System Time: 2025-03-05 02:05:50.655212, Logical Clock: 21, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:50.f - SEND - System Time: 2025-03-05 02:05:50.909467, Logical Clock: 22, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:50.f - SEND - System Time: 2025-03-05 02:05:50.910325, Logical Clock: 23, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:51.f - INTERNAL - System Time: 2025-03-05 02:05:51.161148, Logical Clock: 24
+2025-03-05 02:05:51.f - SEND - System Time: 2025-03-05 02:05:51.415332, Logical Clock: 25, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:51.f - INTERNAL - System Time: 2025-03-05 02:05:51.671221, Logical Clock: 26
+2025-03-05 02:05:51.f - INTERNAL - System Time: 2025-03-05 02:05:51.926369, Logical Clock: 27
+2025-03-05 02:05:52.f - INTERNAL - System Time: 2025-03-05 02:05:52.181784, Logical Clock: 28
+2025-03-05 02:05:52.f - SEND - System Time: 2025-03-05 02:05:52.435213, Logical Clock: 29, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:52.f - SEND - System Time: 2025-03-05 02:05:52.438786, Logical Clock: 30, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:52.f - INTERNAL - System Time: 2025-03-05 02:05:52.695366, Logical Clock: 31
+2025-03-05 02:05:52.f - INTERNAL - System Time: 2025-03-05 02:05:52.950735, Logical Clock: 32
+2025-03-05 02:05:53.f - INTERNAL - System Time: 2025-03-05 02:05:53.206830, Logical Clock: 33
+2025-03-05 02:05:53.f - RECEIVE - System Time: 2025-03-05 02:05:53.461621, Queue Length: 0, Logical Clock: 34, From: Machine 3
+2025-03-05 02:05:53.f - SEND - System Time: 2025-03-05 02:05:53.717069, Logical Clock: 35, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:53.f - INTERNAL - System Time: 2025-03-05 02:05:53.974734, Logical Clock: 36
+2025-03-05 02:05:54.f - INTERNAL - System Time: 2025-03-05 02:05:54.230145, Logical Clock: 37
+2025-03-05 02:05:54.f - RECEIVE - System Time: 2025-03-05 02:05:54.485513, Queue Length: 0, Logical Clock: 38, From: Machine 3
+2025-03-05 02:05:54.f - INTERNAL - System Time: 2025-03-05 02:05:54.740831, Logical Clock: 39
+2025-03-05 02:05:54.f - SEND - System Time: 2025-03-05 02:05:54.993428, Logical Clock: 40, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:54.f - SEND - System Time: 2025-03-05 02:05:54.994924, Logical Clock: 41, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:55.f - SEND - System Time: 2025-03-05 02:05:55.250926, Logical Clock: 42, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:55.f - SEND - System Time: 2025-03-05 02:05:55.503987, Logical Clock: 43, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:55.f - SEND - System Time: 2025-03-05 02:05:55.507686, Logical Clock: 44, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:55.f - INTERNAL - System Time: 2025-03-05 02:05:55.765979, Logical Clock: 45
+2025-03-05 02:05:56.f - INTERNAL - System Time: 2025-03-05 02:05:56.017724, Logical Clock: 46
+2025-03-05 02:05:56.f - INTERNAL - System Time: 2025-03-05 02:05:56.268921, Logical Clock: 47
+2025-03-05 02:05:56.f - INTERNAL - System Time: 2025-03-05 02:05:56.524242, Logical Clock: 48
+2025-03-05 02:05:56.f - SEND - System Time: 2025-03-05 02:05:56.779508, Logical Clock: 49, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:57.f - INTERNAL - System Time: 2025-03-05 02:05:57.036536, Logical Clock: 50
+2025-03-05 02:05:57.f - SEND - System Time: 2025-03-05 02:05:57.291752, Logical Clock: 51, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:57.f - INTERNAL - System Time: 2025-03-05 02:05:57.547582, Logical Clock: 52
+2025-03-05 02:05:57.f - SEND - System Time: 2025-03-05 02:05:57.802901, Logical Clock: 53, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:58.f - SEND - System Time: 2025-03-05 02:05:58.057199, Logical Clock: 54, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:58.f - SEND - System Time: 2025-03-05 02:05:58.310698, Logical Clock: 55, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:58.f - INTERNAL - System Time: 2025-03-05 02:05:58.567866, Logical Clock: 56
+2025-03-05 02:05:58.f - INTERNAL - System Time: 2025-03-05 02:05:58.822010, Logical Clock: 57
+2025-03-05 02:05:59.f - SEND - System Time: 2025-03-05 02:05:59.077450, Logical Clock: 58, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:59.f - SEND - System Time: 2025-03-05 02:05:59.333253, Logical Clock: 59, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:59.f - SEND - System Time: 2025-03-05 02:05:59.334799, Logical Clock: 60, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:59.f - SEND - System Time: 2025-03-05 02:05:59.590777, Logical Clock: 61, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:05:59.f - SEND - System Time: 2025-03-05 02:05:59.594233, Logical Clock: 62, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:05:59.f - SEND - System Time: 2025-03-05 02:05:59.850882, Logical Clock: 63, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:00.f - INTERNAL - System Time: 2025-03-05 02:06:00.105736, Logical Clock: 64
+2025-03-05 02:06:00.f - SEND - System Time: 2025-03-05 02:06:00.360298, Logical Clock: 65, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:00.f - SEND - System Time: 2025-03-05 02:06:00.618173, Logical Clock: 66, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:00.f - INTERNAL - System Time: 2025-03-05 02:06:00.874612, Logical Clock: 67
+2025-03-05 02:06:01.f - SEND - System Time: 2025-03-05 02:06:01.130074, Logical Clock: 68, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:01.f - SEND - System Time: 2025-03-05 02:06:01.135603, Logical Clock: 69, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:01.f - INTERNAL - System Time: 2025-03-05 02:06:01.388802, Logical Clock: 70
+2025-03-05 02:06:01.f - INTERNAL - System Time: 2025-03-05 02:06:01.644301, Logical Clock: 71
+2025-03-05 02:06:01.f - INTERNAL - System Time: 2025-03-05 02:06:01.900313, Logical Clock: 72
+2025-03-05 02:06:02.f - SEND - System Time: 2025-03-05 02:06:02.154395, Logical Clock: 73, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:02.f - INTERNAL - System Time: 2025-03-05 02:06:02.411161, Logical Clock: 74
+2025-03-05 02:06:02.f - INTERNAL - System Time: 2025-03-05 02:06:02.665551, Logical Clock: 75
+2025-03-05 02:06:02.f - SEND - System Time: 2025-03-05 02:06:02.920468, Logical Clock: 76, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:02.f - SEND - System Time: 2025-03-05 02:06:02.922110, Logical Clock: 77, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:03.f - SEND - System Time: 2025-03-05 02:06:03.178330, Logical Clock: 78, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:03.f - SEND - System Time: 2025-03-05 02:06:03.181841, Logical Clock: 79, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:03.f - INTERNAL - System Time: 2025-03-05 02:06:03.436563, Logical Clock: 80
+2025-03-05 02:06:03.f - INTERNAL - System Time: 2025-03-05 02:06:03.692096, Logical Clock: 81
+2025-03-05 02:06:03.f - INTERNAL - System Time: 2025-03-05 02:06:03.947547, Logical Clock: 82
+2025-03-05 02:06:04.f - RECEIVE - System Time: 2025-03-05 02:06:04.199789, Queue Length: 0, Logical Clock: 83, From: Machine 3
+2025-03-05 02:06:04.f - SEND - System Time: 2025-03-05 02:06:04.455182, Logical Clock: 84, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:04.f - INTERNAL - System Time: 2025-03-05 02:06:04.714004, Logical Clock: 85
+2025-03-05 02:06:04.f - SEND - System Time: 2025-03-05 02:06:04.968285, Logical Clock: 86, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:05.f - SEND - System Time: 2025-03-05 02:06:05.222492, Logical Clock: 87, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:05.f - INTERNAL - System Time: 2025-03-05 02:06:05.476969, Logical Clock: 88
+2025-03-05 02:06:05.f - SEND - System Time: 2025-03-05 02:06:05.729072, Logical Clock: 89, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:05.f - INTERNAL - System Time: 2025-03-05 02:06:05.985361, Logical Clock: 90
+2025-03-05 02:06:06.f - INTERNAL - System Time: 2025-03-05 02:06:06.240693, Logical Clock: 91
+2025-03-05 02:06:06.f - INTERNAL - System Time: 2025-03-05 02:06:06.494415, Logical Clock: 92
+2025-03-05 02:06:06.f - SEND - System Time: 2025-03-05 02:06:06.747700, Logical Clock: 93, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:07.f - RECEIVE - System Time: 2025-03-05 02:06:07.003761, Queue Length: 0, Logical Clock: 94, From: Machine 3
+2025-03-05 02:06:07.f - SEND - System Time: 2025-03-05 02:06:07.255247, Logical Clock: 95, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:07.f - INTERNAL - System Time: 2025-03-05 02:06:07.516491, Logical Clock: 96
+2025-03-05 02:06:07.f - INTERNAL - System Time: 2025-03-05 02:06:07.770248, Logical Clock: 97
+2025-03-05 02:06:08.f - RECEIVE - System Time: 2025-03-05 02:06:08.023680, Queue Length: 0, Logical Clock: 99, From: Machine 3
+2025-03-05 02:06:08.f - SEND - System Time: 2025-03-05 02:06:08.278906, Logical Clock: 100, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:08.f - INTERNAL - System Time: 2025-03-05 02:06:08.534863, Logical Clock: 101
+2025-03-05 02:06:08.f - INTERNAL - System Time: 2025-03-05 02:06:08.790036, Logical Clock: 102
+2025-03-05 02:06:09.f - RECEIVE - System Time: 2025-03-05 02:06:09.043833, Queue Length: 0, Logical Clock: 104, From: Machine 3
+2025-03-05 02:06:09.f - SEND - System Time: 2025-03-05 02:06:09.299025, Logical Clock: 105, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:09.f - INTERNAL - System Time: 2025-03-05 02:06:09.554156, Logical Clock: 106
+2025-03-05 02:06:09.f - INTERNAL - System Time: 2025-03-05 02:06:09.807117, Logical Clock: 107
+2025-03-05 02:06:10.f - RECEIVE - System Time: 2025-03-05 02:06:10.059422, Queue Length: 0, Logical Clock: 108, From: Machine 3
+2025-03-05 02:06:10.f - INTERNAL - System Time: 2025-03-05 02:06:10.311526, Logical Clock: 109
+2025-03-05 02:06:10.f - RECEIVE - System Time: 2025-03-05 02:06:10.564490, Queue Length: 0, Logical Clock: 110, From: Machine 3
+2025-03-05 02:06:10.f - INTERNAL - System Time: 2025-03-05 02:06:10.818584, Logical Clock: 111
+2025-03-05 02:06:11.f - RECEIVE - System Time: 2025-03-05 02:06:11.073915, Queue Length: 0, Logical Clock: 112, From: Machine 3
+2025-03-05 02:06:11.f - INTERNAL - System Time: 2025-03-05 02:06:11.329237, Logical Clock: 113
+2025-03-05 02:06:11.f - RECEIVE - System Time: 2025-03-05 02:06:11.584630, Queue Length: 0, Logical Clock: 114, From: Machine 3
+2025-03-05 02:06:11.f - SEND - System Time: 2025-03-05 02:06:11.836491, Logical Clock: 115, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:12.f - INTERNAL - System Time: 2025-03-05 02:06:12.088159, Logical Clock: 116
+2025-03-05 02:06:12.f - SEND - System Time: 2025-03-05 02:06:12.340623, Logical Clock: 117, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:12.f - INTERNAL - System Time: 2025-03-05 02:06:12.596590, Logical Clock: 118
+2025-03-05 02:06:12.f - SEND - System Time: 2025-03-05 02:06:12.850121, Logical Clock: 119, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:12.f - SEND - System Time: 2025-03-05 02:06:12.851013, Logical Clock: 120, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:13.f - INTERNAL - System Time: 2025-03-05 02:06:13.106633, Logical Clock: 121
+2025-03-05 02:06:13.f - INTERNAL - System Time: 2025-03-05 02:06:13.362030, Logical Clock: 122
+2025-03-05 02:06:13.f - RECEIVE - System Time: 2025-03-05 02:06:13.615534, Queue Length: 0, Logical Clock: 123, From: Machine 3
+2025-03-05 02:06:13.f - INTERNAL - System Time: 2025-03-05 02:06:13.869520, Logical Clock: 124
+2025-03-05 02:06:14.f - INTERNAL - System Time: 2025-03-05 02:06:14.123516, Logical Clock: 125
+2025-03-05 02:06:14.f - SEND - System Time: 2025-03-05 02:06:14.378898, Logical Clock: 126, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:14.f - SEND - System Time: 2025-03-05 02:06:14.380691, Logical Clock: 127, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:14.f - SEND - System Time: 2025-03-05 02:06:14.635023, Logical Clock: 128, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:14.f - SEND - System Time: 2025-03-05 02:06:14.636764, Logical Clock: 129, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:14.f - INTERNAL - System Time: 2025-03-05 02:06:14.891261, Logical Clock: 130
+2025-03-05 02:06:15.f - INTERNAL - System Time: 2025-03-05 02:06:15.144415, Logical Clock: 131
+2025-03-05 02:06:15.f - SEND - System Time: 2025-03-05 02:06:15.399742, Logical Clock: 132, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:15.f - SEND - System Time: 2025-03-05 02:06:15.655419, Logical Clock: 133, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:15.f - SEND - System Time: 2025-03-05 02:06:15.656297, Logical Clock: 134, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:15.f - INTERNAL - System Time: 2025-03-05 02:06:15.907735, Logical Clock: 135
+2025-03-05 02:06:16.f - SEND - System Time: 2025-03-05 02:06:16.158491, Logical Clock: 136, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:16.f - INTERNAL - System Time: 2025-03-05 02:06:16.414230, Logical Clock: 137
+2025-03-05 02:06:16.f - INTERNAL - System Time: 2025-03-05 02:06:16.669393, Logical Clock: 138
+2025-03-05 02:06:16.f - SEND - System Time: 2025-03-05 02:06:16.924555, Logical Clock: 139, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:16.f - SEND - System Time: 2025-03-05 02:06:16.925270, Logical Clock: 140, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:17.f - INTERNAL - System Time: 2025-03-05 02:06:17.180716, Logical Clock: 141
+2025-03-05 02:06:17.f - INTERNAL - System Time: 2025-03-05 02:06:17.435882, Logical Clock: 142
+2025-03-05 02:06:17.f - SEND - System Time: 2025-03-05 02:06:17.690299, Logical Clock: 143, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:17.f - SEND - System Time: 2025-03-05 02:06:17.691146, Logical Clock: 144, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:17.f - INTERNAL - System Time: 2025-03-05 02:06:17.946817, Logical Clock: 145
+2025-03-05 02:06:18.f - INTERNAL - System Time: 2025-03-05 02:06:18.202010, Logical Clock: 146
+2025-03-05 02:06:18.f - INTERNAL - System Time: 2025-03-05 02:06:18.454429, Logical Clock: 147
+2025-03-05 02:06:18.f - INTERNAL - System Time: 2025-03-05 02:06:18.707253, Logical Clock: 148
+2025-03-05 02:06:18.f - INTERNAL - System Time: 2025-03-05 02:06:18.961134, Logical Clock: 149
+2025-03-05 02:06:19.f - INTERNAL - System Time: 2025-03-05 02:06:19.216316, Logical Clock: 150
+2025-03-05 02:06:19.f - INTERNAL - System Time: 2025-03-05 02:06:19.471471, Logical Clock: 151
+2025-03-05 02:06:19.f - SEND - System Time: 2025-03-05 02:06:19.726633, Logical Clock: 152, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:19.f - SEND - System Time: 2025-03-05 02:06:19.727457, Logical Clock: 153, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:19.f - INTERNAL - System Time: 2025-03-05 02:06:19.982991, Logical Clock: 154
+2025-03-05 02:06:20.f - SEND - System Time: 2025-03-05 02:06:20.235211, Logical Clock: 155, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:20.f - INTERNAL - System Time: 2025-03-05 02:06:20.489549, Logical Clock: 156
+2025-03-05 02:06:20.f - INTERNAL - System Time: 2025-03-05 02:06:20.744730, Logical Clock: 157
+2025-03-05 02:06:20.f - SEND - System Time: 2025-03-05 02:06:20.999052, Logical Clock: 158, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:21.f - SEND - System Time: 2025-03-05 02:06:20.999991, Logical Clock: 159, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:21.f - SEND - System Time: 2025-03-05 02:06:21.252410, Logical Clock: 160, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:21.f - SEND - System Time: 2025-03-05 02:06:21.510974, Logical Clock: 161, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:21.f - INTERNAL - System Time: 2025-03-05 02:06:21.768548, Logical Clock: 162
+2025-03-05 02:06:22.f - SEND - System Time: 2025-03-05 02:06:22.022771, Logical Clock: 163, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:22.f - SEND - System Time: 2025-03-05 02:06:22.023607, Logical Clock: 164, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:22.f - SEND - System Time: 2025-03-05 02:06:22.279210, Logical Clock: 165, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:22.f - SEND - System Time: 2025-03-05 02:06:22.279963, Logical Clock: 166, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:22.f - INTERNAL - System Time: 2025-03-05 02:06:22.535599, Logical Clock: 167
+2025-03-05 02:06:22.f - INTERNAL - System Time: 2025-03-05 02:06:22.787278, Logical Clock: 168
+2025-03-05 02:06:23.f - INTERNAL - System Time: 2025-03-05 02:06:23.042904, Logical Clock: 169
+2025-03-05 02:06:23.f - RECEIVE - System Time: 2025-03-05 02:06:23.298575, Queue Length: 0, Logical Clock: 170, From: Machine 3
+2025-03-05 02:06:23.f - SEND - System Time: 2025-03-05 02:06:23.554111, Logical Clock: 171, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:23.f - SEND - System Time: 2025-03-05 02:06:23.814134, Logical Clock: 172, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:23.f - SEND - System Time: 2025-03-05 02:06:23.815075, Logical Clock: 173, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:24.f - SEND - System Time: 2025-03-05 02:06:24.070613, Logical Clock: 174, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:24.f - SEND - System Time: 2025-03-05 02:06:24.071804, Logical Clock: 175, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:24.f - SEND - System Time: 2025-03-05 02:06:24.324382, Logical Clock: 176, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:24.f - SEND - System Time: 2025-03-05 02:06:24.325127, Logical Clock: 177, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:24.f - SEND - System Time: 2025-03-05 02:06:24.580760, Logical Clock: 178, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:24.f - SEND - System Time: 2025-03-05 02:06:24.581542, Logical Clock: 179, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:24.f - INTERNAL - System Time: 2025-03-05 02:06:24.836994, Logical Clock: 180
+2025-03-05 02:06:25.f - SEND - System Time: 2025-03-05 02:06:25.092136, Logical Clock: 181, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:25.f - SEND - System Time: 2025-03-05 02:06:25.348357, Logical Clock: 182, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:25.f - SEND - System Time: 2025-03-05 02:06:25.602890, Logical Clock: 183, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:25.f - SEND - System Time: 2025-03-05 02:06:25.859627, Logical Clock: 184, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:26.f - INTERNAL - System Time: 2025-03-05 02:06:26.115614, Logical Clock: 185
+2025-03-05 02:06:26.f - INTERNAL - System Time: 2025-03-05 02:06:26.369663, Logical Clock: 186
+2025-03-05 02:06:26.f - INTERNAL - System Time: 2025-03-05 02:06:26.625106, Logical Clock: 187
+2025-03-05 02:06:26.f - SEND - System Time: 2025-03-05 02:06:26.880403, Logical Clock: 188, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:27.f - SEND - System Time: 2025-03-05 02:06:27.136160, Logical Clock: 189, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:27.f - INTERNAL - System Time: 2025-03-05 02:06:27.393071, Logical Clock: 190
+2025-03-05 02:06:27.f - SEND - System Time: 2025-03-05 02:06:27.648465, Logical Clock: 191, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:27.f - SEND - System Time: 2025-03-05 02:06:27.652581, Logical Clock: 192, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:27.f - INTERNAL - System Time: 2025-03-05 02:06:27.908682, Logical Clock: 193
+2025-03-05 02:06:28.f - SEND - System Time: 2025-03-05 02:06:28.164047, Logical Clock: 194, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:28.f - INTERNAL - System Time: 2025-03-05 02:06:28.420556, Logical Clock: 195
+2025-03-05 02:06:28.f - INTERNAL - System Time: 2025-03-05 02:06:28.675908, Logical Clock: 196
+2025-03-05 02:06:28.f - SEND - System Time: 2025-03-05 02:06:28.931095, Logical Clock: 197, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:29.f - SEND - System Time: 2025-03-05 02:06:29.186207, Logical Clock: 198, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:29.f - INTERNAL - System Time: 2025-03-05 02:06:29.442349, Logical Clock: 199
+2025-03-05 02:06:29.f - SEND - System Time: 2025-03-05 02:06:29.697593, Logical Clock: 200, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:29.f - SEND - System Time: 2025-03-05 02:06:29.698372, Logical Clock: 201, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:29.f - INTERNAL - System Time: 2025-03-05 02:06:29.953964, Logical Clock: 202
+2025-03-05 02:06:30.f - INTERNAL - System Time: 2025-03-05 02:06:30.209340, Logical Clock: 203
+2025-03-05 02:06:30.f - INTERNAL - System Time: 2025-03-05 02:06:30.464462, Logical Clock: 204
+2025-03-05 02:06:30.f - INTERNAL - System Time: 2025-03-05 02:06:30.715564, Logical Clock: 205
+2025-03-05 02:06:30.f - INTERNAL - System Time: 2025-03-05 02:06:30.970823, Logical Clock: 206
+2025-03-05 02:06:31.f - INTERNAL - System Time: 2025-03-05 02:06:31.226178, Logical Clock: 207
+2025-03-05 02:06:31.f - SEND - System Time: 2025-03-05 02:06:31.481159, Logical Clock: 208, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:31.f - SEND - System Time: 2025-03-05 02:06:31.481953, Logical Clock: 209, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:31.f - SEND - System Time: 2025-03-05 02:06:31.737526, Logical Clock: 210, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:31.f - SEND - System Time: 2025-03-05 02:06:31.988632, Logical Clock: 211, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:32.f - SEND - System Time: 2025-03-05 02:06:32.244540, Logical Clock: 212, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:32.f - INTERNAL - System Time: 2025-03-05 02:06:32.500461, Logical Clock: 213
+2025-03-05 02:06:32.f - SEND - System Time: 2025-03-05 02:06:32.755943, Logical Clock: 214, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:32.f - SEND - System Time: 2025-03-05 02:06:32.758927, Logical Clock: 215, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:33.f - SEND - System Time: 2025-03-05 02:06:33.012195, Logical Clock: 216, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:33.f - INTERNAL - System Time: 2025-03-05 02:06:33.268916, Logical Clock: 217
+2025-03-05 02:06:33.f - INTERNAL - System Time: 2025-03-05 02:06:33.522220, Logical Clock: 218
+2025-03-05 02:06:33.f - SEND - System Time: 2025-03-05 02:06:33.777223, Logical Clock: 219, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:34.f - SEND - System Time: 2025-03-05 02:06:34.031661, Logical Clock: 220, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:34.f - SEND - System Time: 2025-03-05 02:06:34.032807, Logical Clock: 221, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:34.f - SEND - System Time: 2025-03-05 02:06:34.288904, Logical Clock: 222, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:34.f - INTERNAL - System Time: 2025-03-05 02:06:34.544559, Logical Clock: 223
+2025-03-05 02:06:34.f - INTERNAL - System Time: 2025-03-05 02:06:34.800078, Logical Clock: 224
+2025-03-05 02:06:35.f - SEND - System Time: 2025-03-05 02:06:35.053198, Logical Clock: 225, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:35.f - SEND - System Time: 2025-03-05 02:06:35.056472, Logical Clock: 226, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:35.f - SEND - System Time: 2025-03-05 02:06:35.312374, Logical Clock: 227, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:35.f - SEND - System Time: 2025-03-05 02:06:35.569868, Logical Clock: 228, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:35.f - INTERNAL - System Time: 2025-03-05 02:06:35.825844, Logical Clock: 229
+2025-03-05 02:06:36.f - SEND - System Time: 2025-03-05 02:06:36.079721, Logical Clock: 230, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:36.f - INTERNAL - System Time: 2025-03-05 02:06:36.336333, Logical Clock: 231
+2025-03-05 02:06:36.f - SEND - System Time: 2025-03-05 02:06:36.592216, Logical Clock: 232, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:36.f - SEND - System Time: 2025-03-05 02:06:36.848029, Logical Clock: 233, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:36.f - SEND - System Time: 2025-03-05 02:06:36.851425, Logical Clock: 234, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:37.f - INTERNAL - System Time: 2025-03-05 02:06:37.108370, Logical Clock: 235
+2025-03-05 02:06:37.f - INTERNAL - System Time: 2025-03-05 02:06:37.362169, Logical Clock: 236
+2025-03-05 02:06:37.f - SEND - System Time: 2025-03-05 02:06:37.613860, Logical Clock: 237, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:37.f - INTERNAL - System Time: 2025-03-05 02:06:37.875416, Logical Clock: 238
+2025-03-05 02:06:38.f - INTERNAL - System Time: 2025-03-05 02:06:38.129082, Logical Clock: 239
+2025-03-05 02:06:38.f - INTERNAL - System Time: 2025-03-05 02:06:38.384710, Logical Clock: 240
+2025-03-05 02:06:38.f - SEND - System Time: 2025-03-05 02:06:38.637397, Logical Clock: 241, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:38.f - SEND - System Time: 2025-03-05 02:06:38.893091, Logical Clock: 242, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:39.f - INTERNAL - System Time: 2025-03-05 02:06:39.151446, Logical Clock: 243
+2025-03-05 02:06:39.f - SEND - System Time: 2025-03-05 02:06:39.402466, Logical Clock: 244, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:39.f - INTERNAL - System Time: 2025-03-05 02:06:39.660403, Logical Clock: 245
+2025-03-05 02:06:39.f - SEND - System Time: 2025-03-05 02:06:39.914948, Logical Clock: 246, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:39.f - SEND - System Time: 2025-03-05 02:06:39.919427, Logical Clock: 247, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:40.f - INTERNAL - System Time: 2025-03-05 02:06:40.175689, Logical Clock: 248
+2025-03-05 02:06:40.f - SEND - System Time: 2025-03-05 02:06:40.431122, Logical Clock: 249, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:40.f - SEND - System Time: 2025-03-05 02:06:40.434982, Logical Clock: 250, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:40.f - SEND - System Time: 2025-03-05 02:06:40.692052, Logical Clock: 251, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:40.f - SEND - System Time: 2025-03-05 02:06:40.695873, Logical Clock: 252, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:40.f - SEND - System Time: 2025-03-05 02:06:40.952734, Logical Clock: 253, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.208523, Logical Clock: 254, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.210491, Logical Clock: 255, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.462416, Logical Clock: 256, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.465934, Logical Clock: 257, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.722404, Logical Clock: 258, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.976675, Logical Clock: 259, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:41.f - SEND - System Time: 2025-03-05 02:06:41.980485, Logical Clock: 260, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:42.f - SEND - System Time: 2025-03-05 02:06:42.237139, Logical Clock: 261, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:42.f - SEND - System Time: 2025-03-05 02:06:42.240521, Logical Clock: 262, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:42.f - INTERNAL - System Time: 2025-03-05 02:06:42.497340, Logical Clock: 263
+2025-03-05 02:06:42.f - INTERNAL - System Time: 2025-03-05 02:06:42.752937, Logical Clock: 264
+2025-03-05 02:06:43.f - INTERNAL - System Time: 2025-03-05 02:06:43.009060, Logical Clock: 265
+2025-03-05 02:06:43.f - SEND - System Time: 2025-03-05 02:06:43.263384, Logical Clock: 266, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:43.f - SEND - System Time: 2025-03-05 02:06:43.264992, Logical Clock: 267, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:43.f - INTERNAL - System Time: 2025-03-05 02:06:43.521017, Logical Clock: 268
+2025-03-05 02:06:43.f - SEND - System Time: 2025-03-05 02:06:43.773550, Logical Clock: 269, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:44.f - SEND - System Time: 2025-03-05 02:06:44.029084, Logical Clock: 270, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:44.f - INTERNAL - System Time: 2025-03-05 02:06:44.284371, Logical Clock: 271
+2025-03-05 02:06:44.f - INTERNAL - System Time: 2025-03-05 02:06:44.536853, Logical Clock: 272
+2025-03-05 02:06:44.f - SEND - System Time: 2025-03-05 02:06:44.787610, Logical Clock: 273, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:45.f - INTERNAL - System Time: 2025-03-05 02:06:45.041068, Logical Clock: 274
+2025-03-05 02:06:45.f - INTERNAL - System Time: 2025-03-05 02:06:45.296272, Logical Clock: 275
+2025-03-05 02:06:45.f - SEND - System Time: 2025-03-05 02:06:45.550877, Logical Clock: 276, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:45.f - SEND - System Time: 2025-03-05 02:06:45.803732, Logical Clock: 277, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:45.f - SEND - System Time: 2025-03-05 02:06:45.804686, Logical Clock: 278, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:46.f - INTERNAL - System Time: 2025-03-05 02:06:46.055396, Logical Clock: 279
+2025-03-05 02:06:51.f - RECEIVE - System Time: 2025-03-05 02:06:51.957533, Queue Length: 0, Logical Clock: 2, From: Machine 1
+2025-03-05 02:06:52.f - INTERNAL - System Time: 2025-03-05 02:06:52.291880, Logical Clock: 3
+2025-03-05 02:06:52.f - INTERNAL - System Time: 2025-03-05 02:06:52.628518, Logical Clock: 4
+2025-03-05 02:06:52.f - SEND - System Time: 2025-03-05 02:06:52.967295, Logical Clock: 5, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:53.f - SEND - System Time: 2025-03-05 02:06:53.311123, Logical Clock: 6, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:53.f - SEND - System Time: 2025-03-05 02:06:53.317443, Logical Clock: 7, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:53.f - SEND - System Time: 2025-03-05 02:06:53.656903, Logical Clock: 8, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:06:53.f - SEND - System Time: 2025-03-05 02:06:53.659929, Logical Clock: 9, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:53.f - INTERNAL - System Time: 2025-03-05 02:06:53.999809, Logical Clock: 10
+2025-03-05 02:06:54.f - RECEIVE - System Time: 2025-03-05 02:06:54.335448, Queue Length: 0, Logical Clock: 12, From: Machine 3
+2025-03-05 02:06:54.f - RECEIVE - System Time: 2025-03-05 02:06:54.674090, Queue Length: 0, Logical Clock: 14, From: Machine 3
+2025-03-05 02:06:55.f - SEND - System Time: 2025-03-05 02:06:55.009147, Logical Clock: 15, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:55.f - INTERNAL - System Time: 2025-03-05 02:06:55.349499, Logical Clock: 16
+2025-03-05 02:06:55.f - SEND - System Time: 2025-03-05 02:06:55.688319, Logical Clock: 17, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:56.f - INTERNAL - System Time: 2025-03-05 02:06:56.028940, Logical Clock: 18
+2025-03-05 02:06:56.f - RECEIVE - System Time: 2025-03-05 02:06:56.367073, Queue Length: 0, Logical Clock: 19, From: Machine 1
+2025-03-05 02:06:56.f - RECEIVE - System Time: 2025-03-05 02:06:56.706560, Queue Length: 0, Logical Clock: 20, From: Machine 1
+2025-03-05 02:06:57.f - SEND - System Time: 2025-03-05 02:06:57.041656, Logical Clock: 21, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:57.f - INTERNAL - System Time: 2025-03-05 02:06:57.379730, Logical Clock: 22
+2025-03-05 02:06:57.f - RECEIVE - System Time: 2025-03-05 02:06:57.718432, Queue Length: 0, Logical Clock: 25, From: Machine 3
+2025-03-05 02:06:58.f - SEND - System Time: 2025-03-05 02:06:58.057520, Logical Clock: 26, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:06:58.f - RECEIVE - System Time: 2025-03-05 02:06:58.395835, Queue Length: 0, Logical Clock: 27, From: Machine 1
+2025-03-05 02:06:58.f - INTERNAL - System Time: 2025-03-05 02:06:58.734948, Logical Clock: 28
+2025-03-05 02:06:59.f - INTERNAL - System Time: 2025-03-05 02:06:59.074420, Logical Clock: 29
+2025-03-05 02:06:59.f - RECEIVE - System Time: 2025-03-05 02:06:59.409837, Queue Length: 0, Logical Clock: 30, From: Machine 3
+2025-03-05 02:06:59.f - RECEIVE - System Time: 2025-03-05 02:06:59.745868, Queue Length: 0, Logical Clock: 32, From: Machine 1
+2025-03-05 02:07:00.f - INTERNAL - System Time: 2025-03-05 02:07:00.084562, Logical Clock: 33
+2025-03-05 02:07:00.f - RECEIVE - System Time: 2025-03-05 02:07:00.423986, Queue Length: 0, Logical Clock: 35, From: Machine 1
+2025-03-05 02:07:00.f - SEND - System Time: 2025-03-05 02:07:00.763253, Logical Clock: 36, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:00.f - SEND - System Time: 2025-03-05 02:07:00.766796, Logical Clock: 37, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:01.f - SEND - System Time: 2025-03-05 02:07:01.105968, Logical Clock: 38, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:01.f - SEND - System Time: 2025-03-05 02:07:01.109620, Logical Clock: 39, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:01.f - INTERNAL - System Time: 2025-03-05 02:07:01.445192, Logical Clock: 40
+2025-03-05 02:07:01.f - RECEIVE - System Time: 2025-03-05 02:07:01.780170, Queue Length: 0, Logical Clock: 43, From: Machine 3
+2025-03-05 02:07:02.f - RECEIVE - System Time: 2025-03-05 02:07:02.119369, Queue Length: 0, Logical Clock: 45, From: Machine 3
+2025-03-05 02:07:02.f - INTERNAL - System Time: 2025-03-05 02:07:02.458596, Logical Clock: 46
+2025-03-05 02:07:02.f - SEND - System Time: 2025-03-05 02:07:02.796231, Logical Clock: 47, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:03.f - SEND - System Time: 2025-03-05 02:07:03.133028, Logical Clock: 48, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:03.f - SEND - System Time: 2025-03-05 02:07:03.135998, Logical Clock: 49, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:03.f - SEND - System Time: 2025-03-05 02:07:03.476193, Logical Clock: 50, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:03.f - SEND - System Time: 2025-03-05 02:07:03.478885, Logical Clock: 51, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:03.f - SEND - System Time: 2025-03-05 02:07:03.818686, Logical Clock: 52, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:03.f - SEND - System Time: 2025-03-05 02:07:03.821791, Logical Clock: 53, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:04.f - SEND - System Time: 2025-03-05 02:07:04.161627, Logical Clock: 54, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:04.f - SEND - System Time: 2025-03-05 02:07:04.501470, Logical Clock: 55, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:04.f - SEND - System Time: 2025-03-05 02:07:04.502360, Logical Clock: 56, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:04.f - INTERNAL - System Time: 2025-03-05 02:07:04.842017, Logical Clock: 57
+2025-03-05 02:07:05.f - SEND - System Time: 2025-03-05 02:07:05.181095, Logical Clock: 58, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:05.f - SEND - System Time: 2025-03-05 02:07:05.517831, Logical Clock: 59, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:05.f - INTERNAL - System Time: 2025-03-05 02:07:05.858838, Logical Clock: 60
+2025-03-05 02:07:06.f - SEND - System Time: 2025-03-05 02:07:06.195820, Logical Clock: 61, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:06.f - SEND - System Time: 2025-03-05 02:07:06.196729, Logical Clock: 62, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:06.f - INTERNAL - System Time: 2025-03-05 02:07:06.535752, Logical Clock: 63
+2025-03-05 02:07:06.f - SEND - System Time: 2025-03-05 02:07:06.874367, Logical Clock: 64, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:07.f - SEND - System Time: 2025-03-05 02:07:07.212237, Logical Clock: 65, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:07.f - SEND - System Time: 2025-03-05 02:07:07.214184, Logical Clock: 66, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:07.f - SEND - System Time: 2025-03-05 02:07:07.550057, Logical Clock: 67, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:07.f - INTERNAL - System Time: 2025-03-05 02:07:07.890118, Logical Clock: 68
+2025-03-05 02:07:08.f - RECEIVE - System Time: 2025-03-05 02:07:08.228340, Queue Length: 0, Logical Clock: 71, From: Machine 3
+2025-03-05 02:07:08.f - RECEIVE - System Time: 2025-03-05 02:07:08.567214, Queue Length: 0, Logical Clock: 73, From: Machine 3
+2025-03-05 02:07:08.f - SEND - System Time: 2025-03-05 02:07:08.901549, Logical Clock: 74, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:09.f - INTERNAL - System Time: 2025-03-05 02:07:09.241721, Logical Clock: 75
+2025-03-05 02:07:09.f - RECEIVE - System Time: 2025-03-05 02:07:09.575840, Queue Length: 0, Logical Clock: 77, From: Machine 1
+2025-03-05 02:07:09.f - RECEIVE - System Time: 2025-03-05 02:07:09.914608, Queue Length: 0, Logical Clock: 79, From: Machine 1
+2025-03-05 02:07:10.f - SEND - System Time: 2025-03-05 02:07:10.253802, Logical Clock: 80, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:10.f - SEND - System Time: 2025-03-05 02:07:10.257012, Logical Clock: 81, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:10.f - INTERNAL - System Time: 2025-03-05 02:07:10.593469, Logical Clock: 82
+2025-03-05 02:07:10.f - SEND - System Time: 2025-03-05 02:07:10.932071, Logical Clock: 83, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:10.f - SEND - System Time: 2025-03-05 02:07:10.937952, Logical Clock: 84, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:11.f - INTERNAL - System Time: 2025-03-05 02:07:11.277695, Logical Clock: 85
+2025-03-05 02:07:11.f - RECEIVE - System Time: 2025-03-05 02:07:11.616840, Queue Length: 0, Logical Clock: 88, From: Machine 3
+2025-03-05 02:07:11.f - INTERNAL - System Time: 2025-03-05 02:07:11.951456, Logical Clock: 89
+2025-03-05 02:07:12.f - RECEIVE - System Time: 2025-03-05 02:07:12.286516, Queue Length: 0, Logical Clock: 91, From: Machine 3
+2025-03-05 02:07:12.f - RECEIVE - System Time: 2025-03-05 02:07:12.625106, Queue Length: 0, Logical Clock: 93, From: Machine 3
+2025-03-05 02:07:12.f - RECEIVE - System Time: 2025-03-05 02:07:12.963879, Queue Length: 0, Logical Clock: 95, From: Machine 3
+2025-03-05 02:07:13.f - RECEIVE - System Time: 2025-03-05 02:07:13.304090, Queue Length: 0, Logical Clock: 96, From: Machine 1
+2025-03-05 02:07:13.f - SEND - System Time: 2025-03-05 02:07:13.640196, Logical Clock: 97, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:13.f - INTERNAL - System Time: 2025-03-05 02:07:13.979408, Logical Clock: 98
+2025-03-05 02:07:14.f - RECEIVE - System Time: 2025-03-05 02:07:14.317899, Queue Length: 0, Logical Clock: 100, From: Machine 1
+2025-03-05 02:07:14.f - RECEIVE - System Time: 2025-03-05 02:07:14.652595, Queue Length: 0, Logical Clock: 102, From: Machine 1
+2025-03-05 02:07:14.f - SEND - System Time: 2025-03-05 02:07:14.986329, Logical Clock: 103, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:14.f - SEND - System Time: 2025-03-05 02:07:14.987351, Logical Clock: 104, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:15.f - SEND - System Time: 2025-03-05 02:07:15.326272, Logical Clock: 105, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:15.f - SEND - System Time: 2025-03-05 02:07:15.665394, Logical Clock: 106, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:15.f - SEND - System Time: 2025-03-05 02:07:15.666955, Logical Clock: 107, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:16.f - SEND - System Time: 2025-03-05 02:07:16.006892, Logical Clock: 108, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:16.f - SEND - System Time: 2025-03-05 02:07:16.009814, Logical Clock: 109, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:16.f - SEND - System Time: 2025-03-05 02:07:16.349042, Logical Clock: 110, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:16.f - SEND - System Time: 2025-03-05 02:07:16.349880, Logical Clock: 111, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:16.f - SEND - System Time: 2025-03-05 02:07:16.686801, Logical Clock: 112, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:17.f - INTERNAL - System Time: 2025-03-05 02:07:17.024767, Logical Clock: 113
+2025-03-05 02:07:17.f - INTERNAL - System Time: 2025-03-05 02:07:17.363358, Logical Clock: 114
+2025-03-05 02:07:17.f - RECEIVE - System Time: 2025-03-05 02:07:17.702136, Queue Length: 0, Logical Clock: 115, From: Machine 3
+2025-03-05 02:07:18.f - RECEIVE - System Time: 2025-03-05 02:07:18.040884, Queue Length: 1, Logical Clock: 116, From: Machine 3
+2025-03-05 02:07:18.f - RECEIVE - System Time: 2025-03-05 02:07:18.379584, Queue Length: 0, Logical Clock: 117, From: Machine 1
+2025-03-05 02:07:18.f - RECEIVE - System Time: 2025-03-05 02:07:18.716921, Queue Length: 0, Logical Clock: 119, From: Machine 3
+2025-03-05 02:07:19.f - RECEIVE - System Time: 2025-03-05 02:07:19.053260, Queue Length: 0, Logical Clock: 120, From: Machine 1
+2025-03-05 02:07:19.f - RECEIVE - System Time: 2025-03-05 02:07:19.391833, Queue Length: 0, Logical Clock: 122, From: Machine 1
+2025-03-05 02:07:19.f - RECEIVE - System Time: 2025-03-05 02:07:19.728682, Queue Length: 0, Logical Clock: 124, From: Machine 1
+2025-03-05 02:07:20.f - RECEIVE - System Time: 2025-03-05 02:07:20.067321, Queue Length: 0, Logical Clock: 126, From: Machine 1
+2025-03-05 02:07:20.f - INTERNAL - System Time: 2025-03-05 02:07:20.404939, Logical Clock: 127
+2025-03-05 02:07:20.f - RECEIVE - System Time: 2025-03-05 02:07:20.744171, Queue Length: 0, Logical Clock: 129, From: Machine 3
+2025-03-05 02:07:21.f - SEND - System Time: 2025-03-05 02:07:21.083501, Logical Clock: 130, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:21.f - INTERNAL - System Time: 2025-03-05 02:07:21.421339, Logical Clock: 131
+2025-03-05 02:07:21.f - RECEIVE - System Time: 2025-03-05 02:07:21.760004, Queue Length: 0, Logical Clock: 134, From: Machine 3
+2025-03-05 02:07:22.f - INTERNAL - System Time: 2025-03-05 02:07:22.098972, Logical Clock: 135
+2025-03-05 02:07:22.f - RECEIVE - System Time: 2025-03-05 02:07:22.434319, Queue Length: 0, Logical Clock: 137, From: Machine 3
+2025-03-05 02:07:22.f - SEND - System Time: 2025-03-05 02:07:22.772873, Logical Clock: 138, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:22.f - SEND - System Time: 2025-03-05 02:07:22.774406, Logical Clock: 139, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:23.f - INTERNAL - System Time: 2025-03-05 02:07:23.113714, Logical Clock: 140
+2025-03-05 02:07:23.f - RECEIVE - System Time: 2025-03-05 02:07:23.453238, Queue Length: 0, Logical Clock: 141, From: Machine 1
+2025-03-05 02:07:23.f - INTERNAL - System Time: 2025-03-05 02:07:23.792339, Logical Clock: 142
+2025-03-05 02:07:24.f - SEND - System Time: 2025-03-05 02:07:24.130848, Logical Clock: 143, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:24.f - INTERNAL - System Time: 2025-03-05 02:07:24.466996, Logical Clock: 144
+2025-03-05 02:07:24.f - INTERNAL - System Time: 2025-03-05 02:07:24.805646, Logical Clock: 145
+2025-03-05 02:07:25.f - SEND - System Time: 2025-03-05 02:07:25.141806, Logical Clock: 146, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:25.f - SEND - System Time: 2025-03-05 02:07:25.144310, Logical Clock: 147, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:25.f - SEND - System Time: 2025-03-05 02:07:25.482325, Logical Clock: 148, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:25.f - SEND - System Time: 2025-03-05 02:07:25.483136, Logical Clock: 149, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:25.f - INTERNAL - System Time: 2025-03-05 02:07:25.822010, Logical Clock: 150
+2025-03-05 02:07:26.f - INTERNAL - System Time: 2025-03-05 02:07:26.160892, Logical Clock: 151
+2025-03-05 02:07:26.f - INTERNAL - System Time: 2025-03-05 02:07:26.499442, Logical Clock: 152
+2025-03-05 02:07:26.f - INTERNAL - System Time: 2025-03-05 02:07:26.838525, Logical Clock: 153
+2025-03-05 02:07:27.f - RECEIVE - System Time: 2025-03-05 02:07:27.177083, Queue Length: 0, Logical Clock: 156, From: Machine 3
+2025-03-05 02:07:27.f - RECEIVE - System Time: 2025-03-05 02:07:27.515601, Queue Length: 0, Logical Clock: 158, From: Machine 3
+2025-03-05 02:07:27.f - INTERNAL - System Time: 2025-03-05 02:07:27.854076, Logical Clock: 159
+2025-03-05 02:07:28.f - RECEIVE - System Time: 2025-03-05 02:07:28.192622, Queue Length: 0, Logical Clock: 160, From: Machine 1
+2025-03-05 02:07:28.f - SEND - System Time: 2025-03-05 02:07:28.529599, Logical Clock: 161, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:28.f - SEND - System Time: 2025-03-05 02:07:28.869119, Logical Clock: 162, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:29.f - SEND - System Time: 2025-03-05 02:07:29.206136, Logical Clock: 163, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:29.f - SEND - System Time: 2025-03-05 02:07:29.209773, Logical Clock: 164, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:29.f - SEND - System Time: 2025-03-05 02:07:29.546286, Logical Clock: 165, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:29.f - SEND - System Time: 2025-03-05 02:07:29.549951, Logical Clock: 166, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:29.f - SEND - System Time: 2025-03-05 02:07:29.889786, Logical Clock: 167, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:29.f - SEND - System Time: 2025-03-05 02:07:29.892957, Logical Clock: 168, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:30.f - SEND - System Time: 2025-03-05 02:07:30.233094, Logical Clock: 169, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:30.f - SEND - System Time: 2025-03-05 02:07:30.574140, Logical Clock: 170, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:30.f - SEND - System Time: 2025-03-05 02:07:30.576691, Logical Clock: 171, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:30.f - INTERNAL - System Time: 2025-03-05 02:07:30.914363, Logical Clock: 172
+2025-03-05 02:07:31.f - SEND - System Time: 2025-03-05 02:07:31.250954, Logical Clock: 173, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:31.f - SEND - System Time: 2025-03-05 02:07:31.252687, Logical Clock: 174, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:31.f - INTERNAL - System Time: 2025-03-05 02:07:31.592118, Logical Clock: 175
+2025-03-05 02:07:31.f - RECEIVE - System Time: 2025-03-05 02:07:31.927379, Queue Length: 0, Logical Clock: 176, From: Machine 1
+2025-03-05 02:07:32.f - RECEIVE - System Time: 2025-03-05 02:07:32.267218, Queue Length: 0, Logical Clock: 177, From: Machine 1
+2025-03-05 02:07:32.f - SEND - System Time: 2025-03-05 02:07:32.602366, Logical Clock: 178, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:32.f - SEND - System Time: 2025-03-05 02:07:32.941687, Logical Clock: 179, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:33.f - SEND - System Time: 2025-03-05 02:07:33.279177, Logical Clock: 180, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:33.f - SEND - System Time: 2025-03-05 02:07:33.282414, Logical Clock: 181, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:33.f - SEND - System Time: 2025-03-05 02:07:33.622055, Logical Clock: 182, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:33.f - RECEIVE - System Time: 2025-03-05 02:07:33.963573, Queue Length: 0, Logical Clock: 183, From: Machine 1
+2025-03-05 02:07:34.f - RECEIVE - System Time: 2025-03-05 02:07:34.302848, Queue Length: 0, Logical Clock: 185, From: Machine 1
+2025-03-05 02:07:34.f - SEND - System Time: 2025-03-05 02:07:34.640215, Logical Clock: 186, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:34.f - SEND - System Time: 2025-03-05 02:07:34.645050, Logical Clock: 187, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:34.f - SEND - System Time: 2025-03-05 02:07:34.984788, Logical Clock: 188, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:35.f - INTERNAL - System Time: 2025-03-05 02:07:35.324447, Logical Clock: 189
+2025-03-05 02:07:35.f - SEND - System Time: 2025-03-05 02:07:35.662735, Logical Clock: 190, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:36.f - RECEIVE - System Time: 2025-03-05 02:07:36.006416, Queue Length: 0, Logical Clock: 191, From: Machine 1
+2025-03-05 02:07:36.f - INTERNAL - System Time: 2025-03-05 02:07:36.343290, Logical Clock: 192
+2025-03-05 02:07:36.f - INTERNAL - System Time: 2025-03-05 02:07:36.682373, Logical Clock: 193
+2025-03-05 02:07:37.f - SEND - System Time: 2025-03-05 02:07:37.021406, Logical Clock: 194, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:37.f - INTERNAL - System Time: 2025-03-05 02:07:37.364311, Logical Clock: 195
+2025-03-05 02:07:37.f - SEND - System Time: 2025-03-05 02:07:37.700902, Logical Clock: 196, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:38.f - INTERNAL - System Time: 2025-03-05 02:07:38.038302, Logical Clock: 197
+2025-03-05 02:07:38.f - SEND - System Time: 2025-03-05 02:07:38.377147, Logical Clock: 198, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:38.f - INTERNAL - System Time: 2025-03-05 02:07:38.714266, Logical Clock: 199
+2025-03-05 02:07:39.f - SEND - System Time: 2025-03-05 02:07:39.048786, Logical Clock: 200, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:39.f - RECEIVE - System Time: 2025-03-05 02:07:39.390017, Queue Length: 0, Logical Clock: 202, From: Machine 1
+2025-03-05 02:07:39.f - SEND - System Time: 2025-03-05 02:07:39.729108, Logical Clock: 203, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:39.f - SEND - System Time: 2025-03-05 02:07:39.731953, Logical Clock: 204, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:40.f - INTERNAL - System Time: 2025-03-05 02:07:40.071471, Logical Clock: 205
+2025-03-05 02:07:40.f - RECEIVE - System Time: 2025-03-05 02:07:40.410693, Queue Length: 0, Logical Clock: 207, From: Machine 3
+2025-03-05 02:07:40.f - SEND - System Time: 2025-03-05 02:07:40.746551, Logical Clock: 208, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:41.f - INTERNAL - System Time: 2025-03-05 02:07:41.088107, Logical Clock: 209
+2025-03-05 02:07:41.f - INTERNAL - System Time: 2025-03-05 02:07:41.428376, Logical Clock: 210
+2025-03-05 02:07:41.f - INTERNAL - System Time: 2025-03-05 02:07:41.765664, Logical Clock: 211
+2025-03-05 02:07:42.f - RECEIVE - System Time: 2025-03-05 02:07:42.100335, Queue Length: 0, Logical Clock: 213, From: Machine 3
+2025-03-05 02:07:42.f - SEND - System Time: 2025-03-05 02:07:42.439407, Logical Clock: 214, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:42.f - RECEIVE - System Time: 2025-03-05 02:07:42.778778, Queue Length: 0, Logical Clock: 215, From: Machine 1
+2025-03-05 02:07:43.f - INTERNAL - System Time: 2025-03-05 02:07:43.115858, Logical Clock: 216
+2025-03-05 02:07:43.f - INTERNAL - System Time: 2025-03-05 02:07:43.455332, Logical Clock: 217
+2025-03-05 02:07:43.f - SEND - System Time: 2025-03-05 02:07:43.794081, Logical Clock: 218, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:43.f - SEND - System Time: 2025-03-05 02:07:43.801032, Logical Clock: 219, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:44.f - SEND - System Time: 2025-03-05 02:07:44.140371, Logical Clock: 220, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:44.f - INTERNAL - System Time: 2025-03-05 02:07:44.481086, Logical Clock: 221
+2025-03-05 02:07:44.f - RECEIVE - System Time: 2025-03-05 02:07:44.822012, Queue Length: 0, Logical Clock: 223, From: Machine 1
+2025-03-05 02:07:45.f - INTERNAL - System Time: 2025-03-05 02:07:45.159662, Logical Clock: 224
+2025-03-05 02:07:45.f - RECEIVE - System Time: 2025-03-05 02:07:45.495672, Queue Length: 0, Logical Clock: 226, From: Machine 1
+2025-03-05 02:07:45.f - SEND - System Time: 2025-03-05 02:07:45.834536, Logical Clock: 227, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:45.f - SEND - System Time: 2025-03-05 02:07:45.838647, Logical Clock: 228, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:46.f - SEND - System Time: 2025-03-05 02:07:46.179439, Logical Clock: 229, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:46.f - SEND - System Time: 2025-03-05 02:07:46.180806, Logical Clock: 230, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:46.f - INTERNAL - System Time: 2025-03-05 02:07:46.519937, Logical Clock: 231
+2025-03-05 02:07:46.f - RECEIVE - System Time: 2025-03-05 02:07:46.854004, Queue Length: 1, Logical Clock: 233, From: Machine 3
+2025-03-05 02:07:47.f - RECEIVE - System Time: 2025-03-05 02:07:47.190573, Queue Length: 0, Logical Clock: 234, From: Machine 1
+2025-03-05 02:07:47.f - INTERNAL - System Time: 2025-03-05 02:07:47.527538, Logical Clock: 235
+2025-03-05 02:07:47.f - RECEIVE - System Time: 2025-03-05 02:07:47.861119, Queue Length: 1, Logical Clock: 236, From: Machine 3
+2025-03-05 02:07:48.f - RECEIVE - System Time: 2025-03-05 02:07:48.196856, Queue Length: 0, Logical Clock: 237, From: Machine 1
+2025-03-05 02:07:48.f - SEND - System Time: 2025-03-05 02:07:48.535489, Logical Clock: 238, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:48.f - SEND - System Time: 2025-03-05 02:07:48.536445, Logical Clock: 239, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:48.f - INTERNAL - System Time: 2025-03-05 02:07:48.875560, Logical Clock: 240
+2025-03-05 02:07:49.f - RECEIVE - System Time: 2025-03-05 02:07:49.214701, Queue Length: 0, Logical Clock: 241, From: Machine 1
+2025-03-05 02:07:49.f - RECEIVE - System Time: 2025-03-05 02:07:49.549835, Queue Length: 0, Logical Clock: 243, From: Machine 1
+2025-03-05 02:07:49.f - SEND - System Time: 2025-03-05 02:07:49.888975, Logical Clock: 244, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:50.f - SEND - System Time: 2025-03-05 02:07:50.230693, Logical Clock: 245, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:07:50.f - INTERNAL - System Time: 2025-03-05 02:07:50.571657, Logical Clock: 246
+2025-03-05 02:07:50.f - SEND - System Time: 2025-03-05 02:07:50.906643, Logical Clock: 247, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:51.f - RECEIVE - System Time: 2025-03-05 02:07:51.246345, Queue Length: 0, Logical Clock: 249, From: Machine 1
+2025-03-05 02:07:51.f - SEND - System Time: 2025-03-05 02:07:51.588038, Logical Clock: 250, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:07:51.f - INTERNAL - System Time: 2025-03-05 02:07:51.929562, Logical Clock: 251
+2025-03-05 02:07:57.f - RECEIVE - System Time: 2025-03-05 02:07:57.315643, Queue Length: 0, Logical Clock: 4, From: Machine 1
+2025-03-05 02:07:58.f - RECEIVE - System Time: 2025-03-05 02:07:58.321206, Queue Length: 1, Logical Clock: 7, From: Machine 1
+2025-03-05 02:07:59.f - RECEIVE - System Time: 2025-03-05 02:07:59.327139, Queue Length: 1, Logical Clock: 10, From: Machine 1
+2025-03-05 02:08:00.f - RECEIVE - System Time: 2025-03-05 02:08:00.330961, Queue Length: 1, Logical Clock: 19, From: Machine 1
+2025-03-05 02:08:01.f - RECEIVE - System Time: 2025-03-05 02:08:01.333872, Queue Length: 1, Logical Clock: 25, From: Machine 1
+2025-03-05 02:08:02.f - RECEIVE - System Time: 2025-03-05 02:08:02.339881, Queue Length: 1, Logical Clock: 28, From: Machine 1
+2025-03-05 02:08:03.f - RECEIVE - System Time: 2025-03-05 02:08:03.343255, Queue Length: 1, Logical Clock: 38, From: Machine 1
+2025-03-05 02:08:04.f - RECEIVE - System Time: 2025-03-05 02:08:04.346932, Queue Length: 1, Logical Clock: 44, From: Machine 1
+2025-03-05 02:08:05.f - RECEIVE - System Time: 2025-03-05 02:08:05.351140, Queue Length: 2, Logical Clock: 49, From: Machine 1
+2025-03-05 02:08:06.f - RECEIVE - System Time: 2025-03-05 02:08:06.356244, Queue Length: 2, Logical Clock: 54, From: Machine 1
+2025-03-05 02:08:07.f - RECEIVE - System Time: 2025-03-05 02:08:07.361364, Queue Length: 3, Logical Clock: 58, From: Machine 1
+2025-03-05 02:08:08.f - RECEIVE - System Time: 2025-03-05 02:08:08.362252, Queue Length: 4, Logical Clock: 60, From: Machine 1
+2025-03-05 02:08:09.f - RECEIVE - System Time: 2025-03-05 02:08:09.367403, Queue Length: 4, Logical Clock: 67, From: Machine 1
+2025-03-05 02:08:10.f - RECEIVE - System Time: 2025-03-05 02:08:10.367964, Queue Length: 4, Logical Clock: 70, From: Machine 1
+2025-03-05 02:08:11.f - RECEIVE - System Time: 2025-03-05 02:08:11.373315, Queue Length: 5, Logical Clock: 75, From: Machine 1
+2025-03-05 02:08:12.f - RECEIVE - System Time: 2025-03-05 02:08:12.378847, Queue Length: 6, Logical Clock: 78, From: Machine 1
+2025-03-05 02:08:13.f - RECEIVE - System Time: 2025-03-05 02:08:13.384494, Queue Length: 6, Logical Clock: 82, From: Machine 1
+2025-03-05 02:08:14.f - RECEIVE - System Time: 2025-03-05 02:08:14.389445, Queue Length: 7, Logical Clock: 92, From: Machine 1
+2025-03-05 02:08:15.f - RECEIVE - System Time: 2025-03-05 02:08:15.396504, Queue Length: 8, Logical Clock: 97, From: Machine 1
+2025-03-05 02:08:16.f - RECEIVE - System Time: 2025-03-05 02:08:16.399204, Queue Length: 8, Logical Clock: 99, From: Machine 1
+2025-03-05 02:08:17.f - RECEIVE - System Time: 2025-03-05 02:08:17.404677, Queue Length: 8, Logical Clock: 105, From: Machine 1
+2025-03-05 02:08:18.f - RECEIVE - System Time: 2025-03-05 02:08:18.410242, Queue Length: 9, Logical Clock: 109, From: Machine 1
+2025-03-05 02:08:19.f - RECEIVE - System Time: 2025-03-05 02:08:19.417122, Queue Length: 11, Logical Clock: 115, From: Machine 1
+2025-03-05 02:08:20.f - RECEIVE - System Time: 2025-03-05 02:08:20.424209, Queue Length: 11, Logical Clock: 117, From: Machine 1
+2025-03-05 02:08:21.f - RECEIVE - System Time: 2025-03-05 02:08:21.429912, Queue Length: 11, Logical Clock: 122, From: Machine 1
+2025-03-05 02:08:22.f - RECEIVE - System Time: 2025-03-05 02:08:22.435247, Queue Length: 12, Logical Clock: 125, From: Machine 1
+2025-03-05 02:08:23.f - RECEIVE - System Time: 2025-03-05 02:08:23.445463, Queue Length: 11, Logical Clock: 129, From: Machine 1
+2025-03-05 02:08:24.f - RECEIVE - System Time: 2025-03-05 02:08:24.451214, Queue Length: 12, Logical Clock: 134, From: Machine 1
+2025-03-05 02:08:25.f - RECEIVE - System Time: 2025-03-05 02:08:25.456561, Queue Length: 12, Logical Clock: 143, From: Machine 1
+2025-03-05 02:08:26.f - RECEIVE - System Time: 2025-03-05 02:08:26.462437, Queue Length: 12, Logical Clock: 150, From: Machine 1
+2025-03-05 02:08:27.f - RECEIVE - System Time: 2025-03-05 02:08:27.465220, Queue Length: 11, Logical Clock: 153, From: Machine 1
+2025-03-05 02:08:28.f - RECEIVE - System Time: 2025-03-05 02:08:28.469047, Queue Length: 13, Logical Clock: 155, From: Machine 1
+2025-03-05 02:08:29.f - RECEIVE - System Time: 2025-03-05 02:08:29.471530, Queue Length: 13, Logical Clock: 157, From: Machine 1
+2025-03-05 02:08:30.f - RECEIVE - System Time: 2025-03-05 02:08:30.473715, Queue Length: 13, Logical Clock: 161, From: Machine 1
+2025-03-05 02:08:31.f - RECEIVE - System Time: 2025-03-05 02:08:31.477985, Queue Length: 12, Logical Clock: 166, From: Machine 1
+2025-03-05 02:08:32.f - RECEIVE - System Time: 2025-03-05 02:08:32.481892, Queue Length: 12, Logical Clock: 170, From: Machine 1
+2025-03-05 02:08:33.f - RECEIVE - System Time: 2025-03-05 02:08:33.486776, Queue Length: 12, Logical Clock: 177, From: Machine 1
+2025-03-05 02:08:34.f - RECEIVE - System Time: 2025-03-05 02:08:34.488556, Queue Length: 12, Logical Clock: 179, From: Machine 1
+2025-03-05 02:08:35.f - RECEIVE - System Time: 2025-03-05 02:08:35.493702, Queue Length: 13, Logical Clock: 192, From: Machine 1
+2025-03-05 02:08:36.f - RECEIVE - System Time: 2025-03-05 02:08:36.497729, Queue Length: 15, Logical Clock: 195, From: Machine 1
+2025-03-05 02:08:37.f - RECEIVE - System Time: 2025-03-05 02:08:37.503298, Queue Length: 15, Logical Clock: 198, From: Machine 1
+2025-03-05 02:08:38.f - RECEIVE - System Time: 2025-03-05 02:08:38.506364, Queue Length: 16, Logical Clock: 204, From: Machine 1
+2025-03-05 02:08:39.f - RECEIVE - System Time: 2025-03-05 02:08:39.512194, Queue Length: 17, Logical Clock: 218, From: Machine 1
+2025-03-05 02:08:40.f - RECEIVE - System Time: 2025-03-05 02:08:40.517087, Queue Length: 17, Logical Clock: 221, From: Machine 1
+2025-03-05 02:08:41.f - RECEIVE - System Time: 2025-03-05 02:08:41.522866, Queue Length: 17, Logical Clock: 223, From: Machine 1
+2025-03-05 02:08:42.f - RECEIVE - System Time: 2025-03-05 02:08:42.525384, Queue Length: 17, Logical Clock: 229, From: Machine 1
+2025-03-05 02:08:43.f - RECEIVE - System Time: 2025-03-05 02:08:43.529828, Queue Length: 17, Logical Clock: 235, From: Machine 1
+2025-03-05 02:08:44.f - RECEIVE - System Time: 2025-03-05 02:08:44.535131, Queue Length: 18, Logical Clock: 248, From: Machine 1
+2025-03-05 02:08:45.f - RECEIVE - System Time: 2025-03-05 02:08:45.540275, Queue Length: 18, Logical Clock: 255, From: Machine 1
+2025-03-05 02:08:46.f - RECEIVE - System Time: 2025-03-05 02:08:46.545425, Queue Length: 21, Logical Clock: 259, From: Machine 1
+2025-03-05 02:08:47.f - RECEIVE - System Time: 2025-03-05 02:08:47.550644, Queue Length: 24, Logical Clock: 266, From: Machine 1
+2025-03-05 02:08:48.f - RECEIVE - System Time: 2025-03-05 02:08:48.552094, Queue Length: 23, Logical Clock: 268, From: Machine 1
+2025-03-05 02:08:49.f - RECEIVE - System Time: 2025-03-05 02:08:49.554904, Queue Length: 25, Logical Clock: 274, From: Machine 1
+2025-03-05 02:08:50.f - RECEIVE - System Time: 2025-03-05 02:08:50.560092, Queue Length: 26, Logical Clock: 275, From: Machine 1
+2025-03-05 02:08:51.f - RECEIVE - System Time: 2025-03-05 02:08:51.565773, Queue Length: 27, Logical Clock: 279, From: Machine 3
+2025-03-05 02:08:52.f - RECEIVE - System Time: 2025-03-05 02:08:52.568486, Queue Length: 28, Logical Clock: 282, From: Machine 3
+2025-03-05 02:08:53.f - RECEIVE - System Time: 2025-03-05 02:08:53.571366, Queue Length: 31, Logical Clock: 288, From: Machine 3
+2025-03-05 02:08:54.f - RECEIVE - System Time: 2025-03-05 02:08:54.576542, Queue Length: 32, Logical Clock: 289, From: Machine 1
+2025-03-05 02:08:55.f - RECEIVE - System Time: 2025-03-05 02:08:55.577178, Queue Length: 31, Logical Clock: 294, From: Machine 3
+2025-03-05 02:08:56.f - RECEIVE - System Time: 2025-03-05 02:08:56.579913, Queue Length: 31, Logical Clock: 295, From: Machine 1
+2025-03-05 02:09:02.f - RECEIVE - System Time: 2025-03-05 02:09:02.615981, Queue Length: 1, Logical Clock: 3, From: Machine 1
+2025-03-05 02:09:03.f - RECEIVE - System Time: 2025-03-05 02:09:03.618970, Queue Length: 0, Logical Clock: 4, From: Machine 1
+2025-03-05 02:09:04.f - RECEIVE - System Time: 2025-03-05 02:09:04.620185, Queue Length: 1, Logical Clock: 12, From: Machine 1
+2025-03-05 02:09:05.f - RECEIVE - System Time: 2025-03-05 02:09:05.623152, Queue Length: 2, Logical Clock: 13, From: Machine 1
+2025-03-05 02:09:06.f - RECEIVE - System Time: 2025-03-05 02:09:06.629126, Queue Length: 2, Logical Clock: 18, From: Machine 1
+2025-03-05 02:09:07.f - RECEIVE - System Time: 2025-03-05 02:09:07.630810, Queue Length: 2, Logical Clock: 21, From: Machine 1
+2025-03-05 02:09:08.f - RECEIVE - System Time: 2025-03-05 02:09:08.632735, Queue Length: 3, Logical Clock: 25, From: Machine 1
+2025-03-05 02:09:09.f - RECEIVE - System Time: 2025-03-05 02:09:09.634058, Queue Length: 3, Logical Clock: 32, From: Machine 1
+2025-03-05 02:09:10.f - RECEIVE - System Time: 2025-03-05 02:09:10.635423, Queue Length: 5, Logical Clock: 34, From: Machine 1
+2025-03-05 02:09:11.f - RECEIVE - System Time: 2025-03-05 02:09:11.636977, Queue Length: 6, Logical Clock: 37, From: Machine 1
+2025-03-05 02:09:12.f - RECEIVE - System Time: 2025-03-05 02:09:12.642151, Queue Length: 6, Logical Clock: 44, From: Machine 1
+2025-03-05 02:09:13.f - RECEIVE - System Time: 2025-03-05 02:09:13.647114, Queue Length: 6, Logical Clock: 46, From: Machine 1
+2025-03-05 02:09:14.f - RECEIVE - System Time: 2025-03-05 02:09:14.648460, Queue Length: 6, Logical Clock: 47, From: Machine 1
+2025-03-05 02:09:15.f - RECEIVE - System Time: 2025-03-05 02:09:15.653133, Queue Length: 5, Logical Clock: 49, From: Machine 1
+2025-03-05 02:09:16.f - RECEIVE - System Time: 2025-03-05 02:09:16.657273, Queue Length: 5, Logical Clock: 54, From: Machine 1
+2025-03-05 02:09:17.f - RECEIVE - System Time: 2025-03-05 02:09:17.662477, Queue Length: 5, Logical Clock: 57, From: Machine 1
+2025-03-05 02:09:18.f - RECEIVE - System Time: 2025-03-05 02:09:18.667326, Queue Length: 5, Logical Clock: 61, From: Machine 1
+2025-03-05 02:09:19.f - RECEIVE - System Time: 2025-03-05 02:09:19.667586, Queue Length: 7, Logical Clock: 65, From: Machine 1
+2025-03-05 02:09:20.f - RECEIVE - System Time: 2025-03-05 02:09:20.672815, Queue Length: 8, Logical Clock: 69, From: Machine 1
+2025-03-05 02:09:21.f - RECEIVE - System Time: 2025-03-05 02:09:21.677971, Queue Length: 9, Logical Clock: 82, From: Machine 1
+2025-03-05 02:09:22.f - RECEIVE - System Time: 2025-03-05 02:09:22.680685, Queue Length: 9, Logical Clock: 89, From: Machine 1
+2025-03-05 02:09:23.f - RECEIVE - System Time: 2025-03-05 02:09:23.681251, Queue Length: 10, Logical Clock: 93, From: Machine 1
+2025-03-05 02:09:24.f - RECEIVE - System Time: 2025-03-05 02:09:24.682163, Queue Length: 11, Logical Clock: 97, From: Machine 1
+2025-03-05 02:09:25.f - RECEIVE - System Time: 2025-03-05 02:09:25.684261, Queue Length: 11, Logical Clock: 100, From: Machine 1
+2025-03-05 02:09:26.f - RECEIVE - System Time: 2025-03-05 02:09:26.689380, Queue Length: 11, Logical Clock: 101, From: Machine 1
+2025-03-05 02:09:27.f - RECEIVE - System Time: 2025-03-05 02:09:27.694488, Queue Length: 11, Logical Clock: 107, From: Machine 1
+2025-03-05 02:09:28.f - RECEIVE - System Time: 2025-03-05 02:09:28.699862, Queue Length: 11, Logical Clock: 109, From: Machine 1
+2025-03-05 02:09:29.f - RECEIVE - System Time: 2025-03-05 02:09:29.705797, Queue Length: 12, Logical Clock: 111, From: Machine 1
+2025-03-05 02:09:30.f - RECEIVE - System Time: 2025-03-05 02:09:30.708591, Queue Length: 12, Logical Clock: 114, From: Machine 1
+2025-03-05 02:09:31.f - RECEIVE - System Time: 2025-03-05 02:09:31.712912, Queue Length: 12, Logical Clock: 117, From: Machine 1
+2025-03-05 02:09:32.f - RECEIVE - System Time: 2025-03-05 02:09:32.714763, Queue Length: 12, Logical Clock: 124, From: Machine 1
+2025-03-05 02:09:33.f - RECEIVE - System Time: 2025-03-05 02:09:33.722103, Queue Length: 13, Logical Clock: 126, From: Machine 1
+2025-03-05 02:09:34.f - RECEIVE - System Time: 2025-03-05 02:09:34.726383, Queue Length: 14, Logical Clock: 129, From: Machine 1
+2025-03-05 02:09:35.f - RECEIVE - System Time: 2025-03-05 02:09:35.731829, Queue Length: 14, Logical Clock: 132, From: Machine 1
+2025-03-05 02:09:36.f - RECEIVE - System Time: 2025-03-05 02:09:36.737233, Queue Length: 13, Logical Clock: 138, From: Machine 1
+2025-03-05 02:09:37.f - RECEIVE - System Time: 2025-03-05 02:09:37.738342, Queue Length: 13, Logical Clock: 140, From: Machine 1
+2025-03-05 02:09:38.f - RECEIVE - System Time: 2025-03-05 02:09:38.739298, Queue Length: 14, Logical Clock: 150, From: Machine 1
+2025-03-05 02:09:39.f - RECEIVE - System Time: 2025-03-05 02:09:39.744001, Queue Length: 16, Logical Clock: 154, From: Machine 1
+2025-03-05 02:09:40.f - RECEIVE - System Time: 2025-03-05 02:09:40.746908, Queue Length: 17, Logical Clock: 158, From: Machine 1
+2025-03-05 02:09:41.f - RECEIVE - System Time: 2025-03-05 02:09:41.747922, Queue Length: 18, Logical Clock: 160, From: Machine 1
+2025-03-05 02:09:42.f - RECEIVE - System Time: 2025-03-05 02:09:42.753698, Queue Length: 18, Logical Clock: 166, From: Machine 1
+2025-03-05 02:09:43.f - RECEIVE - System Time: 2025-03-05 02:09:43.759334, Queue Length: 17, Logical Clock: 167, From: Machine 1
+2025-03-05 02:09:44.f - RECEIVE - System Time: 2025-03-05 02:09:44.764406, Queue Length: 17, Logical Clock: 177, From: Machine 1
+2025-03-05 02:09:45.f - RECEIVE - System Time: 2025-03-05 02:09:45.770307, Queue Length: 16, Logical Clock: 178, From: Machine 1
+2025-03-05 02:09:46.f - RECEIVE - System Time: 2025-03-05 02:09:46.774902, Queue Length: 16, Logical Clock: 180, From: Machine 1
+2025-03-05 02:09:47.f - RECEIVE - System Time: 2025-03-05 02:09:47.779508, Queue Length: 17, Logical Clock: 186, From: Machine 1
+2025-03-05 02:09:48.f - RECEIVE - System Time: 2025-03-05 02:09:48.785342, Queue Length: 17, Logical Clock: 188, From: Machine 1
+2025-03-05 02:09:49.f - RECEIVE - System Time: 2025-03-05 02:09:49.791110, Queue Length: 18, Logical Clock: 195, From: Machine 1
+2025-03-05 02:09:50.f - RECEIVE - System Time: 2025-03-05 02:09:50.795709, Queue Length: 17, Logical Clock: 206, From: Machine 1
+2025-03-05 02:09:51.f - RECEIVE - System Time: 2025-03-05 02:09:51.797046, Queue Length: 16, Logical Clock: 211, From: Machine 1
+2025-03-05 02:09:52.f - RECEIVE - System Time: 2025-03-05 02:09:52.799637, Queue Length: 17, Logical Clock: 213, From: Machine 1
+2025-03-05 02:09:53.f - RECEIVE - System Time: 2025-03-05 02:09:53.802653, Queue Length: 19, Logical Clock: 215, From: Machine 1
+2025-03-05 02:09:54.f - RECEIVE - System Time: 2025-03-05 02:09:54.803280, Queue Length: 19, Logical Clock: 218, From: Machine 1
+2025-03-05 02:09:55.f - RECEIVE - System Time: 2025-03-05 02:09:55.809082, Queue Length: 20, Logical Clock: 220, From: Machine 1
+2025-03-05 02:09:56.f - RECEIVE - System Time: 2025-03-05 02:09:56.813641, Queue Length: 20, Logical Clock: 223, From: Machine 1
+2025-03-05 02:09:57.f - RECEIVE - System Time: 2025-03-05 02:09:57.815253, Queue Length: 21, Logical Clock: 225, From: Machine 1
+2025-03-05 02:09:58.f - RECEIVE - System Time: 2025-03-05 02:09:58.820631, Queue Length: 23, Logical Clock: 229, From: Machine 1
+2025-03-05 02:09:59.f - RECEIVE - System Time: 2025-03-05 02:09:59.823230, Queue Length: 22, Logical Clock: 231, From: Machine 1
+2025-03-05 02:10:00.f - RECEIVE - System Time: 2025-03-05 02:10:00.826202, Queue Length: 22, Logical Clock: 238, From: Machine 1
+2025-03-05 02:10:01.f - RECEIVE - System Time: 2025-03-05 02:10:01.827042, Queue Length: 22, Logical Clock: 250, From: Machine 1
+2025-03-05 02:10:08.f - INTERNAL - System Time: 2025-03-05 02:10:08.009510, Logical Clock: 1
+2025-03-05 02:10:09.f - RECEIVE - System Time: 2025-03-05 02:10:09.014903, Queue Length: 0, Logical Clock: 4, From: Machine 1
+2025-03-05 02:10:10.f - RECEIVE - System Time: 2025-03-05 02:10:10.017252, Queue Length: 1, Logical Clock: 6, From: Machine 1
+2025-03-05 02:10:11.f - RECEIVE - System Time: 2025-03-05 02:10:11.023945, Queue Length: 0, Logical Clock: 8, From: Machine 1
+2025-03-05 02:10:12.f - INTERNAL - System Time: 2025-03-05 02:10:12.027205, Logical Clock: 9
+2025-03-05 02:10:13.f - RECEIVE - System Time: 2025-03-05 02:10:13.032750, Queue Length: 0, Logical Clock: 15, From: Machine 1
+2025-03-05 02:10:14.f - INTERNAL - System Time: 2025-03-05 02:10:14.037615, Logical Clock: 16
+2025-03-05 02:10:15.f - RECEIVE - System Time: 2025-03-05 02:10:15.042950, Queue Length: 0, Logical Clock: 19, From: Machine 3
+2025-03-05 02:10:16.f - INTERNAL - System Time: 2025-03-05 02:10:16.048455, Logical Clock: 20
+2025-03-05 02:10:17.f - RECEIVE - System Time: 2025-03-05 02:10:17.054628, Queue Length: 0, Logical Clock: 23, From: Machine 1
+2025-03-05 02:10:18.f - RECEIVE - System Time: 2025-03-05 02:10:18.059237, Queue Length: 1, Logical Clock: 26, From: Machine 1
+2025-03-05 02:10:19.f - RECEIVE - System Time: 2025-03-05 02:10:19.064487, Queue Length: 0, Logical Clock: 28, From: Machine 1
+2025-03-05 02:10:20.f - SEND - System Time: 2025-03-05 02:10:20.066532, Logical Clock: 29, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:21.f - RECEIVE - System Time: 2025-03-05 02:10:21.076310, Queue Length: 0, Logical Clock: 35, From: Machine 1
+2025-03-05 02:10:22.f - SEND - System Time: 2025-03-05 02:10:22.082059, Logical Clock: 36, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:23.f - RECEIVE - System Time: 2025-03-05 02:10:23.090272, Queue Length: 1, Logical Clock: 39, From: Machine 1
+2025-03-05 02:10:24.f - RECEIVE - System Time: 2025-03-05 02:10:24.094507, Queue Length: 1, Logical Clock: 41, From: Machine 1
+2025-03-05 02:10:25.f - RECEIVE - System Time: 2025-03-05 02:10:25.099520, Queue Length: 0, Logical Clock: 43, From: Machine 1
+2025-03-05 02:10:26.f - INTERNAL - System Time: 2025-03-05 02:10:26.106042, Logical Clock: 44
+2025-03-05 02:10:27.f - RECEIVE - System Time: 2025-03-05 02:10:27.108087, Queue Length: 0, Logical Clock: 50, From: Machine 1
+2025-03-05 02:10:28.f - RECEIVE - System Time: 2025-03-05 02:10:28.113857, Queue Length: 1, Logical Clock: 53, From: Machine 1
+2025-03-05 02:10:29.f - RECEIVE - System Time: 2025-03-05 02:10:29.119422, Queue Length: 0, Logical Clock: 55, From: Machine 1
+2025-03-05 02:10:30.f - RECEIVE - System Time: 2025-03-05 02:10:30.120684, Queue Length: 0, Logical Clock: 60, From: Machine 1
+2025-03-05 02:10:31.f - INTERNAL - System Time: 2025-03-05 02:10:31.126562, Logical Clock: 61
+2025-03-05 02:10:32.f - RECEIVE - System Time: 2025-03-05 02:10:32.130636, Queue Length: 0, Logical Clock: 65, From: Machine 1
+2025-03-05 02:10:33.f - INTERNAL - System Time: 2025-03-05 02:10:33.135918, Logical Clock: 66
+2025-03-05 02:10:34.f - SEND - System Time: 2025-03-05 02:10:34.141808, Logical Clock: 67, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:10:34.f - SEND - System Time: 2025-03-05 02:10:34.147933, Logical Clock: 68, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:35.f - SEND - System Time: 2025-03-05 02:10:35.153504, Logical Clock: 69, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:10:36.f - RECEIVE - System Time: 2025-03-05 02:10:36.160397, Queue Length: 0, Logical Clock: 74, From: Machine 1
+2025-03-05 02:10:37.f - RECEIVE - System Time: 2025-03-05 02:10:37.165986, Queue Length: 0, Logical Clock: 76, From: Machine 1
+2025-03-05 02:10:38.f - RECEIVE - System Time: 2025-03-05 02:10:38.171881, Queue Length: 0, Logical Clock: 79, From: Machine 1
+2025-03-05 02:10:39.f - RECEIVE - System Time: 2025-03-05 02:10:39.174689, Queue Length: 1, Logical Clock: 81, From: Machine 1
+2025-03-05 02:10:40.f - RECEIVE - System Time: 2025-03-05 02:10:40.179700, Queue Length: 0, Logical Clock: 83, From: Machine 1
+2025-03-05 02:10:41.f - RECEIVE - System Time: 2025-03-05 02:10:41.185076, Queue Length: 0, Logical Clock: 87, From: Machine 1
+2025-03-05 02:10:42.f - RECEIVE - System Time: 2025-03-05 02:10:42.190335, Queue Length: 0, Logical Clock: 90, From: Machine 1
+2025-03-05 02:10:43.f - RECEIVE - System Time: 2025-03-05 02:10:43.192517, Queue Length: 0, Logical Clock: 92, From: Machine 1
+2025-03-05 02:10:44.f - SEND - System Time: 2025-03-05 02:10:44.197976, Logical Clock: 93, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:10:45.f - INTERNAL - System Time: 2025-03-05 02:10:45.205070, Logical Clock: 94
+2025-03-05 02:10:46.f - RECEIVE - System Time: 2025-03-05 02:10:46.208409, Queue Length: 1, Logical Clock: 99, From: Machine 1
+2025-03-05 02:10:47.f - RECEIVE - System Time: 2025-03-05 02:10:47.213904, Queue Length: 1, Logical Clock: 101, From: Machine 1
+2025-03-05 02:10:48.f - RECEIVE - System Time: 2025-03-05 02:10:48.219311, Queue Length: 1, Logical Clock: 104, From: Machine 1
+2025-03-05 02:10:49.f - RECEIVE - System Time: 2025-03-05 02:10:49.224657, Queue Length: 0, Logical Clock: 105, From: Machine 1
+2025-03-05 02:10:50.f - SEND - System Time: 2025-03-05 02:10:50.229922, Logical Clock: 106, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:51.f - RECEIVE - System Time: 2025-03-05 02:10:51.235072, Queue Length: 0, Logical Clock: 113, From: Machine 1
+2025-03-05 02:10:52.f - INTERNAL - System Time: 2025-03-05 02:10:52.240856, Logical Clock: 114
+2025-03-05 02:10:53.f - INTERNAL - System Time: 2025-03-05 02:10:53.243001, Logical Clock: 115
+2025-03-05 02:10:54.f - SEND - System Time: 2025-03-05 02:10:54.247567, Logical Clock: 116, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:55.f - SEND - System Time: 2025-03-05 02:10:55.252908, Logical Clock: 117, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:10:55.f - SEND - System Time: 2025-03-05 02:10:55.256275, Logical Clock: 118, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:56.f - SEND - System Time: 2025-03-05 02:10:56.263030, Logical Clock: 119, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:10:56.f - SEND - System Time: 2025-03-05 02:10:56.266433, Logical Clock: 120, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:57.f - SEND - System Time: 2025-03-05 02:10:57.273275, Logical Clock: 121, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:10:57.f - SEND - System Time: 2025-03-05 02:10:57.276201, Logical Clock: 122, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:10:58.f - RECEIVE - System Time: 2025-03-05 02:10:58.278308, Queue Length: 0, Logical Clock: 128, From: Machine 1
+2025-03-05 02:10:59.f - RECEIVE - System Time: 2025-03-05 02:10:59.284171, Queue Length: 0, Logical Clock: 131, From: Machine 1
+2025-03-05 02:11:00.f - SEND - System Time: 2025-03-05 02:11:00.290070, Logical Clock: 132, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:01.f - RECEIVE - System Time: 2025-03-05 02:11:01.298560, Queue Length: 1, Logical Clock: 134, From: Machine 1
+2025-03-05 02:11:02.f - RECEIVE - System Time: 2025-03-05 02:11:02.304333, Queue Length: 1, Logical Clock: 135, From: Machine 1
+2025-03-05 02:11:03.f - RECEIVE - System Time: 2025-03-05 02:11:03.306966, Queue Length: 1, Logical Clock: 138, From: Machine 1
+2025-03-05 02:11:04.f - RECEIVE - System Time: 2025-03-05 02:11:04.312160, Queue Length: 2, Logical Clock: 140, From: Machine 1
+2025-03-05 02:11:05.f - RECEIVE - System Time: 2025-03-05 02:11:05.313503, Queue Length: 1, Logical Clock: 143, From: Machine 1
+2025-03-05 02:11:06.f - RECEIVE - System Time: 2025-03-05 02:11:06.315376, Queue Length: 0, Logical Clock: 145, From: Machine 1
+2025-03-05 02:11:07.f - RECEIVE - System Time: 2025-03-05 02:11:07.321064, Queue Length: 0, Logical Clock: 152, From: Machine 1
+2025-03-05 02:11:13.f - SEND - System Time: 2025-03-05 02:11:13.470139, Logical Clock: 1, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:13.f - SEND - System Time: 2025-03-05 02:11:13.812328, Logical Clock: 2, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:14.f - RECEIVE - System Time: 2025-03-05 02:11:14.154733, Queue Length: 0, Logical Clock: 5, From: Machine 1
+2025-03-05 02:11:14.f - INTERNAL - System Time: 2025-03-05 02:11:14.490417, Logical Clock: 6
+2025-03-05 02:11:14.f - INTERNAL - System Time: 2025-03-05 02:11:14.827840, Logical Clock: 7
+2025-03-05 02:11:15.f - INTERNAL - System Time: 2025-03-05 02:11:15.166834, Logical Clock: 8
+2025-03-05 02:11:15.f - RECEIVE - System Time: 2025-03-05 02:11:15.505822, Queue Length: 0, Logical Clock: 10, From: Machine 1
+2025-03-05 02:11:15.f - INTERNAL - System Time: 2025-03-05 02:11:15.844509, Logical Clock: 11
+2025-03-05 02:11:16.f - RECEIVE - System Time: 2025-03-05 02:11:16.182472, Queue Length: 0, Logical Clock: 14, From: Machine 3
+2025-03-05 02:11:16.f - RECEIVE - System Time: 2025-03-05 02:11:16.521159, Queue Length: 0, Logical Clock: 15, From: Machine 1
+2025-03-05 02:11:16.f - RECEIVE - System Time: 2025-03-05 02:11:16.859904, Queue Length: 0, Logical Clock: 17, From: Machine 1
+2025-03-05 02:11:17.f - RECEIVE - System Time: 2025-03-05 02:11:17.198911, Queue Length: 0, Logical Clock: 19, From: Machine 1
+2025-03-05 02:11:17.f - INTERNAL - System Time: 2025-03-05 02:11:17.535262, Logical Clock: 20
+2025-03-05 02:11:17.f - RECEIVE - System Time: 2025-03-05 02:11:17.873716, Queue Length: 0, Logical Clock: 22, From: Machine 1
+2025-03-05 02:11:18.f - RECEIVE - System Time: 2025-03-05 02:11:18.212478, Queue Length: 0, Logical Clock: 26, From: Machine 3
+2025-03-05 02:11:18.f - SEND - System Time: 2025-03-05 02:11:18.547870, Logical Clock: 27, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:18.f - RECEIVE - System Time: 2025-03-05 02:11:18.886075, Queue Length: 0, Logical Clock: 28, From: Machine 1
+2025-03-05 02:11:19.f - SEND - System Time: 2025-03-05 02:11:19.224705, Logical Clock: 29, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:19.f - INTERNAL - System Time: 2025-03-05 02:11:19.564146, Logical Clock: 30
+2025-03-05 02:11:19.f - RECEIVE - System Time: 2025-03-05 02:11:19.902775, Queue Length: 1, Logical Clock: 34, From: Machine 3
+2025-03-05 02:11:20.f - RECEIVE - System Time: 2025-03-05 02:11:20.241686, Queue Length: 1, Logical Clock: 35, From: Machine 3
+2025-03-05 02:11:20.f - RECEIVE - System Time: 2025-03-05 02:11:20.580787, Queue Length: 1, Logical Clock: 36, From: Machine 1
+2025-03-05 02:11:20.f - RECEIVE - System Time: 2025-03-05 02:11:20.919707, Queue Length: 1, Logical Clock: 37, From: Machine 3
+2025-03-05 02:11:21.f - RECEIVE - System Time: 2025-03-05 02:11:21.256970, Queue Length: 1, Logical Clock: 40, From: Machine 3
+2025-03-05 02:11:21.f - RECEIVE - System Time: 2025-03-05 02:11:21.596037, Queue Length: 1, Logical Clock: 41, From: Machine 3
+2025-03-05 02:11:21.f - RECEIVE - System Time: 2025-03-05 02:11:21.931953, Queue Length: 1, Logical Clock: 42, From: Machine 1
+2025-03-05 02:11:22.f - RECEIVE - System Time: 2025-03-05 02:11:22.270410, Queue Length: 0, Logical Clock: 45, From: Machine 3
+2025-03-05 02:11:22.f - RECEIVE - System Time: 2025-03-05 02:11:22.606990, Queue Length: 0, Logical Clock: 46, From: Machine 1
+2025-03-05 02:11:22.f - SEND - System Time: 2025-03-05 02:11:22.944679, Logical Clock: 47, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:23.f - RECEIVE - System Time: 2025-03-05 02:11:23.287405, Queue Length: 0, Logical Clock: 49, From: Machine 1
+2025-03-05 02:11:23.f - RECEIVE - System Time: 2025-03-05 02:11:23.625141, Queue Length: 0, Logical Clock: 52, From: Machine 3
+2025-03-05 02:11:23.f - INTERNAL - System Time: 2025-03-05 02:11:23.966539, Logical Clock: 53
+2025-03-05 02:11:24.f - RECEIVE - System Time: 2025-03-05 02:11:24.305318, Queue Length: 0, Logical Clock: 56, From: Machine 3
+2025-03-05 02:11:24.f - RECEIVE - System Time: 2025-03-05 02:11:24.644437, Queue Length: 0, Logical Clock: 57, From: Machine 3
+2025-03-05 02:11:24.f - RECEIVE - System Time: 2025-03-05 02:11:24.981632, Queue Length: 0, Logical Clock: 59, From: Machine 3
+2025-03-05 02:11:25.f - SEND - System Time: 2025-03-05 02:11:25.319516, Logical Clock: 60, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:25.f - SEND - System Time: 2025-03-05 02:11:25.325357, Logical Clock: 61, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:25.f - SEND - System Time: 2025-03-05 02:11:25.664730, Logical Clock: 62, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:26.f - RECEIVE - System Time: 2025-03-05 02:11:26.009981, Queue Length: 0, Logical Clock: 64, From: Machine 3
+2025-03-05 02:11:26.f - INTERNAL - System Time: 2025-03-05 02:11:26.348671, Logical Clock: 65
+2025-03-05 02:11:26.f - RECEIVE - System Time: 2025-03-05 02:11:26.686098, Queue Length: 0, Logical Clock: 66, From: Machine 1
+2025-03-05 02:11:27.f - SEND - System Time: 2025-03-05 02:11:27.023361, Logical Clock: 67, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:27.f - SEND - System Time: 2025-03-05 02:11:27.026298, Logical Clock: 68, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:27.f - SEND - System Time: 2025-03-05 02:11:27.366020, Logical Clock: 69, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:27.f - SEND - System Time: 2025-03-05 02:11:27.369174, Logical Clock: 70, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:27.f - INTERNAL - System Time: 2025-03-05 02:11:27.706120, Logical Clock: 71
+2025-03-05 02:11:28.f - RECEIVE - System Time: 2025-03-05 02:11:28.040462, Queue Length: 0, Logical Clock: 74, From: Machine 3
+2025-03-05 02:11:28.f - SEND - System Time: 2025-03-05 02:11:28.377841, Logical Clock: 75, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:28.f - RECEIVE - System Time: 2025-03-05 02:11:28.719905, Queue Length: 0, Logical Clock: 77, From: Machine 3
+2025-03-05 02:11:29.f - RECEIVE - System Time: 2025-03-05 02:11:29.055133, Queue Length: 1, Logical Clock: 78, From: Machine 3
+2025-03-05 02:11:29.f - RECEIVE - System Time: 2025-03-05 02:11:29.390585, Queue Length: 0, Logical Clock: 80, From: Machine 3
+2025-03-05 02:11:29.f - SEND - System Time: 2025-03-05 02:11:29.729654, Logical Clock: 81, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:30.f - SEND - System Time: 2025-03-05 02:11:30.069473, Logical Clock: 82, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:30.f - INTERNAL - System Time: 2025-03-05 02:11:30.408026, Logical Clock: 83
+2025-03-05 02:11:30.f - SEND - System Time: 2025-03-05 02:11:30.745057, Logical Clock: 84, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:30.f - SEND - System Time: 2025-03-05 02:11:30.746232, Logical Clock: 85, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:31.f - SEND - System Time: 2025-03-05 02:11:31.085389, Logical Clock: 86, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:31.f - RECEIVE - System Time: 2025-03-05 02:11:31.423587, Queue Length: 0, Logical Clock: 90, From: Machine 3
+2025-03-05 02:11:31.f - SEND - System Time: 2025-03-05 02:11:31.761136, Logical Clock: 91, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:32.f - RECEIVE - System Time: 2025-03-05 02:11:32.104702, Queue Length: 0, Logical Clock: 95, From: Machine 3
+2025-03-05 02:11:32.f - RECEIVE - System Time: 2025-03-05 02:11:32.440242, Queue Length: 0, Logical Clock: 96, From: Machine 3
+2025-03-05 02:11:32.f - SEND - System Time: 2025-03-05 02:11:32.777788, Logical Clock: 97, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:32.f - SEND - System Time: 2025-03-05 02:11:32.780722, Logical Clock: 98, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:33.f - RECEIVE - System Time: 2025-03-05 02:11:33.121062, Queue Length: 0, Logical Clock: 101, From: Machine 3
+2025-03-05 02:11:33.f - SEND - System Time: 2025-03-05 02:11:33.460417, Logical Clock: 102, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:33.f - SEND - System Time: 2025-03-05 02:11:33.462877, Logical Clock: 103, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:33.f - SEND - System Time: 2025-03-05 02:11:33.802701, Logical Clock: 104, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:34.f - INTERNAL - System Time: 2025-03-05 02:11:34.145565, Logical Clock: 105
+2025-03-05 02:11:34.f - INTERNAL - System Time: 2025-03-05 02:11:34.483356, Logical Clock: 106
+2025-03-05 02:11:34.f - SEND - System Time: 2025-03-05 02:11:34.817794, Logical Clock: 107, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:35.f - INTERNAL - System Time: 2025-03-05 02:11:35.161249, Logical Clock: 108
+2025-03-05 02:11:35.f - SEND - System Time: 2025-03-05 02:11:35.499719, Logical Clock: 109, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:35.f - SEND - System Time: 2025-03-05 02:11:35.840653, Logical Clock: 110, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:35.f - SEND - System Time: 2025-03-05 02:11:35.843339, Logical Clock: 111, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:36.f - SEND - System Time: 2025-03-05 02:11:36.179131, Logical Clock: 112, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:36.f - SEND - System Time: 2025-03-05 02:11:36.516064, Logical Clock: 113, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:36.f - SEND - System Time: 2025-03-05 02:11:36.518541, Logical Clock: 114, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:36.f - SEND - System Time: 2025-03-05 02:11:36.858318, Logical Clock: 115, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:37.f - RECEIVE - System Time: 2025-03-05 02:11:37.201835, Queue Length: 0, Logical Clock: 116, From: Machine 1
+2025-03-05 02:11:37.f - INTERNAL - System Time: 2025-03-05 02:11:37.537497, Logical Clock: 117
+2025-03-05 02:11:37.f - RECEIVE - System Time: 2025-03-05 02:11:37.876650, Queue Length: 0, Logical Clock: 122, From: Machine 3
+2025-03-05 02:11:38.f - RECEIVE - System Time: 2025-03-05 02:11:38.214580, Queue Length: 0, Logical Clock: 123, From: Machine 3
+2025-03-05 02:11:38.f - SEND - System Time: 2025-03-05 02:11:38.553548, Logical Clock: 124, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:38.f - SEND - System Time: 2025-03-05 02:11:38.894930, Logical Clock: 125, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:39.f - RECEIVE - System Time: 2025-03-05 02:11:39.237239, Queue Length: 0, Logical Clock: 129, From: Machine 3
+2025-03-05 02:11:39.f - SEND - System Time: 2025-03-05 02:11:39.575987, Logical Clock: 130, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:39.f - INTERNAL - System Time: 2025-03-05 02:11:39.916315, Logical Clock: 131
+2025-03-05 02:11:40.f - RECEIVE - System Time: 2025-03-05 02:11:40.254167, Queue Length: 0, Logical Clock: 134, From: Machine 3
+2025-03-05 02:11:40.f - INTERNAL - System Time: 2025-03-05 02:11:40.589710, Logical Clock: 135
+2025-03-05 02:11:40.f - RECEIVE - System Time: 2025-03-05 02:11:40.929450, Queue Length: 0, Logical Clock: 137, From: Machine 3
+2025-03-05 02:11:41.f - SEND - System Time: 2025-03-05 02:11:41.267914, Logical Clock: 138, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:41.f - INTERNAL - System Time: 2025-03-05 02:11:41.611631, Logical Clock: 139
+2025-03-05 02:11:41.f - RECEIVE - System Time: 2025-03-05 02:11:41.949436, Queue Length: 0, Logical Clock: 140, From: Machine 1
+2025-03-05 02:11:42.f - SEND - System Time: 2025-03-05 02:11:42.286427, Logical Clock: 141, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:42.f - INTERNAL - System Time: 2025-03-05 02:11:42.626277, Logical Clock: 142
+2025-03-05 02:11:42.f - INTERNAL - System Time: 2025-03-05 02:11:42.965221, Logical Clock: 143
+2025-03-05 02:11:43.f - INTERNAL - System Time: 2025-03-05 02:11:43.304484, Logical Clock: 144
+2025-03-05 02:11:43.f - RECEIVE - System Time: 2025-03-05 02:11:43.639496, Queue Length: 0, Logical Clock: 148, From: Machine 3
+2025-03-05 02:11:43.f - RECEIVE - System Time: 2025-03-05 02:11:43.976005, Queue Length: 0, Logical Clock: 149, From: Machine 3
+2025-03-05 02:11:44.f - RECEIVE - System Time: 2025-03-05 02:11:44.312755, Queue Length: 0, Logical Clock: 150, From: Machine 3
+2025-03-05 02:11:44.f - RECEIVE - System Time: 2025-03-05 02:11:44.647710, Queue Length: 0, Logical Clock: 151, From: Machine 1
+2025-03-05 02:11:44.f - INTERNAL - System Time: 2025-03-05 02:11:44.984692, Logical Clock: 152
+2025-03-05 02:11:45.f - INTERNAL - System Time: 2025-03-05 02:11:45.321577, Logical Clock: 153
+2025-03-05 02:11:45.f - RECEIVE - System Time: 2025-03-05 02:11:45.656854, Queue Length: 0, Logical Clock: 156, From: Machine 3
+2025-03-05 02:11:45.f - INTERNAL - System Time: 2025-03-05 02:11:45.992826, Logical Clock: 157
+2025-03-05 02:11:46.f - INTERNAL - System Time: 2025-03-05 02:11:46.331056, Logical Clock: 158
+2025-03-05 02:11:46.f - RECEIVE - System Time: 2025-03-05 02:11:46.667962, Queue Length: 0, Logical Clock: 162, From: Machine 3
+2025-03-05 02:11:47.f - INTERNAL - System Time: 2025-03-05 02:11:47.006234, Logical Clock: 163
+2025-03-05 02:11:47.f - SEND - System Time: 2025-03-05 02:11:47.344774, Logical Clock: 164, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:47.f - INTERNAL - System Time: 2025-03-05 02:11:47.686393, Logical Clock: 165
+2025-03-05 02:11:48.f - SEND - System Time: 2025-03-05 02:11:48.023550, Logical Clock: 166, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:48.f - SEND - System Time: 2025-03-05 02:11:48.025865, Logical Clock: 167, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:48.f - INTERNAL - System Time: 2025-03-05 02:11:48.365458, Logical Clock: 168
+2025-03-05 02:11:48.f - RECEIVE - System Time: 2025-03-05 02:11:48.705384, Queue Length: 0, Logical Clock: 170, From: Machine 3
+2025-03-05 02:11:49.f - SEND - System Time: 2025-03-05 02:11:49.044033, Logical Clock: 171, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:49.f - SEND - System Time: 2025-03-05 02:11:49.382926, Logical Clock: 172, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:49.f - SEND - System Time: 2025-03-05 02:11:49.385784, Logical Clock: 173, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:49.f - SEND - System Time: 2025-03-05 02:11:49.723505, Logical Clock: 174, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:50.f - INTERNAL - System Time: 2025-03-05 02:11:50.064435, Logical Clock: 175
+2025-03-05 02:11:50.f - RECEIVE - System Time: 2025-03-05 02:11:50.402930, Queue Length: 0, Logical Clock: 176, From: Machine 1
+2025-03-05 02:11:50.f - RECEIVE - System Time: 2025-03-05 02:11:50.739433, Queue Length: 0, Logical Clock: 178, From: Machine 1
+2025-03-05 02:11:51.f - INTERNAL - System Time: 2025-03-05 02:11:51.078701, Logical Clock: 179
+2025-03-05 02:11:51.f - SEND - System Time: 2025-03-05 02:11:51.417245, Logical Clock: 180, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:51.f - SEND - System Time: 2025-03-05 02:11:51.420636, Logical Clock: 181, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:51.f - RECEIVE - System Time: 2025-03-05 02:11:51.760137, Queue Length: 0, Logical Clock: 185, From: Machine 3
+2025-03-05 02:11:52.f - SEND - System Time: 2025-03-05 02:11:52.099300, Logical Clock: 186, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:52.f - SEND - System Time: 2025-03-05 02:11:52.105726, Logical Clock: 187, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:52.f - INTERNAL - System Time: 2025-03-05 02:11:52.445310, Logical Clock: 188
+2025-03-05 02:11:52.f - RECEIVE - System Time: 2025-03-05 02:11:52.784113, Queue Length: 0, Logical Clock: 189, From: Machine 1
+2025-03-05 02:11:53.f - RECEIVE - System Time: 2025-03-05 02:11:53.121369, Queue Length: 1, Logical Clock: 191, From: Machine 1
+2025-03-05 02:11:53.f - RECEIVE - System Time: 2025-03-05 02:11:53.459721, Queue Length: 1, Logical Clock: 192, From: Machine 3
+2025-03-05 02:11:53.f - RECEIVE - System Time: 2025-03-05 02:11:53.798558, Queue Length: 2, Logical Clock: 193, From: Machine 3
+2025-03-05 02:11:54.f - RECEIVE - System Time: 2025-03-05 02:11:54.137585, Queue Length: 2, Logical Clock: 195, From: Machine 3
+2025-03-05 02:11:54.f - RECEIVE - System Time: 2025-03-05 02:11:54.472956, Queue Length: 1, Logical Clock: 196, From: Machine 3
+2025-03-05 02:11:54.f - RECEIVE - System Time: 2025-03-05 02:11:54.811457, Queue Length: 0, Logical Clock: 197, From: Machine 3
+2025-03-05 02:11:55.f - RECEIVE - System Time: 2025-03-05 02:11:55.150438, Queue Length: 0, Logical Clock: 199, From: Machine 1
+2025-03-05 02:11:55.f - INTERNAL - System Time: 2025-03-05 02:11:55.490286, Logical Clock: 200
+2025-03-05 02:11:55.f - INTERNAL - System Time: 2025-03-05 02:11:55.825484, Logical Clock: 201
+2025-03-05 02:11:56.f - SEND - System Time: 2025-03-05 02:11:56.165194, Logical Clock: 202, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:56.f - SEND - System Time: 2025-03-05 02:11:56.167253, Logical Clock: 203, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:56.f - SEND - System Time: 2025-03-05 02:11:56.507013, Logical Clock: 204, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:56.f - SEND - System Time: 2025-03-05 02:11:56.846281, Logical Clock: 205, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:57.f - SEND - System Time: 2025-03-05 02:11:57.184876, Logical Clock: 206, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:57.f - RECEIVE - System Time: 2025-03-05 02:11:57.524317, Queue Length: 0, Logical Clock: 207, From: Machine 1
+2025-03-05 02:11:57.f - SEND - System Time: 2025-03-05 02:11:57.858697, Logical Clock: 208, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:58.f - INTERNAL - System Time: 2025-03-05 02:11:58.197809, Logical Clock: 209
+2025-03-05 02:11:58.f - RECEIVE - System Time: 2025-03-05 02:11:58.534688, Queue Length: 0, Logical Clock: 215, From: Machine 3
+2025-03-05 02:11:58.f - SEND - System Time: 2025-03-05 02:11:58.873476, Logical Clock: 216, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:11:59.f - INTERNAL - System Time: 2025-03-05 02:11:59.214311, Logical Clock: 217
+2025-03-05 02:11:59.f - RECEIVE - System Time: 2025-03-05 02:11:59.553874, Queue Length: 0, Logical Clock: 218, From: Machine 1
+2025-03-05 02:11:59.f - SEND - System Time: 2025-03-05 02:11:59.894119, Logical Clock: 219, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:11:59.f - SEND - System Time: 2025-03-05 02:11:59.897433, Logical Clock: 220, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:12:00.f - INTERNAL - System Time: 2025-03-05 02:12:00.237496, Logical Clock: 221
+2025-03-05 02:12:00.f - RECEIVE - System Time: 2025-03-05 02:12:00.572551, Queue Length: 0, Logical Clock: 222, From: Machine 1
+2025-03-05 02:12:00.f - RECEIVE - System Time: 2025-03-05 02:12:00.911287, Queue Length: 0, Logical Clock: 224, From: Machine 1
+2025-03-05 02:12:01.f - INTERNAL - System Time: 2025-03-05 02:12:01.245522, Logical Clock: 225
+2025-03-05 02:12:01.f - RECEIVE - System Time: 2025-03-05 02:12:01.583870, Queue Length: 0, Logical Clock: 229, From: Machine 3
+2025-03-05 02:12:01.f - RECEIVE - System Time: 2025-03-05 02:12:01.921936, Queue Length: 0, Logical Clock: 230, From: Machine 3
+2025-03-05 02:12:02.f - RECEIVE - System Time: 2025-03-05 02:12:02.259492, Queue Length: 0, Logical Clock: 231, From: Machine 1
+2025-03-05 02:12:02.f - SEND - System Time: 2025-03-05 02:12:02.598757, Logical Clock: 232, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:12:02.f - SEND - System Time: 2025-03-05 02:12:02.602139, Logical Clock: 233, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:12:02.f - INTERNAL - System Time: 2025-03-05 02:12:02.942311, Logical Clock: 234
+2025-03-05 02:12:03.f - RECEIVE - System Time: 2025-03-05 02:12:03.281153, Queue Length: 1, Logical Clock: 237, From: Machine 3
+2025-03-05 02:12:03.f - RECEIVE - System Time: 2025-03-05 02:12:03.620664, Queue Length: 0, Logical Clock: 238, From: Machine 3
+2025-03-05 02:12:03.f - RECEIVE - System Time: 2025-03-05 02:12:03.959066, Queue Length: 0, Logical Clock: 239, From: Machine 1
+2025-03-05 02:12:04.f - RECEIVE - System Time: 2025-03-05 02:12:04.298084, Queue Length: 0, Logical Clock: 243, From: Machine 3
+2025-03-05 02:12:04.f - RECEIVE - System Time: 2025-03-05 02:12:04.636455, Queue Length: 0, Logical Clock: 245, From: Machine 3
+2025-03-05 02:12:04.f - SEND - System Time: 2025-03-05 02:12:04.974067, Logical Clock: 246, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:12:05.f - RECEIVE - System Time: 2025-03-05 02:12:05.313831, Queue Length: 0, Logical Clock: 247, From: Machine 1
+2025-03-05 02:12:05.f - RECEIVE - System Time: 2025-03-05 02:12:05.649798, Queue Length: 0, Logical Clock: 248, From: Machine 1
+2025-03-05 02:12:05.f - RECEIVE - System Time: 2025-03-05 02:12:05.984489, Queue Length: 0, Logical Clock: 250, From: Machine 1
+2025-03-05 02:12:06.f - RECEIVE - System Time: 2025-03-05 02:12:06.321365, Queue Length: 0, Logical Clock: 254, From: Machine 3
+2025-03-05 02:12:06.f - SEND - System Time: 2025-03-05 02:12:06.655957, Logical Clock: 255, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:12:06.f - SEND - System Time: 2025-03-05 02:12:06.658175, Logical Clock: 256, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:12:07.f - SEND - System Time: 2025-03-05 02:12:06.997416, Logical Clock: 257, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:12:07.f - SEND - System Time: 2025-03-05 02:12:07.001196, Logical Clock: 258, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:12:07.f - INTERNAL - System Time: 2025-03-05 02:12:07.338640, Logical Clock: 259
+2025-03-05 02:12:07.f - RECEIVE - System Time: 2025-03-05 02:12:07.677310, Queue Length: 0, Logical Clock: 262, From: Machine 3
+2025-03-05 02:12:08.f - SEND - System Time: 2025-03-05 02:12:08.012790, Logical Clock: 263, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:12:08.f - INTERNAL - System Time: 2025-03-05 02:12:08.349898, Logical Clock: 264
+2025-03-05 02:12:08.f - RECEIVE - System Time: 2025-03-05 02:12:08.688547, Queue Length: 0, Logical Clock: 267, From: Machine 3
+2025-03-05 02:12:09.f - INTERNAL - System Time: 2025-03-05 02:12:09.027186, Logical Clock: 268
+2025-03-05 02:12:09.f - INTERNAL - System Time: 2025-03-05 02:12:09.365042, Logical Clock: 269
+2025-03-05 02:12:09.f - RECEIVE - System Time: 2025-03-05 02:12:09.703581, Queue Length: 0, Logical Clock: 271, From: Machine 3
+2025-03-05 02:12:10.f - INTERNAL - System Time: 2025-03-05 02:12:10.042272, Logical Clock: 272
+2025-03-05 02:12:10.f - INTERNAL - System Time: 2025-03-05 02:12:10.380898, Logical Clock: 273
+2025-03-05 02:12:10.f - RECEIVE - System Time: 2025-03-05 02:12:10.717685, Queue Length: 0, Logical Clock: 275, From: Machine 1
+2025-03-05 02:12:11.f - SEND - System Time: 2025-03-05 02:12:11.055143, Logical Clock: 276, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:12:11.f - RECEIVE - System Time: 2025-03-05 02:12:11.394661, Queue Length: 1, Logical Clock: 278, From: Machine 3
+2025-03-05 02:12:11.f - RECEIVE - System Time: 2025-03-05 02:12:11.733085, Queue Length: 1, Logical Clock: 280, From: Machine 3
+2025-03-05 02:12:12.f - RECEIVE - System Time: 2025-03-05 02:12:12.072380, Queue Length: 0, Logical Clock: 282, From: Machine 3
+2025-03-05 02:12:12.f - RECEIVE - System Time: 2025-03-05 02:12:12.411746, Queue Length: 0, Logical Clock: 285, From: Machine 3
+2025-03-05 02:12:12.f - INTERNAL - System Time: 2025-03-05 02:12:12.747903, Logical Clock: 286
+2025-03-05 02:12:13.f - RECEIVE - System Time: 2025-03-05 02:12:13.087607, Queue Length: 0, Logical Clock: 287, From: Machine 1
+2025-03-05 02:12:13.f - INTERNAL - System Time: 2025-03-05 02:12:13.424699, Logical Clock: 288
+2025-03-05 02:12:16.f - RECEIVE - System Time: 2025-03-05 02:12:16.798389, Queue Length: 0, Logical Clock: 3, From: Machine 1
+2025-03-05 02:12:17.f - RECEIVE - System Time: 2025-03-05 02:12:17.803974, Queue Length: 2, Logical Clock: 8, From: Machine 1
+2025-03-05 02:12:18.f - RECEIVE - System Time: 2025-03-05 02:12:18.810326, Queue Length: 3, Logical Clock: 10, From: Machine 1
+2025-03-05 02:12:19.f - RECEIVE - System Time: 2025-03-05 02:12:19.815926, Queue Length: 3, Logical Clock: 12, From: Machine 1
+2025-03-05 02:12:20.f - RECEIVE - System Time: 2025-03-05 02:12:20.821539, Queue Length: 2, Logical Clock: 14, From: Machine 1
+2025-03-05 02:12:21.f - RECEIVE - System Time: 2025-03-05 02:12:21.825598, Queue Length: 3, Logical Clock: 16, From: Machine 1
+2025-03-05 02:12:22.f - RECEIVE - System Time: 2025-03-05 02:12:22.827422, Queue Length: 5, Logical Clock: 19, From: Machine 1
+2025-03-05 02:12:23.f - RECEIVE - System Time: 2025-03-05 02:12:23.833466, Queue Length: 6, Logical Clock: 31, From: Machine 1
+2025-03-05 02:12:24.f - RECEIVE - System Time: 2025-03-05 02:12:24.836031, Queue Length: 8, Logical Clock: 32, From: Machine 1
+2025-03-05 02:12:25.f - RECEIVE - System Time: 2025-03-05 02:12:25.837227, Queue Length: 8, Logical Clock: 35, From: Machine 1
+2025-03-05 02:12:26.f - RECEIVE - System Time: 2025-03-05 02:12:26.839241, Queue Length: 9, Logical Clock: 39, From: Machine 1
+2025-03-05 02:12:27.f - RECEIVE - System Time: 2025-03-05 02:12:27.845051, Queue Length: 9, Logical Clock: 41, From: Machine 1
+2025-03-05 02:12:28.f - RECEIVE - System Time: 2025-03-05 02:12:28.848639, Queue Length: 9, Logical Clock: 43, From: Machine 1
+2025-03-05 02:12:29.f - RECEIVE - System Time: 2025-03-05 02:12:29.854219, Queue Length: 11, Logical Clock: 44, From: Machine 1
+2025-03-05 02:12:30.f - RECEIVE - System Time: 2025-03-05 02:12:30.859321, Queue Length: 10, Logical Clock: 48, From: Machine 1
+2025-03-05 02:12:31.f - RECEIVE - System Time: 2025-03-05 02:12:31.864635, Queue Length: 11, Logical Clock: 50, From: Machine 1
+2025-03-05 02:12:32.f - RECEIVE - System Time: 2025-03-05 02:12:32.866687, Queue Length: 11, Logical Clock: 53, From: Machine 1
+2025-03-05 02:12:33.f - RECEIVE - System Time: 2025-03-05 02:12:33.872344, Queue Length: 11, Logical Clock: 55, From: Machine 1
+2025-03-05 02:12:34.f - RECEIVE - System Time: 2025-03-05 02:12:34.875772, Queue Length: 11, Logical Clock: 61, From: Machine 1
+2025-03-05 02:12:35.f - RECEIVE - System Time: 2025-03-05 02:12:35.881337, Queue Length: 11, Logical Clock: 64, From: Machine 1
+2025-03-05 02:12:36.f - RECEIVE - System Time: 2025-03-05 02:12:36.883491, Queue Length: 13, Logical Clock: 71, From: Machine 1
+2025-03-05 02:12:37.f - RECEIVE - System Time: 2025-03-05 02:12:37.888710, Queue Length: 14, Logical Clock: 73, From: Machine 1
+2025-03-05 02:12:38.f - RECEIVE - System Time: 2025-03-05 02:12:38.894028, Queue Length: 14, Logical Clock: 79, From: Machine 1
+2025-03-05 02:12:39.f - RECEIVE - System Time: 2025-03-05 02:12:39.899362, Queue Length: 13, Logical Clock: 82, From: Machine 1
+2025-03-05 02:12:40.f - RECEIVE - System Time: 2025-03-05 02:12:40.904576, Queue Length: 12, Logical Clock: 83, From: Machine 1
+2025-03-05 02:12:41.f - RECEIVE - System Time: 2025-03-05 02:12:41.904908, Queue Length: 13, Logical Clock: 91, From: Machine 1
+2025-03-05 02:12:42.f - RECEIVE - System Time: 2025-03-05 02:12:42.910085, Queue Length: 13, Logical Clock: 95, From: Machine 1
+2025-03-05 02:12:43.f - RECEIVE - System Time: 2025-03-05 02:12:43.915295, Queue Length: 14, Logical Clock: 100, From: Machine 1
+2025-03-05 02:12:44.f - RECEIVE - System Time: 2025-03-05 02:12:44.919137, Queue Length: 13, Logical Clock: 104, From: Machine 1
+2025-03-05 02:12:45.f - RECEIVE - System Time: 2025-03-05 02:12:45.924321, Queue Length: 13, Logical Clock: 110, From: Machine 1
+2025-03-05 02:12:46.f - RECEIVE - System Time: 2025-03-05 02:12:46.929603, Queue Length: 13, Logical Clock: 115, From: Machine 1
+2025-03-05 02:12:47.f - RECEIVE - System Time: 2025-03-05 02:12:47.934830, Queue Length: 12, Logical Clock: 119, From: Machine 1
+2025-03-05 02:12:48.f - RECEIVE - System Time: 2025-03-05 02:12:48.936969, Queue Length: 11, Logical Clock: 122, From: Machine 1
+2025-03-05 02:12:49.f - RECEIVE - System Time: 2025-03-05 02:12:49.942267, Queue Length: 12, Logical Clock: 124, From: Machine 1
+2025-03-05 02:12:50.f - RECEIVE - System Time: 2025-03-05 02:12:50.942879, Queue Length: 13, Logical Clock: 128, From: Machine 1
+2025-03-05 02:12:51.f - RECEIVE - System Time: 2025-03-05 02:12:51.944998, Queue Length: 15, Logical Clock: 131, From: Machine 1
+2025-03-05 02:12:52.f - RECEIVE - System Time: 2025-03-05 02:12:52.950166, Queue Length: 16, Logical Clock: 137, From: Machine 1
+2025-03-05 02:12:53.f - RECEIVE - System Time: 2025-03-05 02:12:53.955354, Queue Length: 16, Logical Clock: 150, From: Machine 1
+2025-03-05 02:12:54.f - RECEIVE - System Time: 2025-03-05 02:12:54.956970, Queue Length: 16, Logical Clock: 152, From: Machine 1
+2025-03-05 02:12:55.f - RECEIVE - System Time: 2025-03-05 02:12:55.962114, Queue Length: 17, Logical Clock: 157, From: Machine 1
+2025-03-05 02:12:56.f - RECEIVE - System Time: 2025-03-05 02:12:56.967274, Queue Length: 17, Logical Clock: 161, From: Machine 1
+2025-03-05 02:12:57.f - RECEIVE - System Time: 2025-03-05 02:12:57.972411, Queue Length: 19, Logical Clock: 162, From: Machine 1
+2025-03-05 02:12:58.f - RECEIVE - System Time: 2025-03-05 02:12:58.977535, Queue Length: 19, Logical Clock: 175, From: Machine 1
+2025-03-05 02:12:59.f - RECEIVE - System Time: 2025-03-05 02:12:59.982776, Queue Length: 20, Logical Clock: 181, From: Machine 1
+2025-03-05 02:13:00.f - RECEIVE - System Time: 2025-03-05 02:13:00.987986, Queue Length: 21, Logical Clock: 193, From: Machine 1
+2025-03-05 02:13:01.f - RECEIVE - System Time: 2025-03-05 02:13:01.991790, Queue Length: 21, Logical Clock: 196, From: Machine 1
+2025-03-05 02:13:02.f - RECEIVE - System Time: 2025-03-05 02:13:02.996983, Queue Length: 22, Logical Clock: 201, From: Machine 1
+2025-03-05 02:13:04.f - RECEIVE - System Time: 2025-03-05 02:13:04.002171, Queue Length: 21, Logical Clock: 204, From: Machine 1
+2025-03-05 02:13:05.f - RECEIVE - System Time: 2025-03-05 02:13:05.002786, Queue Length: 22, Logical Clock: 206, From: Machine 1
+2025-03-05 02:13:06.f - RECEIVE - System Time: 2025-03-05 02:13:06.006153, Queue Length: 25, Logical Clock: 209, From: Machine 1
+2025-03-05 02:13:07.f - RECEIVE - System Time: 2025-03-05 02:13:07.013724, Queue Length: 24, Logical Clock: 211, From: Machine 1
+2025-03-05 02:13:08.f - RECEIVE - System Time: 2025-03-05 02:13:08.014836, Queue Length: 25, Logical Clock: 215, From: Machine 1
+2025-03-05 02:13:09.f - RECEIVE - System Time: 2025-03-05 02:13:09.016156, Queue Length: 27, Logical Clock: 217, From: Machine 1
+2025-03-05 02:13:10.f - RECEIVE - System Time: 2025-03-05 02:13:10.019662, Queue Length: 26, Logical Clock: 220, From: Machine 1
+2025-03-05 02:13:11.f - RECEIVE - System Time: 2025-03-05 02:13:11.024874, Queue Length: 26, Logical Clock: 225, From: Machine 1
+2025-03-05 02:13:12.f - RECEIVE - System Time: 2025-03-05 02:13:12.029482, Queue Length: 26, Logical Clock: 233, From: Machine 1
+2025-03-05 02:13:13.f - RECEIVE - System Time: 2025-03-05 02:13:13.031645, Queue Length: 26, Logical Clock: 234, From: Machine 1
+2025-03-05 02:13:14.f - RECEIVE - System Time: 2025-03-05 02:13:14.037235, Queue Length: 26, Logical Clock: 239, From: Machine 1
+2025-03-05 02:13:15.f - RECEIVE - System Time: 2025-03-05 02:13:15.042120, Queue Length: 26, Logical Clock: 242, From: Machine 1
+2025-03-05 02:13:16.f - RECEIVE - System Time: 2025-03-05 02:13:16.047355, Queue Length: 25, Logical Clock: 245, From: Machine 1
+2025-03-05 02:13:19.f - SEND - System Time: 2025-03-05 02:13:19.987247, Logical Clock: 1, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:20.f - RECEIVE - System Time: 2025-03-05 02:13:20.328699, Queue Length: 0, Logical Clock: 5, From: Machine 1
+2025-03-05 02:13:20.f - RECEIVE - System Time: 2025-03-05 02:13:20.667389, Queue Length: 0, Logical Clock: 7, From: Machine 1
+2025-03-05 02:13:21.f - INTERNAL - System Time: 2025-03-05 02:13:21.002959, Logical Clock: 8
+2025-03-05 02:13:21.f - RECEIVE - System Time: 2025-03-05 02:13:21.341459, Queue Length: 0, Logical Clock: 11, From: Machine 1
+2025-03-05 02:13:21.f - INTERNAL - System Time: 2025-03-05 02:13:21.679984, Logical Clock: 12
+2025-03-05 02:13:22.f - SEND - System Time: 2025-03-05 02:13:22.018776, Logical Clock: 13, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:22.f - RECEIVE - System Time: 2025-03-05 02:13:22.355476, Queue Length: 0, Logical Clock: 15, From: Machine 1
+2025-03-05 02:13:22.f - INTERNAL - System Time: 2025-03-05 02:13:22.694036, Logical Clock: 16
+2025-03-05 02:13:23.f - INTERNAL - System Time: 2025-03-05 02:13:23.029917, Logical Clock: 17
+2025-03-05 02:13:23.f - INTERNAL - System Time: 2025-03-05 02:13:23.368632, Logical Clock: 18
+2025-03-05 02:13:23.f - SEND - System Time: 2025-03-05 02:13:23.702718, Logical Clock: 19, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:24.f - SEND - System Time: 2025-03-05 02:13:24.039049, Logical Clock: 20, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:24.f - SEND - System Time: 2025-03-05 02:13:24.373727, Logical Clock: 21, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:24.f - RECEIVE - System Time: 2025-03-05 02:13:24.712031, Queue Length: 0, Logical Clock: 25, From: Machine 1
+2025-03-05 02:13:25.f - SEND - System Time: 2025-03-05 02:13:25.048403, Logical Clock: 26, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:25.f - SEND - System Time: 2025-03-05 02:13:25.385352, Logical Clock: 27, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:25.f - SEND - System Time: 2025-03-05 02:13:25.388246, Logical Clock: 28, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:25.f - SEND - System Time: 2025-03-05 02:13:25.725144, Logical Clock: 29, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:26.f - SEND - System Time: 2025-03-05 02:13:26.064489, Logical Clock: 30, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:26.f - SEND - System Time: 2025-03-05 02:13:26.400073, Logical Clock: 31, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:26.f - SEND - System Time: 2025-03-05 02:13:26.400779, Logical Clock: 32, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:26.f - RECEIVE - System Time: 2025-03-05 02:13:26.737710, Queue Length: 0, Logical Clock: 34, From: Machine 1
+2025-03-05 02:13:27.f - SEND - System Time: 2025-03-05 02:13:27.076421, Logical Clock: 35, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:27.f - SEND - System Time: 2025-03-05 02:13:27.418531, Logical Clock: 36, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:27.f - RECEIVE - System Time: 2025-03-05 02:13:27.756863, Queue Length: 0, Logical Clock: 39, From: Machine 1
+2025-03-05 02:13:28.f - INTERNAL - System Time: 2025-03-05 02:13:28.095545, Logical Clock: 40
+2025-03-05 02:13:28.f - RECEIVE - System Time: 2025-03-05 02:13:28.430411, Queue Length: 0, Logical Clock: 42, From: Machine 1
+2025-03-05 02:13:28.f - INTERNAL - System Time: 2025-03-05 02:13:28.769624, Logical Clock: 43
+2025-03-05 02:13:29.f - SEND - System Time: 2025-03-05 02:13:29.108816, Logical Clock: 44, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:29.f - INTERNAL - System Time: 2025-03-05 02:13:29.447957, Logical Clock: 45
+2025-03-05 02:13:29.f - SEND - System Time: 2025-03-05 02:13:29.782377, Logical Clock: 46, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:30.f - INTERNAL - System Time: 2025-03-05 02:13:30.122391, Logical Clock: 47
+2025-03-05 02:13:30.f - SEND - System Time: 2025-03-05 02:13:30.462184, Logical Clock: 48, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:30.f - SEND - System Time: 2025-03-05 02:13:30.465273, Logical Clock: 49, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:30.f - SEND - System Time: 2025-03-05 02:13:30.805498, Logical Clock: 50, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:31.f - SEND - System Time: 2025-03-05 02:13:31.150471, Logical Clock: 51, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:31.f - RECEIVE - System Time: 2025-03-05 02:13:31.492850, Queue Length: 0, Logical Clock: 56, From: Machine 3
+2025-03-05 02:13:31.f - RECEIVE - System Time: 2025-03-05 02:13:31.831767, Queue Length: 0, Logical Clock: 57, From: Machine 1
+2025-03-05 02:13:32.f - RECEIVE - System Time: 2025-03-05 02:13:32.166253, Queue Length: 0, Logical Clock: 59, From: Machine 1
+2025-03-05 02:13:32.f - SEND - System Time: 2025-03-05 02:13:32.502792, Logical Clock: 60, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:32.f - SEND - System Time: 2025-03-05 02:13:32.839816, Logical Clock: 61, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:33.f - RECEIVE - System Time: 2025-03-05 02:13:33.181160, Queue Length: 0, Logical Clock: 64, From: Machine 3
+2025-03-05 02:13:33.f - RECEIVE - System Time: 2025-03-05 02:13:33.518417, Queue Length: 0, Logical Clock: 66, From: Machine 3
+2025-03-05 02:13:33.f - RECEIVE - System Time: 2025-03-05 02:13:33.857884, Queue Length: 0, Logical Clock: 67, From: Machine 1
+2025-03-05 02:13:34.f - INTERNAL - System Time: 2025-03-05 02:13:34.194469, Logical Clock: 68
+2025-03-05 02:13:34.f - INTERNAL - System Time: 2025-03-05 02:13:34.533962, Logical Clock: 69
+2025-03-05 02:13:34.f - RECEIVE - System Time: 2025-03-05 02:13:34.872001, Queue Length: 0, Logical Clock: 74, From: Machine 3
+2025-03-05 02:13:35.f - RECEIVE - System Time: 2025-03-05 02:13:35.206754, Queue Length: 0, Logical Clock: 75, From: Machine 3
+2025-03-05 02:13:35.f - SEND - System Time: 2025-03-05 02:13:35.544985, Logical Clock: 76, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:35.f - SEND - System Time: 2025-03-05 02:13:35.884318, Logical Clock: 77, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:36.f - INTERNAL - System Time: 2025-03-05 02:13:36.223642, Logical Clock: 78
+2025-03-05 02:13:36.f - RECEIVE - System Time: 2025-03-05 02:13:36.561989, Queue Length: 0, Logical Clock: 80, From: Machine 1
+2025-03-05 02:13:36.f - INTERNAL - System Time: 2025-03-05 02:13:36.896024, Logical Clock: 81
+2025-03-05 02:13:37.f - RECEIVE - System Time: 2025-03-05 02:13:37.235433, Queue Length: 1, Logical Clock: 84, From: Machine 3
+2025-03-05 02:13:37.f - RECEIVE - System Time: 2025-03-05 02:13:37.574444, Queue Length: 0, Logical Clock: 85, From: Machine 1
+2025-03-05 02:13:37.f - RECEIVE - System Time: 2025-03-05 02:13:37.911814, Queue Length: 0, Logical Clock: 88, From: Machine 3
+2025-03-05 02:13:38.f - SEND - System Time: 2025-03-05 02:13:38.251337, Logical Clock: 89, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:38.f - RECEIVE - System Time: 2025-03-05 02:13:38.591198, Queue Length: 0, Logical Clock: 92, From: Machine 3
+2025-03-05 02:13:38.f - SEND - System Time: 2025-03-05 02:13:38.928524, Logical Clock: 93, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:39.f - RECEIVE - System Time: 2025-03-05 02:13:39.265253, Queue Length: 0, Logical Clock: 94, From: Machine 1
+2025-03-05 02:13:39.f - SEND - System Time: 2025-03-05 02:13:39.600005, Logical Clock: 95, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:39.f - SEND - System Time: 2025-03-05 02:13:39.940632, Logical Clock: 96, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:40.f - RECEIVE - System Time: 2025-03-05 02:13:40.280354, Queue Length: 0, Logical Clock: 99, From: Machine 3
+2025-03-05 02:13:40.f - SEND - System Time: 2025-03-05 02:13:40.619308, Logical Clock: 100, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:40.f - SEND - System Time: 2025-03-05 02:13:40.957617, Logical Clock: 101, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:41.f - SEND - System Time: 2025-03-05 02:13:41.298132, Logical Clock: 102, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:41.f - SEND - System Time: 2025-03-05 02:13:41.301352, Logical Clock: 103, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:41.f - INTERNAL - System Time: 2025-03-05 02:13:41.641277, Logical Clock: 104
+2025-03-05 02:13:41.f - SEND - System Time: 2025-03-05 02:13:41.975271, Logical Clock: 105, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:42.f - SEND - System Time: 2025-03-05 02:13:42.316412, Logical Clock: 106, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:42.f - SEND - System Time: 2025-03-05 02:13:42.319229, Logical Clock: 107, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:42.f - SEND - System Time: 2025-03-05 02:13:42.658076, Logical Clock: 108, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:43.f - INTERNAL - System Time: 2025-03-05 02:13:43.000573, Logical Clock: 109
+2025-03-05 02:13:43.f - SEND - System Time: 2025-03-05 02:13:43.337708, Logical Clock: 110, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:43.f - SEND - System Time: 2025-03-05 02:13:43.339463, Logical Clock: 111, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:43.f - INTERNAL - System Time: 2025-03-05 02:13:43.679025, Logical Clock: 112
+2025-03-05 02:13:44.f - SEND - System Time: 2025-03-05 02:13:44.017596, Logical Clock: 113, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:44.f - SEND - System Time: 2025-03-05 02:13:44.357286, Logical Clock: 114, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:44.f - SEND - System Time: 2025-03-05 02:13:44.696341, Logical Clock: 115, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:44.f - SEND - System Time: 2025-03-05 02:13:44.697216, Logical Clock: 116, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:45.f - SEND - System Time: 2025-03-05 02:13:45.036303, Logical Clock: 117, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:45.f - SEND - System Time: 2025-03-05 02:13:45.039277, Logical Clock: 118, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:45.f - SEND - System Time: 2025-03-05 02:13:45.376085, Logical Clock: 119, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:45.f - SEND - System Time: 2025-03-05 02:13:45.378961, Logical Clock: 120, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:45.f - INTERNAL - System Time: 2025-03-05 02:13:45.715855, Logical Clock: 121
+2025-03-05 02:13:46.f - INTERNAL - System Time: 2025-03-05 02:13:46.053540, Logical Clock: 122
+2025-03-05 02:13:46.f - RECEIVE - System Time: 2025-03-05 02:13:46.389234, Queue Length: 0, Logical Clock: 123, From: Machine 1
+2025-03-05 02:13:46.f - RECEIVE - System Time: 2025-03-05 02:13:46.727732, Queue Length: 0, Logical Clock: 127, From: Machine 3
+2025-03-05 02:13:47.f - RECEIVE - System Time: 2025-03-05 02:13:47.062167, Queue Length: 1, Logical Clock: 128, From: Machine 1
+2025-03-05 02:13:47.f - RECEIVE - System Time: 2025-03-05 02:13:47.400681, Queue Length: 0, Logical Clock: 129, From: Machine 3
+2025-03-05 02:13:47.f - RECEIVE - System Time: 2025-03-05 02:13:47.734481, Queue Length: 0, Logical Clock: 131, From: Machine 3
+2025-03-05 02:13:48.f - RECEIVE - System Time: 2025-03-05 02:13:48.071895, Queue Length: 0, Logical Clock: 134, From: Machine 3
+2025-03-05 02:13:48.f - RECEIVE - System Time: 2025-03-05 02:13:48.409208, Queue Length: 0, Logical Clock: 135, From: Machine 3
+2025-03-05 02:13:48.f - SEND - System Time: 2025-03-05 02:13:48.744480, Logical Clock: 136, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:49.f - RECEIVE - System Time: 2025-03-05 02:13:49.084974, Queue Length: 0, Logical Clock: 137, From: Machine 1
+2025-03-05 02:13:49.f - SEND - System Time: 2025-03-05 02:13:49.420858, Logical Clock: 138, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:49.f - SEND - System Time: 2025-03-05 02:13:49.756888, Logical Clock: 139, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:50.f - SEND - System Time: 2025-03-05 02:13:50.099049, Logical Clock: 140, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:50.f - SEND - System Time: 2025-03-05 02:13:50.099907, Logical Clock: 141, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:50.f - INTERNAL - System Time: 2025-03-05 02:13:50.435566, Logical Clock: 142
+2025-03-05 02:13:50.f - RECEIVE - System Time: 2025-03-05 02:13:50.774039, Queue Length: 0, Logical Clock: 144, From: Machine 1
+2025-03-05 02:13:51.f - SEND - System Time: 2025-03-05 02:13:51.112432, Logical Clock: 145, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:51.f - SEND - System Time: 2025-03-05 02:13:51.113170, Logical Clock: 146, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:51.f - SEND - System Time: 2025-03-05 02:13:51.452109, Logical Clock: 147, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:51.f - SEND - System Time: 2025-03-05 02:13:51.790430, Logical Clock: 148, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:52.f - RECEIVE - System Time: 2025-03-05 02:13:52.128156, Queue Length: 1, Logical Clock: 151, From: Machine 3
+2025-03-05 02:13:52.f - RECEIVE - System Time: 2025-03-05 02:13:52.467080, Queue Length: 1, Logical Clock: 153, From: Machine 3
+2025-03-05 02:13:52.f - RECEIVE - System Time: 2025-03-05 02:13:52.804366, Queue Length: 0, Logical Clock: 155, From: Machine 3
+2025-03-05 02:13:53.f - RECEIVE - System Time: 2025-03-05 02:13:53.141087, Queue Length: 1, Logical Clock: 157, From: Machine 3
+2025-03-05 02:13:53.f - RECEIVE - System Time: 2025-03-05 02:13:53.478204, Queue Length: 0, Logical Clock: 158, From: Machine 1
+2025-03-05 02:13:53.f - RECEIVE - System Time: 2025-03-05 02:13:53.813156, Queue Length: 0, Logical Clock: 159, From: Machine 1
+2025-03-05 02:13:54.f - SEND - System Time: 2025-03-05 02:13:54.149087, Logical Clock: 160, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:54.f - RECEIVE - System Time: 2025-03-05 02:13:54.488464, Queue Length: 0, Logical Clock: 163, From: Machine 1
+2025-03-05 02:13:54.f - SEND - System Time: 2025-03-05 02:13:54.827328, Logical Clock: 164, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:55.f - INTERNAL - System Time: 2025-03-05 02:13:55.166561, Logical Clock: 165
+2025-03-05 02:13:55.f - INTERNAL - System Time: 2025-03-05 02:13:55.505114, Logical Clock: 166
+2025-03-05 02:13:55.f - RECEIVE - System Time: 2025-03-05 02:13:55.839369, Queue Length: 0, Logical Clock: 170, From: Machine 1
+2025-03-05 02:13:56.f - SEND - System Time: 2025-03-05 02:13:56.177359, Logical Clock: 171, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:56.f - INTERNAL - System Time: 2025-03-05 02:13:56.518077, Logical Clock: 172
+2025-03-05 02:13:56.f - SEND - System Time: 2025-03-05 02:13:56.856705, Logical Clock: 173, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:57.f - SEND - System Time: 2025-03-05 02:13:57.192490, Logical Clock: 174, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:57.f - SEND - System Time: 2025-03-05 02:13:57.193160, Logical Clock: 175, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:57.f - SEND - System Time: 2025-03-05 02:13:57.527913, Logical Clock: 176, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:13:57.f - SEND - System Time: 2025-03-05 02:13:57.528814, Logical Clock: 177, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:57.f - SEND - System Time: 2025-03-05 02:13:57.866312, Logical Clock: 178, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:58.f - SEND - System Time: 2025-03-05 02:13:58.205474, Logical Clock: 179, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:13:58.f - INTERNAL - System Time: 2025-03-05 02:13:58.542271, Logical Clock: 180
+2025-03-05 02:13:58.f - RECEIVE - System Time: 2025-03-05 02:13:58.880934, Queue Length: 0, Logical Clock: 183, From: Machine 1
+2025-03-05 02:13:59.f - RECEIVE - System Time: 2025-03-05 02:13:59.216899, Queue Length: 0, Logical Clock: 185, From: Machine 1
+2025-03-05 02:13:59.f - INTERNAL - System Time: 2025-03-05 02:13:59.555384, Logical Clock: 186
+2025-03-05 02:13:59.f - RECEIVE - System Time: 2025-03-05 02:13:59.889769, Queue Length: 0, Logical Clock: 189, From: Machine 1
+2025-03-05 02:14:00.f - RECEIVE - System Time: 2025-03-05 02:14:00.225236, Queue Length: 1, Logical Clock: 191, From: Machine 1
+2025-03-05 02:14:00.f - RECEIVE - System Time: 2025-03-05 02:14:00.563801, Queue Length: 0, Logical Clock: 192, From: Machine 3
+2025-03-05 02:14:00.f - RECEIVE - System Time: 2025-03-05 02:14:00.898798, Queue Length: 0, Logical Clock: 193, From: Machine 1
+2025-03-05 02:14:01.f - SEND - System Time: 2025-03-05 02:14:01.233612, Logical Clock: 194, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:01.f - SEND - System Time: 2025-03-05 02:14:01.572655, Logical Clock: 195, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:01.f - SEND - System Time: 2025-03-05 02:14:01.910151, Logical Clock: 196, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:02.f - SEND - System Time: 2025-03-05 02:14:02.249521, Logical Clock: 197, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:02.f - SEND - System Time: 2025-03-05 02:14:02.591557, Logical Clock: 198, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:02.f - SEND - System Time: 2025-03-05 02:14:02.592332, Logical Clock: 199, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:02.f - INTERNAL - System Time: 2025-03-05 02:14:02.931215, Logical Clock: 200
+2025-03-05 02:14:03.f - RECEIVE - System Time: 2025-03-05 02:14:03.269740, Queue Length: 0, Logical Clock: 207, From: Machine 3
+2025-03-05 02:14:03.f - RECEIVE - System Time: 2025-03-05 02:14:03.606322, Queue Length: 0, Logical Clock: 208, From: Machine 3
+2025-03-05 02:14:03.f - SEND - System Time: 2025-03-05 02:14:03.945454, Logical Clock: 209, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:04.f - SEND - System Time: 2025-03-05 02:14:04.284497, Logical Clock: 210, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:04.f - SEND - System Time: 2025-03-05 02:14:04.620116, Logical Clock: 211, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:04.f - RECEIVE - System Time: 2025-03-05 02:14:04.956388, Queue Length: 0, Logical Clock: 212, From: Machine 1
+2025-03-05 02:14:05.f - SEND - System Time: 2025-03-05 02:14:05.294647, Logical Clock: 213, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:05.f - SEND - System Time: 2025-03-05 02:14:05.629437, Logical Clock: 214, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:05.f - INTERNAL - System Time: 2025-03-05 02:14:05.967553, Logical Clock: 215
+2025-03-05 02:14:06.f - RECEIVE - System Time: 2025-03-05 02:14:06.306011, Queue Length: 0, Logical Clock: 219, From: Machine 1
+2025-03-05 02:14:06.f - RECEIVE - System Time: 2025-03-05 02:14:06.644504, Queue Length: 0, Logical Clock: 221, From: Machine 3
+2025-03-05 02:14:06.f - SEND - System Time: 2025-03-05 02:14:06.978240, Logical Clock: 222, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:07.f - RECEIVE - System Time: 2025-03-05 02:14:07.318304, Queue Length: 0, Logical Clock: 223, From: Machine 1
+2025-03-05 02:14:07.f - RECEIVE - System Time: 2025-03-05 02:14:07.656318, Queue Length: 0, Logical Clock: 227, From: Machine 3
+2025-03-05 02:14:07.f - SEND - System Time: 2025-03-05 02:14:07.994873, Logical Clock: 228, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:08.f - SEND - System Time: 2025-03-05 02:14:08.334784, Logical Clock: 229, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:08.f - SEND - System Time: 2025-03-05 02:14:08.337457, Logical Clock: 230, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:08.f - INTERNAL - System Time: 2025-03-05 02:14:08.676809, Logical Clock: 231
+2025-03-05 02:14:09.f - SEND - System Time: 2025-03-05 02:14:09.015289, Logical Clock: 232, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:09.f - SEND - System Time: 2025-03-05 02:14:09.354549, Logical Clock: 233, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:09.f - SEND - System Time: 2025-03-05 02:14:09.697277, Logical Clock: 234, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:09.f - SEND - System Time: 2025-03-05 02:14:09.699657, Logical Clock: 235, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:10.f - SEND - System Time: 2025-03-05 02:14:10.039204, Logical Clock: 236, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:10.f - RECEIVE - System Time: 2025-03-05 02:14:10.374604, Queue Length: 0, Logical Clock: 238, From: Machine 1
+2025-03-05 02:14:10.f - SEND - System Time: 2025-03-05 02:14:10.710387, Logical Clock: 239, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:10.f - SEND - System Time: 2025-03-05 02:14:10.711105, Logical Clock: 240, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:11.f - SEND - System Time: 2025-03-05 02:14:11.045939, Logical Clock: 241, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:11.f - RECEIVE - System Time: 2025-03-05 02:14:11.384054, Queue Length: 0, Logical Clock: 242, From: Machine 1
+2025-03-05 02:14:11.f - SEND - System Time: 2025-03-05 02:14:11.719598, Logical Clock: 243, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:12.f - SEND - System Time: 2025-03-05 02:14:12.062784, Logical Clock: 244, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:12.f - RECEIVE - System Time: 2025-03-05 02:14:12.401858, Queue Length: 0, Logical Clock: 247, From: Machine 1
+2025-03-05 02:14:12.f - RECEIVE - System Time: 2025-03-05 02:14:12.740366, Queue Length: 0, Logical Clock: 250, From: Machine 1
+2025-03-05 02:14:13.f - RECEIVE - System Time: 2025-03-05 02:14:13.079139, Queue Length: 0, Logical Clock: 252, From: Machine 1
+2025-03-05 02:14:13.f - SEND - System Time: 2025-03-05 02:14:13.414632, Logical Clock: 253, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:13.f - SEND - System Time: 2025-03-05 02:14:13.749145, Logical Clock: 254, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:14.f - SEND - System Time: 2025-03-05 02:14:14.088296, Logical Clock: 255, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:14.f - RECEIVE - System Time: 2025-03-05 02:14:14.425674, Queue Length: 0, Logical Clock: 258, From: Machine 1
+2025-03-05 02:14:14.f - RECEIVE - System Time: 2025-03-05 02:14:14.764145, Queue Length: 0, Logical Clock: 260, From: Machine 1
+2025-03-05 02:14:15.f - RECEIVE - System Time: 2025-03-05 02:14:15.097752, Queue Length: 0, Logical Clock: 262, From: Machine 1
+2025-03-05 02:14:15.f - SEND - System Time: 2025-03-05 02:14:15.433625, Logical Clock: 263, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:15.f - RECEIVE - System Time: 2025-03-05 02:14:15.772149, Queue Length: 0, Logical Clock: 265, From: Machine 1
+2025-03-05 02:14:16.f - RECEIVE - System Time: 2025-03-05 02:14:16.107185, Queue Length: 0, Logical Clock: 267, From: Machine 1
+2025-03-05 02:14:16.f - SEND - System Time: 2025-03-05 02:14:16.441285, Logical Clock: 268, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:16.f - SEND - System Time: 2025-03-05 02:14:16.779404, Logical Clock: 269, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:17.f - RECEIVE - System Time: 2025-03-05 02:14:17.119061, Queue Length: 0, Logical Clock: 271, From: Machine 1
+2025-03-05 02:14:17.f - SEND - System Time: 2025-03-05 02:14:17.456493, Logical Clock: 272, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:17.f - SEND - System Time: 2025-03-05 02:14:17.795523, Logical Clock: 273, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:18.f - INTERNAL - System Time: 2025-03-05 02:14:18.134830, Logical Clock: 274
+2025-03-05 02:14:18.f - RECEIVE - System Time: 2025-03-05 02:14:18.471248, Queue Length: 0, Logical Clock: 277, From: Machine 1
+2025-03-05 02:14:18.f - INTERNAL - System Time: 2025-03-05 02:14:18.809742, Logical Clock: 278
+2025-03-05 02:14:19.f - SEND - System Time: 2025-03-05 02:14:19.147400, Logical Clock: 279, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:19.f - SEND - System Time: 2025-03-05 02:14:19.148318, Logical Clock: 280, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:19.f - SEND - System Time: 2025-03-05 02:14:19.487414, Logical Clock: 281, Destination: Machine at ('localhost', 50001)
+2025-03-05 02:14:19.f - SEND - System Time: 2025-03-05 02:14:19.488177, Logical Clock: 282, Destination: Machine at ('localhost', 50003)
+2025-03-05 02:14:19.f - INTERNAL - System Time: 2025-03-05 02:14:19.824566, Logical Clock: 283

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package distributed_clock;
+
+// Define the clock service
+service ClockService {
+  // Send a message containing logical clock time
+  rpc SendMessage (ClockMessage) returns (ClockResponse) {}
+}
+
+// Message containing logical clock time
+message ClockMessage {
+  int32 sender_id = 1;       // ID of sending machine
+  int32 logical_clock = 2;   // Logical clock value
+  string timestamp = 3;      // System timestamp for logging
+}
+
+// Response after receiving a message
+message ClockResponse {
+  bool received = 1;         // Acknowledge receipt
+}
