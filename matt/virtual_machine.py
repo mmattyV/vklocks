@@ -50,6 +50,9 @@ class VirtualMachine:
         console_handler.setFormatter(formatter)
         self.logger.addHandler(console_handler)
 
+        # Log the clock speed (tick rate) at initialization.
+        self.logger.info(f"Machine {self.machine_id} initialized with tick rate {self.tick_rate} ticks per second")
+
     def start_server(self):
         """Starts the gRPC server to listen for incoming clock messages."""
         self.server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
