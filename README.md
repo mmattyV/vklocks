@@ -12,6 +12,11 @@ This repository simulates an asynchronous distributed system using multiple virt
 - **machine.proto**: Protocol Buffers file defining the gRPC service and messages.
 - **tests/**: Folder containing unit tests for various components of the system.
 
+## Prerequisites
+
+- Python 3.7 or later
+- `virtualenv` (optional but recommended)
+
 ## Installation
 
 1. Clone the repository:
