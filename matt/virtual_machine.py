@@ -6,10 +6,29 @@ import queue
 import random
 import sys
 import logging
+import argparse
 
 # Import the generated gRPC classes (from machine.proto)
 import machine_pb2
 import machine_pb2_grpc
+
+# Parse command-line arguments.
+parser = argparse.ArgumentParser(description="Run a virtual machine for the distributed system.")
+parser.add_argument("machine_id", type=str, help="Unique machine identifier")
+parser.add_argument("port", type=int, help="Port number for the gRPC server")
+parser.add_argument("peer_addresses", type=str,
+                    help="Comma-separated list of peer addresses (e.g., localhost:50052,localhost:50053)")
+parser.add_argument("--tight", action="store_true",
+                    help="Enable tight mode (smaller probability of internal events)")
+parser.add_argument("--min-ticks", type=int, default=1,
+                    help="Minimum clock ticks per second (default: 1)")
+parser.add_argument("--max-ticks", type=int, default=6,
+                    help="Maximum clock ticks per second (default: 6)")
+args = parser.parse_args()
+
+TIGHT_MODE = args.tight
+MIN_TICKS = args.min_ticks
+MAX_TICKS = args.max_ticks
 
 class MachineServiceServicer(machine_pb2_grpc.MachineServiceServicer):
     """
@@ -55,7 +74,8 @@ class VirtualMachine:
     
     This class manages a logical clock, a message queue, and a gRPC server
     for inter-machine communication. It processes events based on a tick rate,
-    which is randomly chosen during initialization.
+    which is randomly selected between a minimum and maximum value passed via the command line.
+    In tight mode, the probability of triggering a send event is increased (thus internal events become less likely).
     """
     def __init__(self, machine_id, port, peer_addresses):
         """
@@ -73,7 +93,7 @@ class VirtualMachine:
         self.peer_addresses = peer_addresses  # e.g. ["localhost:50052", "localhost:50053"]
         self.message_queue = queue.Queue()      # Unconstrained network queue.
         self.logical_clock = 0
-        self.tick_rate = random.randint(1, 6)     # Clock ticks per real second.
+        self.tick_rate = random.randint(MIN_TICKS, MAX_TICKS)
         self.server = None
 
         # Set up logging to a file named after the machine.
@@ -88,7 +108,6 @@ class VirtualMachine:
         console_handler.setFormatter(formatter)
         self.logger.addHandler(console_handler)
 
-        # Log the clock speed (tick rate) at initialization.
         self.logger.info(f"Machine {self.machine_id} initialized with tick rate {self.tick_rate} ticks per second")
 
     def start_server(self):
@@ -166,7 +185,11 @@ class VirtualMachine:
         
         On each tick:
           - If there is a message in the queue, processes it and updates the logical clock.
-          - If no message is available, randomly selects an event: send message(s) or internal event.
+          - If no message is available, randomly selects an event.
+            * In default mode, a send event occurs if the random number is in (1,2,3) (30% chance),
+              otherwise an internal event occurs.
+            * In tight mode, a send event occurs if the random number is <= 6 (60% chance),
+              making internal events less likely.
           - Enforces a fixed tick rate as defined by the machine's tick_rate.
         
         Parameters:
@@ -182,28 +205,42 @@ class VirtualMachine:
                 self.logical_clock = max(self.logical_clock, message.logical_clock) + 1
                 self.log_receive_event(self.message_queue.qsize())
             else:
-                # No message available; decide which event to execute.
                 event = random.randint(1, 10)
-                if event in (1, 2, 3):
-                    # Sending event: update clock and send message(s).
-                    self.logical_clock += 1
-                    system_time = int(time.time())
-                    if event == 3:
-                        # Broadcast to all peers.
-                        for peer in self.peer_addresses:
+                if TIGHT_MODE:
+                    # In tight mode, send events are more likely (60% chance to send).
+                    if event <= 6:
+                        self.logical_clock += 1
+                        system_time = int(time.time())
+                        # Alternate between broadcast and random send.
+                        if event % 2 == 0:
+                            for peer in self.peer_addresses:
+                                self.send_message(peer, self.logical_clock)
+                            self.logger.info(f"Broadcast sent: updated logical clock to {self.logical_clock}, system_time={system_time}")
+                        else:
+                            peer = random.choice(self.peer_addresses)
                             self.send_message(peer, self.logical_clock)
-                        self.logger.info(f"Broadcast sent: updated logical clock to {self.logical_clock}, system_time={system_time}")
+                            self.logger.info(f"Sent event to {peer}: updated logical clock to {self.logical_clock}, system_time={system_time}")
                     else:
-                        # Send to one randomly selected peer.
-                        peer = random.choice(self.peer_addresses)
-                        self.send_message(peer, self.logical_clock)
-                        self.logger.info(f"Sent event to {peer}: updated logical clock to {self.logical_clock}, system_time={system_time}")
+                        self.logical_clock += 1
+                        self.log_internal_event()
                 else:
-                    # Internal event: update the clock.
-                    self.logical_clock += 1
-                    self.log_internal_event()
+                    # Default mode: 30% chance to send, 70% chance for internal event.
+                    if event in (1, 2, 3):
+                        self.logical_clock += 1
+                        system_time = int(time.time())
+                        if event == 3:
+                            for peer in self.peer_addresses:
+                                self.send_message(peer, self.logical_clock)
+                            self.logger.info(f"Broadcast sent: updated logical clock to {self.logical_clock}, system_time={system_time}")
+                        else:
+                            peer = random.choice(self.peer_addresses)
+                            self.send_message(peer, self.logical_clock)
+                            self.logger.info(f"Sent event to {peer}: updated logical clock to {self.logical_clock}, system_time={system_time}")
+                    else:
+                        self.logical_clock += 1
+                        self.log_internal_event()
 
-            # Enforce the tick rate (only a fixed number of operations per second).
+            # Enforce the tick rate.
             time_to_next_tick = max(0, (1 / self.tick_rate) - (time.time() - tick_start))
             time.sleep(time_to_next_tick)
 
@@ -218,25 +255,10 @@ class VirtualMachine:
             self.logger.info("gRPC server stopped")
 
 if __name__ == '__main__':
-    """
-    Entry point for the virtual machine simulation.
-    
-    Expects the following command-line arguments:
-        1. machine_id: Unique identifier for the virtual machine.
-        2. port: The port on which the gRPC server will listen.
-        3. peer_addresses: Comma-separated list of peer addresses.
-    
-    Example usage:
-        python virtual_machine.py machine1 50051 localhost:50052,localhost:50053
-    """
-    if len(sys.argv) != 4:
-        print("Usage: python virtual_machine.py <machine_id> <port> <peer_addresses>")
-        print("Example: python virtual_machine.py machine1 50051 localhost:50052,localhost:50053")
-        sys.exit(1)
-
-    machine_id = sys.argv[1]
-    port = int(sys.argv[2])
-    peer_addresses = sys.argv[3].split(',')
+    # args.machine_id, args.port, args.peer_addresses have been parsed already.
+    machine_id = args.machine_id
+    port = args.port
+    peer_addresses = args.peer_addresses.split(',')
 
     vm = VirtualMachine(machine_id, port, peer_addresses)
 
