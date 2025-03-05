@@ -1,0 +1,19 @@
+syntax = "proto3";
+package distributed;
+
+// Message that contains a machine's identifier, its logical clock, and the system time.
+message ClockMessage {
+  string machine_id = 1;
+  int64 logical_clock = 2;
+  int64 system_time = 3;
+}
+
+// Acknowledgment message.
+message Ack {
+  bool success = 1;
+}
+
+// Service definition for sending clock messages.
+service MachineService {
+  rpc SendClockMessage(ClockMessage) returns (Ack);
+}
