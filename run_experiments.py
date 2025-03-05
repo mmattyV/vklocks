@@ -8,16 +8,17 @@ NUM_RUNS = 5
 RUN_DURATION = 60  # one minute per run
 
 # Experiment parameters to modify clock cycles and tight mode.
-EXPERIMENT_MIN_TICKS = 1  # Minimum ticks per second for the experiment
-EXPERIMENT_MAX_TICKS = 2  # Maximum ticks per second for the experiment
-EXPERIMENT_TIGHT = True   # Enable tight mode (smaller probability of internal events)
+EXPERIMENT_MIN_TICKS = 2  # Minimum ticks per second for the experiment
+EXPERIMENT_MAX_TICKS = 3  # Maximum ticks per second for the experiment
+EXPERIMENT_TIGHT = False   # Enable tight mode (smaller probability of internal events)
 
 # Configuration for the three virtual machines.
 # Each tuple: (machine_id, port, comma-separated peer addresses)
 VM_CONFIGS = [
-    ('machine1', '50051', 'localhost:50052,localhost:50053'),
-    ('machine2', '50052', 'localhost:50051,localhost:50053'),
-    ('machine3', '50053', 'localhost:50051,localhost:50052'),
+    ('machine1', '50051', 'localhost:50052,localhost:50053,localhost:50054'),
+    ('machine2', '50052', 'localhost:50051,localhost:50053,localhost:50054'),
+    ('machine3', '50053', 'localhost:50051,localhost:50052,localhost:50054'),
+    ('machine4', '50054', 'localhost:50051,localhost:50052,localhost:50053'),
 ]
 
 def run_experiment():

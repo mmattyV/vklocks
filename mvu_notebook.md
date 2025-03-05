@@ -373,3 +373,127 @@ In Run 5, the mix of tick rates (with two machines at 1 tick/sec and one at 2 ti
   Faster machines process messages quickly, keeping their queues near zero. Slower machines, however, build up longer queues, which force them to make larger jumps when processing, thereby increasing the drift between machines.
 
 These findings highlight that in distributed systems, maintaining uniform processing speeds and reducing the chance of internal (non-communicative) events are key to achieving tight synchronization. I have documented these insights in my lab notebook, and they will inform future work on optimizing clock synchronization in asynchronous systems.
+
+## Lab Notebook: Effects of a Narrow Tick Range with a Higher Probability of Internal Events
+
+In these experiments, I constrained the tick rates to a narrow range (2–3 ticks per second) and set the system to have a higher probability of internal events (i.e. tight mode disabled). Here’s what I observed based on the statistics collected from five runs:
+
+### General Observations
+
+- **Higher Probability of Internal Events:**  
+  With tight mode set to false, the system favors internal events over send events. This means that on many ticks the VM simply increments its logical clock without sending a message. As a result, the average jump sizes tend to be slightly higher (e.g., 1.47–1.52 in some runs) on machines running at the lower tick rate, since they are not synchronizing as often via sends.
+
+- **Narrow Tick Range (2–3 ticks/sec):**  
+  The machines are forced to operate within a small range. When all machines run at the same tick rate (e.g., 2 or 3 ticks per second), the logical clocks are very consistent and drift is minimal. However, even a small imbalance (e.g., one machine at 2 ticks/sec while another runs at 3 ticks/sec) causes differences in how quickly each clock updates.
+
+### Detailed Observations by Run
+
+#### Experiment Run 1
+- **Tick Rates:** All machines at 2 ticks per second.
+- **Logical Clock Jumps:**  
+  Average jump sizes are very consistent (~1.07–1.08), indicating that most ticks cause a single unit increment.
+- **Message Queue Lengths:**  
+  The queues are very short (ranging from 0.03 to 0.11), meaning that even with more internal events, messages are processed almost immediately.
+- **Drift:**  
+  Final clock values differ by 2 ticks at most.
+
+*Reflection:*  
+Uniform, low tick rates and a high chance of internal events result in predictable, small jumps. Drift is minimal when all machines are synchronized at the same rate.
+
+#### Experiment Run 2
+- **Tick Rates:** Two machines at 2 ticks/sec, one at 3 ticks/sec.
+- **Logical Clock Jumps:**  
+  Machines at 2 ticks/sec show higher average jumps (~1.52) compared to the one at 3 ticks/sec (avg ~1.01).  
+- **Message Queue Lengths:**  
+  The slower machines (2 ticks/sec) have slightly longer queues (around 0.21 and 0.12) versus 0.09 on the faster machine.
+- **Drift:**  
+  Final clocks differ by only 1 tick.
+
+*Reflection:*  
+Even a small difference in tick rate causes the slower machines to accumulate a minor backlog. This leads to slightly larger jumps as they catch up, though overall drift remains low.
+
+#### Experiment Run 3
+- **Tick Rates:** One machine at 2 ticks/sec; two machines at 3 ticks/sec.
+- **Logical Clock Jumps:**  
+  The machine running at 2 ticks/sec has larger jumps (avg ~1.47, with occasional jumps up to 8), while the machines at 3 ticks/sec are much more consistent (avg ~1.01).
+- **Message Queue Lengths:**  
+  The slower machine exhibits a significantly higher average queue length (4.71) compared to nearly zero on the faster ones.
+- **Drift:**  
+  The drift is 4 ticks.
+
+*Reflection:*  
+A slight imbalance (2 vs. 3 ticks/sec) leads to noticeable differences: the slower machine processes a backlog, which is reflected in larger jump sizes and longer queue lengths, ultimately causing greater drift.
+
+#### Experiment Run 4
+- **Tick Rates:** All machines at 3 ticks per second.
+- **Logical Clock Jumps:**  
+  All machines update very consistently (avg ~1.09).
+- **Message Queue Lengths:**  
+  Queue lengths are very low (approximately 0.06–0.07).
+- **Drift:**  
+  Drift is only 1 tick.
+
+*Reflection:*  
+When all machines operate at the same (and slightly higher) tick rate, synchronization is excellent. The higher rate improves consistency, with nearly zero message backlog and minimal drift.
+
+#### Experiment Run 5
+- **Tick Rates:** Two machines at 2 ticks/sec; one machine at 3 ticks/sec.
+- **Logical Clock Jumps:**  
+  Machines at 2 ticks/sec show larger jumps (avg ~1.50–1.97) versus the one at 3 ticks/sec (avg ~1.02).
+- **Message Queue Lengths:**  
+  The slower machines accumulate longer queues (5.53 and 1.31) while the faster machine has no backlog.
+- **Drift:**  
+  Drift of 3 ticks was observed.
+
+*Reflection:*  
+The mix of tick rates creates significant differences. The slower machines’ longer queues and larger jumps cause them to lag, resulting in noticeable drift.
+
+### Overall Reflections
+
+- **Impact of Higher Internal Event Probability:**  
+  With a higher probability of internal events (tight mode off), many ticks simply increment the logical clock without communication. This can lead to larger jumps on slower machines since they may process a backlog of messages less frequently. As a result, even small differences in tick rates become amplified, leading to drift.
+
+- **Narrow Range vs. Wide Variation:**  
+  In contrast to configurations with a wide variation (1–100 ticks/sec), where differences are even more pronounced, the narrow range (2–3 ticks/sec) helps keep the system generally synchronized. However, any imbalance—even in a narrow range—can still cause noticeable drift if one machine consistently lags behind.
+
+- **Message Queue Dynamics:**  
+  The slower machines tend to build up message queues because they process fewer ticks per second. This backlog forces them to catch up with larger clock increments, increasing variability in jump sizes and contributing to drift.
+
+These observations emphasize the importance of uniform processing speeds and the role of event probabilities in maintaining clock synchronization in distributed systems. 
+
+## Lab Notebook: Observations with 4 Machines in a Narrow Tick-Rate Range (2–3 ticks/sec) and High Internal Event Probability
+
+I recently ran experiments using 4 virtual machines configured with a narrow tick rate range (2–3 ticks per second) and with tight mode disabled (which means a higher probability of internal events). This configuration contrasts with earlier runs (using a wide variation of 1–100 ticks/sec) where I observed much greater disparities in clock behavior.
+
+### Key Findings
+
+- **Uniform Tick Rates and Consistent Updates:**  
+  When most machines run at the same tick rate (for example, in Run 1 and Run 4 all machines were at 2 or 3 ticks per second), the logical clock jumps are very consistent (average jumps around 1.07–1.11) and the message queues remain very short (averaging less than 0.2). As a result, the drift between machines is minimal (1–2 ticks).
+
+- **Imbalance in Tick Rates:**  
+  In runs where there was a slight imbalance (for example, when one machine ran at 3 ticks/sec while the others ran at 2 ticks/sec), the slower machines tended to exhibit larger average jumps (around 1.49–1.57) and longer message queues (up to 0.62 on average). This imbalance led to higher drift (up to 3 ticks in one run and 4 ticks in another).  
+  - In Experiment Run 2, the machine at 3 ticks/sec had nearly uniform jumps (avg ≈ 1.07) with almost no backlog, while the machines at 2 ticks/sec showed higher jump averages (~1.59) and slightly longer queues.
+  - In Experiment Run 3, a similar effect was evident, with the slower machine accumulating a queue (average queue length 0.15–0.32) and resulting in a drift of 3 ticks.
+
+- **Impact of High Internal Event Probability:**  
+  With tight mode off, there is a higher chance that each tick is an internal event rather than a send event. This means that in many cases, a machine simply increments its logical clock without synchronizing with its peers. For machines running at the lower end of the tick rate range, this results in larger jumps when they eventually process a backlog of messages, increasing the drift relative to faster machines.
+
+### Overall Reflections
+
+- **Synchronization and Uniformity:**  
+  When all 4 machines run uniformly at 2 or 3 ticks per second, the system maintains very tight synchronization. The clock jumps are small and consistent, and the drift is nearly negligible. This confirms that a narrow variation in tick rate promotes uniform behavior.
+
+- **Sensitivity to Even Minor Imbalances:**  
+  However, even a small difference (e.g., one machine running at 3 ticks/sec versus others at 2 ticks/sec) can lead to noticeable differences. The slower machines tend to build up message queues, and when they process these messages, their logical clocks jump by larger amounts, increasing the drift between machines.
+
+- **Higher Probability of Internal Events:**  
+  With tight mode disabled, the higher likelihood of internal events means that many ticks do not trigger communication. This isolation can cause machines to update their clocks independently for extended periods, which is acceptable when the rates are uniform but becomes problematic when there’s even a slight imbalance.
+
+### Conclusion
+
+Switching from a wide variation (1–100 ticks/sec) to a narrow range (2–3 ticks/sec) with a high probability of internal events (tight mode off) generally results in:
+- More consistent and smaller logical clock jumps when machines run uniformly.
+- Minimal message queues and low drift under balanced conditions.
+- However, even minor differences in tick rates (e.g., 2 vs. 3 ticks/sec) can still cause noticeable drift and larger jumps on the slower machines due to message backlogs.
+
+I have recorded these findings in my lab notebook. They emphasize that for optimal synchronization in distributed systems, not only is a narrow tick rate range important, but the probability of non-communicative (internal) events must be carefully managed. Further experiments with tight mode enabled (which would lower the chance of internal events) may lead to even better synchronization.

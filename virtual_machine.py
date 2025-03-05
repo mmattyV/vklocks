@@ -13,13 +13,18 @@ import machine_pb2
 import machine_pb2_grpc
 
 # Parse command-line arguments.
-parser = argparse.ArgumentParser(description="Run a virtual machine for the distributed system.")
+parser = argparse.ArgumentParser(
+    description="Run a virtual machine for the distributed system. "
+                "This program now supports configurations with 4 machines. "
+                "Provide a comma-separated list of peer addresses (e.g., "
+                "localhost:50052,localhost:50053,localhost:50054) for a 4-machine setup."
+)
 parser.add_argument("machine_id", type=str, help="Unique machine identifier")
 parser.add_argument("port", type=int, help="Port number for the gRPC server")
 parser.add_argument("peer_addresses", type=str,
-                    help="Comma-separated list of peer addresses (e.g., localhost:50052,localhost:50053)")
+                    help="Comma-separated list of peer addresses (e.g., localhost:50052,localhost:50053,localhost:50054)")
 parser.add_argument("--tight", action="store_true",
-                    help="Enable tight mode (smaller probability of internal events)")
+                    help="Enable tight mode (decreases the probability of internal events)")
 parser.add_argument("--min-ticks", type=int, default=1,
                     help="Minimum clock ticks per second (default: 1)")
 parser.add_argument("--max-ticks", type=int, default=6,
@@ -76,6 +81,9 @@ class VirtualMachine:
     for inter-machine communication. It processes events based on a tick rate,
     which is randomly selected between a minimum and maximum value passed via the command line.
     In tight mode, the probability of triggering a send event is increased (thus internal events become less likely).
+    
+    This implementation supports running with 4 machines, where each machine's peer_addresses
+    should include the addresses of all the other machines.
     """
     def __init__(self, machine_id, port, peer_addresses):
         """
@@ -86,11 +94,11 @@ class VirtualMachine:
         Parameters:
             machine_id (str): Unique identifier for the virtual machine.
             port (int): Port number on which the gRPC server will listen.
-            peer_addresses (list): List of peer addresses (e.g., ["localhost:50052", "localhost:50053"]).
+            peer_addresses (list): List of peer addresses (e.g., ["localhost:50052", "localhost:50053", "localhost:50054"]).
         """
         self.machine_id = machine_id
         self.port = port
-        self.peer_addresses = peer_addresses  # e.g. ["localhost:50052", "localhost:50053"]
+        self.peer_addresses = peer_addresses  # e.g. ["localhost:50052", "localhost:50053", "localhost:50054"] for 4 machines.
         self.message_queue = queue.Queue()      # Unconstrained network queue.
         self.logical_clock = 0
         self.tick_rate = random.randint(MIN_TICKS, MAX_TICKS)
@@ -258,6 +266,7 @@ if __name__ == '__main__':
     # args.machine_id, args.port, args.peer_addresses have been parsed already.
     machine_id = args.machine_id
     port = args.port
+    # For a 4-machine configuration, peer_addresses should be a comma-separated list of 3 addresses.
     peer_addresses = args.peer_addresses.split(',')
 
     vm = VirtualMachine(machine_id, port, peer_addresses)

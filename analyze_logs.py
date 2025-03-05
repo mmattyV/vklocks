@@ -92,8 +92,8 @@ def analyze_run(run_dir, machine_ids):
 
 def main():
     # List of run directories and machine IDs.
-    runs = [f"experiment_run_{i}" for i in range(1, 6)]
-    machine_ids = ["machine1", "machine2", "machine3"]
+    runs = [f"experiments/experiment_run_{i}" for i in range(1, 6)]
+    machine_ids = ["machine1", "machine2", "machine3", "machine4"]
 
     for run in runs:
         if os.path.isdir(run):
