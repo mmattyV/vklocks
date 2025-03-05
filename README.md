@@ -15,35 +15,53 @@ This repository simulates an asynchronous distributed system using multiple virt
 ## Installation
 
 1. Clone the repository:
-   
+
+   ```bash
    git clone https://github.com/mmattyV/vklocks.git
+   ```
 
 2. Change into the repository directory:
    
+   ```bash
    cd vklocks
+   ```
 
 3. Activate the virtual environment:
  
-   On Windows: venv\Scripts\activate  
-   On macOS/Linux: source venv/bin/activate
+   On Windows: 
+   ```bash
+   venv\Scripts\activate  
+   ```
+   On macOS/Linux: 
+   ```bash
+   source venv/bin/activate
+   ```
 
 4. Install dependencies:
-
+   
+   ```bash
    pip install -r requirements.txt
+   ```
 
 5. Generate gRPC stubs (if not already generated):
 
+   ```bash
    python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. machine.proto
+   ```
 
 ## Running the Program
 
 You can run an individual virtual machine using the following command:
 
+   ```bash
    python virtual_machine.py <machine_id> <port> <peer_addresses> [--tight] [--min-ticks MIN_TICKS] [--max-ticks MAX_TICKS]
+   ```
 
 For example, to run machine1 in tight mode with tick rates forced between 3 and 4 ticks per second:
 
+   ```bash
    python virtual_machine.py machine1 50051 localhost:50052,localhost:50053 --tight --min-ticks 3 --max-ticks 4
+   ```
 
 ## Running Experiments
 
@@ -51,7 +69,9 @@ The `run_experiments.py` script automates running a series of experiments. It la
 
 To run the experiments, execute:
 
+   ```bash
    python run_experiments.py
+   ```
 
 This script will create directories named experiment_run_1, experiment_run_2, etc., containing the logs from each run.
 
@@ -59,11 +79,15 @@ This script will create directories named experiment_run_1, experiment_run_2, et
 
 Unit tests are located in the `tests` folder. To run all tests, make sure your virtual environment is activated and run:
 
+   ```bash
    python -m unittest discover
+   ```
 
 Alternatively, if you have pytest installed, you can run:
 
+   ```bash
    pytest
+   ```
 
 ## Additional Notes
 
