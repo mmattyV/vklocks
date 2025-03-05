@@ -1,261 +1,292 @@
-2025-03-05 01:20:56,125 INFO: Internal event: updated logical clock to 1, system_time=1741155656
-2025-03-05 01:20:56,128 INFO: gRPC server started on port 50052
-2025-03-05 01:20:57,126 INFO: Internal event: updated logical clock to 2, system_time=1741155657
-2025-03-05 01:20:57,483 INFO: Received message from machine3: received_clock=17, system_time=1741155657
-2025-03-05 01:20:58,130 INFO: Processed received message: updated logical clock to 18, system_time=1741155658, queue_length=0
-2025-03-05 01:20:58,834 INFO: Received message from machine1: received_clock=22, system_time=1741155658
-2025-03-05 01:20:59,108 INFO: Received message from machine3: received_clock=25, system_time=1741155659
-2025-03-05 01:20:59,135 INFO: Processed received message: updated logical clock to 23, system_time=1741155659, queue_length=1
-2025-03-05 01:21:00,140 INFO: Processed received message: updated logical clock to 26, system_time=1741155660, queue_length=0
-2025-03-05 01:21:01,153 INFO: Sent message to localhost:50053: sent_clock=27, system_time=1741155661
-2025-03-05 01:21:01,153 INFO: Sent event to localhost:50053: updated logical clock to 27, system_time=1741155661
-2025-03-05 01:21:02,146 INFO: Sent message to localhost:50051: sent_clock=28, system_time=1741155662
-2025-03-05 01:21:02,148 INFO: Sent message to localhost:50053: sent_clock=28, system_time=1741155662
-2025-03-05 01:21:02,148 INFO: Broadcast sent: updated logical clock to 28, system_time=1741155662
-2025-03-05 01:21:03,147 INFO: Internal event: updated logical clock to 29, system_time=1741155663
-2025-03-05 01:21:04,150 INFO: Internal event: updated logical clock to 30, system_time=1741155664
-2025-03-05 01:21:05,155 INFO: Sent message to localhost:50051: sent_clock=31, system_time=1741155665
-2025-03-05 01:21:05,155 INFO: Sent event to localhost:50051: updated logical clock to 31, system_time=1741155665
-2025-03-05 01:21:06,154 INFO: Internal event: updated logical clock to 32, system_time=1741155666
-2025-03-05 01:21:06,884 INFO: Received message from machine1: received_clock=61, system_time=1741155666
-2025-03-05 01:21:07,159 INFO: Processed received message: updated logical clock to 62, system_time=1741155667, queue_length=0
-2025-03-05 01:21:07,865 INFO: Received message from machine3: received_clock=68, system_time=1741155667
-2025-03-05 01:21:08,161 INFO: Processed received message: updated logical clock to 69, system_time=1741155668, queue_length=0
-2025-03-05 01:21:08,274 INFO: Received message from machine3: received_clock=70, system_time=1741155668
-2025-03-05 01:21:08,880 INFO: Received message from machine3: received_clock=73, system_time=1741155668
-2025-03-05 01:21:08,893 INFO: Received message from machine1: received_clock=72, system_time=1741155668
-2025-03-05 01:21:09,163 INFO: Processed received message: updated logical clock to 71, system_time=1741155669, queue_length=2
-2025-03-05 01:21:09,400 INFO: Received message from machine1: received_clock=73, system_time=1741155669
-2025-03-05 01:21:09,901 INFO: Received message from machine3: received_clock=78, system_time=1741155669
-2025-03-05 01:21:10,165 INFO: Processed received message: updated logical clock to 74, system_time=1741155670, queue_length=3
-2025-03-05 01:21:10,924 INFO: Received message from machine3: received_clock=83, system_time=1741155670
-2025-03-05 01:21:11,170 INFO: Processed received message: updated logical clock to 75, system_time=1741155671, queue_length=3
-2025-03-05 01:21:11,328 INFO: Received message from machine3: received_clock=85, system_time=1741155671
-2025-03-05 01:21:12,141 INFO: Received message from machine3: received_clock=89, system_time=1741155672
-2025-03-05 01:21:12,173 INFO: Processed received message: updated logical clock to 76, system_time=1741155672, queue_length=4
-2025-03-05 01:21:12,554 INFO: Received message from machine3: received_clock=91, system_time=1741155672
-2025-03-05 01:21:13,163 INFO: Received message from machine3: received_clock=94, system_time=1741155673
-2025-03-05 01:21:13,178 INFO: Processed received message: updated logical clock to 79, system_time=1741155673, queue_length=5
-2025-03-05 01:21:13,364 INFO: Received message from machine3: received_clock=95, system_time=1741155673
-2025-03-05 01:21:13,771 INFO: Received message from machine3: received_clock=97, system_time=1741155673
-2025-03-05 01:21:14,183 INFO: Processed received message: updated logical clock to 84, system_time=1741155674, queue_length=6
-2025-03-05 01:21:14,436 INFO: Received message from machine1: received_clock=98, system_time=1741155674
-2025-03-05 01:21:14,593 INFO: Received message from machine3: received_clock=101, system_time=1741155674
-2025-03-05 01:21:15,186 INFO: Processed received message: updated logical clock to 86, system_time=1741155675, queue_length=7
-2025-03-05 01:21:16,191 INFO: Processed received message: updated logical clock to 90, system_time=1741155676, queue_length=6
-2025-03-05 01:21:17,193 INFO: Processed received message: updated logical clock to 92, system_time=1741155677, queue_length=5
-2025-03-05 01:21:17,435 INFO: Received message from machine3: received_clock=115, system_time=1741155677
-2025-03-05 01:21:18,195 INFO: Processed received message: updated logical clock to 95, system_time=1741155678, queue_length=5
-2025-03-05 01:21:18,247 INFO: Received message from machine3: received_clock=119, system_time=1741155678
-2025-03-05 01:21:19,196 INFO: Processed received message: updated logical clock to 96, system_time=1741155679, queue_length=5
-2025-03-05 01:21:19,467 INFO: Received message from machine3: received_clock=125, system_time=1741155679
-2025-03-05 01:21:20,199 INFO: Processed received message: updated logical clock to 98, system_time=1741155680, queue_length=5
-2025-03-05 01:21:21,200 INFO: Processed received message: updated logical clock to 99, system_time=1741155681, queue_length=4
-2025-03-05 01:21:22,204 INFO: Processed received message: updated logical clock to 102, system_time=1741155682, queue_length=3
-2025-03-05 01:21:22,311 INFO: Received message from machine3: received_clock=139, system_time=1741155682
-2025-03-05 01:21:22,927 INFO: Received message from machine3: received_clock=142, system_time=1741155682
-2025-03-05 01:21:23,131 INFO: Received message from machine3: received_clock=143, system_time=1741155683
-2025-03-05 01:21:23,208 INFO: Processed received message: updated logical clock to 116, system_time=1741155683, queue_length=5
-2025-03-05 01:21:23,337 INFO: Received message from machine3: received_clock=144, system_time=1741155683
-2025-03-05 01:21:23,540 INFO: Received message from machine3: received_clock=145, system_time=1741155683
-2025-03-05 01:21:23,740 INFO: Received message from machine3: received_clock=146, system_time=1741155683
-2025-03-05 01:21:24,145 INFO: Received message from machine3: received_clock=148, system_time=1741155684
-2025-03-05 01:21:24,210 INFO: Processed received message: updated logical clock to 120, system_time=1741155684, queue_length=8
-2025-03-05 01:21:24,964 INFO: Received message from machine3: received_clock=152, system_time=1741155684
-2025-03-05 01:21:25,169 INFO: Received message from machine3: received_clock=153, system_time=1741155685
-2025-03-05 01:21:25,214 INFO: Processed received message: updated logical clock to 126, system_time=1741155685, queue_length=9
-2025-03-05 01:21:26,188 INFO: Received message from machine3: received_clock=158, system_time=1741155686
-2025-03-05 01:21:26,219 INFO: Processed received message: updated logical clock to 140, system_time=1741155686, queue_length=9
-2025-03-05 01:21:26,590 INFO: Received message from machine3: received_clock=160, system_time=1741155686
-2025-03-05 01:21:27,221 INFO: Processed received message: updated logical clock to 143, system_time=1741155687, queue_length=9
-2025-03-05 01:21:27,599 INFO: Received message from machine3: received_clock=165, system_time=1741155687
-2025-03-05 01:21:27,802 INFO: Received message from machine3: received_clock=166, system_time=1741155687
-2025-03-05 01:21:28,208 INFO: Received message from machine3: received_clock=168, system_time=1741155688
-2025-03-05 01:21:28,225 INFO: Processed received message: updated logical clock to 144, system_time=1741155688, queue_length=11
-2025-03-05 01:21:28,412 INFO: Received message from machine3: received_clock=169, system_time=1741155688
-2025-03-05 01:21:28,522 INFO: Received message from machine1: received_clock=167, system_time=1741155688
-2025-03-05 01:21:28,616 INFO: Received message from machine3: received_clock=170, system_time=1741155688
-2025-03-05 01:21:29,229 INFO: Processed received message: updated logical clock to 145, system_time=1741155689, queue_length=13
-2025-03-05 01:21:30,040 INFO: Received message from machine1: received_clock=174, system_time=1741155690
-2025-03-05 01:21:30,233 INFO: Processed received message: updated logical clock to 146, system_time=1741155690, queue_length=13
-2025-03-05 01:21:31,058 INFO: Received message from machine3: received_clock=182, system_time=1741155691
-2025-03-05 01:21:31,236 INFO: Processed received message: updated logical clock to 147, system_time=1741155691, queue_length=13
-2025-03-05 01:21:31,880 INFO: Received message from machine3: received_clock=186, system_time=1741155691
-2025-03-05 01:21:32,083 INFO: Received message from machine3: received_clock=187, system_time=1741155692
-2025-03-05 01:21:32,238 INFO: Processed received message: updated logical clock to 149, system_time=1741155692, queue_length=14
-2025-03-05 01:21:33,242 INFO: Processed received message: updated logical clock to 153, system_time=1741155693, queue_length=13
-2025-03-05 01:21:34,247 INFO: Processed received message: updated logical clock to 154, system_time=1741155694, queue_length=12
-2025-03-05 01:21:34,323 INFO: Received message from machine3: received_clock=198, system_time=1741155694
-2025-03-05 01:21:34,726 INFO: Received message from machine3: received_clock=200, system_time=1741155694
-2025-03-05 01:21:35,132 INFO: Received message from machine3: received_clock=202, system_time=1741155695
-2025-03-05 01:21:35,249 INFO: Processed received message: updated logical clock to 159, system_time=1741155695, queue_length=14
-2025-03-05 01:21:36,152 INFO: Received message from machine3: received_clock=207, system_time=1741155696
-2025-03-05 01:21:36,254 INFO: Processed received message: updated logical clock to 161, system_time=1741155696, queue_length=14
-2025-03-05 01:21:36,353 INFO: Received message from machine3: received_clock=208, system_time=1741155696
-2025-03-05 01:21:36,762 INFO: Received message from machine3: received_clock=210, system_time=1741155696
-2025-03-05 01:21:37,256 INFO: Processed received message: updated logical clock to 166, system_time=1741155697, queue_length=15
-2025-03-05 01:21:37,989 INFO: Received message from machine3: received_clock=216, system_time=1741155697
-2025-03-05 01:21:38,260 INFO: Processed received message: updated logical clock to 167, system_time=1741155698, queue_length=15
-2025-03-05 01:21:38,404 INFO: Received message from machine3: received_clock=218, system_time=1741155698
-2025-03-05 01:21:39,264 INFO: Processed received message: updated logical clock to 169, system_time=1741155699, queue_length=15
-2025-03-05 01:21:39,826 INFO: Received message from machine3: received_clock=225, system_time=1741155699
-2025-03-05 01:21:40,109 INFO: Received message from machine1: received_clock=222, system_time=1741155700
-2025-03-05 01:21:40,267 INFO: Processed received message: updated logical clock to 170, system_time=1741155700, queue_length=16
-2025-03-05 01:21:41,271 INFO: Processed received message: updated logical clock to 171, system_time=1741155701, queue_length=15
-2025-03-05 01:21:41,620 INFO: Received message from machine1: received_clock=225, system_time=1741155701
-2025-03-05 01:21:41,859 INFO: Received message from machine3: received_clock=235, system_time=1741155701
-2025-03-05 01:21:42,272 INFO: Processed received message: updated logical clock to 172, system_time=1741155702, queue_length=16
-2025-03-05 01:21:42,665 INFO: Received message from machine3: received_clock=239, system_time=1741155702
-2025-03-05 01:21:43,275 INFO: Processed received message: updated logical clock to 175, system_time=1741155703, queue_length=16
-2025-03-05 01:21:43,278 INFO: Received message from machine3: received_clock=242, system_time=1741155703
-2025-03-05 01:21:43,684 INFO: Received message from machine3: received_clock=244, system_time=1741155703
-2025-03-05 01:21:44,085 INFO: Received message from machine3: received_clock=246, system_time=1741155704
-2025-03-05 01:21:44,280 INFO: Processed received message: updated logical clock to 183, system_time=1741155704, queue_length=18
-2025-03-05 01:21:44,291 INFO: Received message from machine3: received_clock=247, system_time=1741155704
-2025-03-05 01:21:44,495 INFO: Received message from machine3: received_clock=248, system_time=1741155704
-2025-03-05 01:21:45,285 INFO: Processed received message: updated logical clock to 187, system_time=1741155705, queue_length=19
-2025-03-05 01:21:45,315 INFO: Received message from machine3: received_clock=252, system_time=1741155705
-2025-03-05 01:21:46,289 INFO: Processed received message: updated logical clock to 188, system_time=1741155706, queue_length=19
-2025-03-05 01:21:46,647 INFO: Received message from machine1: received_clock=255, system_time=1741155706
-2025-03-05 01:21:46,729 INFO: Received message from machine3: received_clock=259, system_time=1741155706
-2025-03-05 01:21:46,936 INFO: Received message from machine3: received_clock=260, system_time=1741155706
-2025-03-05 01:21:47,294 INFO: Processed received message: updated logical clock to 199, system_time=1741155707, queue_length=21
-2025-03-05 01:21:47,653 INFO: Received message from machine1: received_clock=262, system_time=1741155707
-2025-03-05 01:21:48,296 INFO: Processed received message: updated logical clock to 201, system_time=1741155708, queue_length=21
-2025-03-05 01:21:48,355 INFO: Received message from machine3: received_clock=267, system_time=1741155708
-2025-03-05 01:21:48,971 INFO: Received message from machine3: received_clock=270, system_time=1741155708
-2025-03-05 01:21:49,170 INFO: Received message from machine3: received_clock=271, system_time=1741155709
-2025-03-05 01:21:49,297 INFO: Processed received message: updated logical clock to 203, system_time=1741155709, queue_length=23
-2025-03-05 01:21:50,302 INFO: Processed received message: updated logical clock to 208, system_time=1741155710, queue_length=22
-2025-03-05 01:21:51,217 INFO: Received message from machine3: received_clock=281, system_time=1741155711
-2025-03-05 01:21:51,307 INFO: Processed received message: updated logical clock to 209, system_time=1741155711, queue_length=22
-2025-03-05 01:21:51,419 INFO: Received message from machine3: received_clock=282, system_time=1741155711
-2025-03-05 01:21:51,625 INFO: Received message from machine3: received_clock=283, system_time=1741155711
-2025-03-05 01:21:52,181 INFO: Received message from machine1: received_clock=285, system_time=1741155712
-2025-03-05 01:21:52,312 INFO: Processed received message: updated logical clock to 211, system_time=1741155712, queue_length=24
-2025-03-05 01:21:53,312 INFO: Processed received message: updated logical clock to 217, system_time=1741155713, queue_length=23
-2025-03-05 01:21:53,854 INFO: Received message from machine3: received_clock=294, system_time=1741155713
-2025-03-05 01:21:54,062 INFO: Received message from machine3: received_clock=295, system_time=1741155714
-2025-03-05 01:21:54,317 INFO: Processed received message: updated logical clock to 219, system_time=1741155714, queue_length=24
-2025-03-05 01:21:55,320 INFO: Processed received message: updated logical clock to 226, system_time=1741155715, queue_length=23
-2025-03-05 01:21:56,327 INFO: gRPC server stopped
-2025-03-05 01:52:27,804 INFO: Machine machine2 initialized with tick rate 1 ticks per second
-2025-03-05 01:52:27,805 INFO: Internal event: updated logical clock to 1, system_time=1741157547
-2025-03-05 01:52:27,811 INFO: gRPC server started on port 50052
-2025-03-05 01:52:27,814 INFO: Received message from machine3: received_clock=1, system_time=1741157547
-2025-03-05 01:52:28,810 INFO: Processed received message: updated logical clock to 2, system_time=1741157548, queue_length=0
-2025-03-05 01:52:28,819 INFO: Received message from machine1: received_clock=5, system_time=1741157548
-2025-03-05 01:52:29,329 INFO: Received message from machine1: received_clock=10, system_time=1741157549
-2025-03-05 01:52:29,815 INFO: Processed received message: updated logical clock to 6, system_time=1741157549, queue_length=1
-2025-03-05 01:52:30,820 INFO: Processed received message: updated logical clock to 11, system_time=1741157550, queue_length=0
-2025-03-05 01:52:30,881 INFO: Received message from machine3: received_clock=19, system_time=1741157550
-2025-03-05 01:52:31,823 INFO: Processed received message: updated logical clock to 20, system_time=1741157551, queue_length=0
-2025-03-05 01:52:32,118 INFO: Received message from machine1: received_clock=24, system_time=1741157552
-2025-03-05 01:52:32,826 INFO: Processed received message: updated logical clock to 25, system_time=1741157552, queue_length=0
-2025-03-05 01:52:33,772 INFO: Received message from machine3: received_clock=36, system_time=1741157553
-2025-03-05 01:52:33,831 INFO: Processed received message: updated logical clock to 37, system_time=1741157553, queue_length=0
-2025-03-05 01:52:34,453 INFO: Received message from machine3: received_clock=40, system_time=1741157554
-2025-03-05 01:52:34,650 INFO: Received message from machine1: received_clock=40, system_time=1741157554
-2025-03-05 01:52:34,795 INFO: Received message from machine3: received_clock=42, system_time=1741157554
-2025-03-05 01:52:34,835 INFO: Processed received message: updated logical clock to 41, system_time=1741157554, queue_length=2
-2025-03-05 01:52:34,904 INFO: Received message from machine1: received_clock=41, system_time=1741157554
-2025-03-05 01:52:35,818 INFO: Received message from machine3: received_clock=48, system_time=1741157555
-2025-03-05 01:52:35,840 INFO: Processed received message: updated logical clock to 42, system_time=1741157555, queue_length=3
-2025-03-05 01:52:36,499 INFO: Received message from machine3: received_clock=52, system_time=1741157556
-2025-03-05 01:52:36,844 INFO: Processed received message: updated logical clock to 43, system_time=1741157556, queue_length=3
-2025-03-05 01:52:36,932 INFO: Received message from machine1: received_clock=54, system_time=1741157556
-2025-03-05 01:52:37,848 INFO: Processed received message: updated logical clock to 44, system_time=1741157557, queue_length=3
-2025-03-05 01:52:38,703 INFO: Received message from machine3: received_clock=65, system_time=1741157558
-2025-03-05 01:52:38,853 INFO: Processed received message: updated logical clock to 49, system_time=1741157558, queue_length=3
-2025-03-05 01:52:39,856 INFO: Processed received message: updated logical clock to 53, system_time=1741157559, queue_length=2
-2025-03-05 01:52:39,889 INFO: Received message from machine3: received_clock=72, system_time=1741157559
-2025-03-05 01:52:40,228 INFO: Received message from machine1: received_clock=71, system_time=1741157560
-2025-03-05 01:52:40,231 INFO: Received message from machine3: received_clock=74, system_time=1741157560
-2025-03-05 01:52:40,861 INFO: Processed received message: updated logical clock to 55, system_time=1741157560, queue_length=4
-2025-03-05 01:52:41,862 INFO: Processed received message: updated logical clock to 66, system_time=1741157561, queue_length=3
-2025-03-05 01:52:42,773 INFO: Received message from machine3: received_clock=89, system_time=1741157562
-2025-03-05 01:52:42,863 INFO: Processed received message: updated logical clock to 73, system_time=1741157562, queue_length=3
-2025-03-05 01:52:43,518 INFO: Received message from machine1: received_clock=91, system_time=1741157563
-2025-03-05 01:52:43,868 INFO: Processed received message: updated logical clock to 74, system_time=1741157563, queue_length=3
-2025-03-05 01:52:44,472 INFO: Received message from machine3: received_clock=99, system_time=1741157564
-2025-03-05 01:52:44,870 INFO: Processed received message: updated logical clock to 75, system_time=1741157564, queue_length=3
-2025-03-05 01:52:44,984 INFO: Received message from machine3: received_clock=102, system_time=1741157564
-2025-03-05 01:52:45,044 INFO: Received message from machine1: received_clock=100, system_time=1741157565
-2025-03-05 01:52:45,156 INFO: Received message from machine3: received_clock=103, system_time=1741157565
-2025-03-05 01:52:45,330 INFO: Received message from machine3: received_clock=104, system_time=1741157565
-2025-03-05 01:52:45,836 INFO: Received message from machine3: received_clock=107, system_time=1741157565
-2025-03-05 01:52:45,870 INFO: Processed received message: updated logical clock to 90, system_time=1741157565, queue_length=7
-2025-03-05 01:52:46,054 INFO: Received message from machine1: received_clock=107, system_time=1741157566
-2025-03-05 01:52:46,871 INFO: Processed received message: updated logical clock to 92, system_time=1741157566, queue_length=7
-2025-03-05 01:52:47,319 INFO: Received message from machine1: received_clock=116, system_time=1741157567
-2025-03-05 01:52:47,873 INFO: Processed received message: updated logical clock to 100, system_time=1741157567, queue_length=7
-2025-03-05 01:52:48,049 INFO: Received message from machine3: received_clock=121, system_time=1741157568
-2025-03-05 01:52:48,077 INFO: Received message from machine1: received_clock=119, system_time=1741157568
-2025-03-05 01:52:48,877 INFO: Processed received message: updated logical clock to 103, system_time=1741157568, queue_length=8
-2025-03-05 01:52:49,574 INFO: Received message from machine3: received_clock=130, system_time=1741157569
-2025-03-05 01:52:49,881 INFO: Processed received message: updated logical clock to 104, system_time=1741157569, queue_length=8
-2025-03-05 01:52:50,602 INFO: Received message from machine3: received_clock=136, system_time=1741157570
-2025-03-05 01:52:50,882 INFO: Processed received message: updated logical clock to 105, system_time=1741157570, queue_length=8
-2025-03-05 01:52:51,885 INFO: Processed received message: updated logical clock to 106, system_time=1741157571, queue_length=7
-2025-03-05 01:52:51,964 INFO: Received message from machine3: received_clock=144, system_time=1741157571
-2025-03-05 01:52:52,134 INFO: Received message from machine3: received_clock=145, system_time=1741157572
-2025-03-05 01:52:52,644 INFO: Received message from machine3: received_clock=148, system_time=1741157572
-2025-03-05 01:52:52,888 INFO: Processed received message: updated logical clock to 108, system_time=1741157572, queue_length=9
-2025-03-05 01:52:52,987 INFO: Received message from machine3: received_clock=150, system_time=1741157572
-2025-03-05 01:52:53,497 INFO: Received message from machine3: received_clock=153, system_time=1741157573
-2025-03-05 01:52:53,891 INFO: Processed received message: updated logical clock to 109, system_time=1741157573, queue_length=10
-2025-03-05 01:52:54,519 INFO: Received message from machine3: received_clock=159, system_time=1741157574
-2025-03-05 01:52:54,896 INFO: Processed received message: updated logical clock to 117, system_time=1741157574, queue_length=10
-2025-03-05 01:52:54,921 INFO: Received message from machine1: received_clock=160, system_time=1741157574
-2025-03-05 01:52:55,206 INFO: Received message from machine3: received_clock=163, system_time=1741157575
-2025-03-05 01:52:55,374 INFO: Received message from machine3: received_clock=164, system_time=1741157575
-2025-03-05 01:52:55,883 INFO: Received message from machine3: received_clock=167, system_time=1741157575
-2025-03-05 01:52:55,898 INFO: Processed received message: updated logical clock to 122, system_time=1741157575, queue_length=13
-2025-03-05 01:52:56,050 INFO: Received message from machine3: received_clock=168, system_time=1741157576
-2025-03-05 01:52:56,388 INFO: Received message from machine3: received_clock=170, system_time=1741157576
-2025-03-05 01:52:56,730 INFO: Received message from machine3: received_clock=172, system_time=1741157576
-2025-03-05 01:52:56,898 INFO: Processed received message: updated logical clock to 123, system_time=1741157576, queue_length=15
-2025-03-05 01:52:57,411 INFO: Received message from machine3: received_clock=176, system_time=1741157577
-2025-03-05 01:52:57,903 INFO: Processed received message: updated logical clock to 131, system_time=1741157577, queue_length=15
-2025-03-05 01:52:58,214 INFO: Received message from machine1: received_clock=179, system_time=1741157578
-2025-03-05 01:52:58,468 INFO: Received message from machine1: received_clock=180, system_time=1741157578
-2025-03-05 01:52:58,605 INFO: Received message from machine3: received_clock=183, system_time=1741157578
-2025-03-05 01:52:58,908 INFO: Processed received message: updated logical clock to 137, system_time=1741157578, queue_length=17
-2025-03-05 01:52:59,478 INFO: Received message from machine1: received_clock=188, system_time=1741157579
-2025-03-05 01:52:59,731 INFO: Received message from machine1: received_clock=189, system_time=1741157579
-2025-03-05 01:52:59,909 INFO: Processed received message: updated logical clock to 145, system_time=1741157579, queue_length=18
-2025-03-05 01:52:59,957 INFO: Received message from machine3: received_clock=191, system_time=1741157579
-2025-03-05 01:53:00,242 INFO: Received message from machine1: received_clock=191, system_time=1741157580
-2025-03-05 01:53:00,468 INFO: Received message from machine3: received_clock=194, system_time=1741157580
-2025-03-05 01:53:00,751 INFO: Received message from machine1: received_clock=193, system_time=1741157580
-2025-03-05 01:53:00,914 INFO: Processed received message: updated logical clock to 146, system_time=1741157580, queue_length=21
-2025-03-05 01:53:01,154 INFO: Received message from machine3: received_clock=198, system_time=1741157581
-2025-03-05 01:53:01,257 INFO: Received message from machine1: received_clock=195, system_time=1741157581
-2025-03-05 01:53:01,508 INFO: Received message from machine1: received_clock=196, system_time=1741157581
-2025-03-05 01:53:01,916 INFO: Processed received message: updated logical clock to 149, system_time=1741157581, queue_length=23
-2025-03-05 01:53:02,512 INFO: Received message from machine3: received_clock=206, system_time=1741157582
-2025-03-05 01:53:02,921 INFO: Processed received message: updated logical clock to 151, system_time=1741157582, queue_length=23
-2025-03-05 01:53:03,786 INFO: Received message from machine1: received_clock=213, system_time=1741157583
-2025-03-05 01:53:03,868 INFO: Received message from machine3: received_clock=214, system_time=1741157583
-2025-03-05 01:53:03,925 INFO: Processed received message: updated logical clock to 154, system_time=1741157583, queue_length=24
-2025-03-05 01:53:04,039 INFO: Received message from machine3: received_clock=215, system_time=1741157584
-2025-03-05 01:53:04,548 INFO: Received message from machine3: received_clock=218, system_time=1741157584
-2025-03-05 01:53:04,718 INFO: Received message from machine3: received_clock=219, system_time=1741157584
-2025-03-05 01:53:04,930 INFO: Processed received message: updated logical clock to 160, system_time=1741157584, queue_length=26
-2025-03-05 01:53:05,735 INFO: Received message from machine3: received_clock=225, system_time=1741157585
-2025-03-05 01:53:05,935 INFO: Processed received message: updated logical clock to 161, system_time=1741157585, queue_length=26
-2025-03-05 01:53:06,071 INFO: Received message from machine3: received_clock=227, system_time=1741157586
-2025-03-05 01:53:06,588 INFO: Received message from machine3: received_clock=230, system_time=1741157586
-2025-03-05 01:53:06,758 INFO: Received message from machine3: received_clock=231, system_time=1741157586
-2025-03-05 01:53:06,926 INFO: Received message from machine3: received_clock=232, system_time=1741157586
-2025-03-05 01:53:06,937 INFO: Processed received message: updated logical clock to 164, system_time=1741157586, queue_length=29
-2025-03-05 01:53:07,274 INFO: Received message from machine3: received_clock=234, system_time=1741157587
-2025-03-05 01:53:07,585 INFO: Received message from machine1: received_clock=236, system_time=1741157587
-2025-03-05 01:53:07,941 INFO: Processed received message: updated logical clock to 165, system_time=1741157587, queue_length=30
-2025-03-05 01:53:08,344 INFO: Received message from machine1: received_clock=239, system_time=1741157588
-2025-03-05 01:53:08,624 INFO: Received message from machine3: received_clock=243, system_time=1741157588
-2025-03-05 01:53:08,789 INFO: Received message from machine3: received_clock=244, system_time=1741157588
-2025-03-05 01:53:08,943 INFO: Processed received message: updated logical clock to 168, system_time=1741157588, queue_length=32
-2025-03-05 01:53:09,636 INFO: Received message from machine3: received_clock=249, system_time=1741157589
-2025-03-05 01:53:09,945 INFO: Processed received message: updated logical clock to 169, system_time=1741157589, queue_length=32
-2025-03-05 01:53:10,950 INFO: Processed received message: updated logical clock to 171, system_time=1741157590, queue_length=31
+2025-03-05 01:54:16,961 INFO: Machine machine2 initialized with tick rate 3 ticks per second
+2025-03-05 01:54:16,962 INFO: Internal event: updated logical clock to 1, system_time=1741157656
+2025-03-05 01:54:16,968 INFO: gRPC server started on port 50052
+2025-03-05 01:54:16,970 INFO: Received message from machine1: received_clock=1, system_time=1741157656
+2025-03-05 01:54:17,300 INFO: Processed received message: updated logical clock to 2, system_time=1741157657, queue_length=0
+2025-03-05 01:54:17,638 INFO: Internal event: updated logical clock to 3, system_time=1741157657
+2025-03-05 01:54:17,979 INFO: Sent message to localhost:50051: sent_clock=4, system_time=1741157657
+2025-03-05 01:54:17,981 INFO: Sent message to localhost:50053: sent_clock=4, system_time=1741157657
+2025-03-05 01:54:17,981 INFO: Broadcast sent: updated logical clock to 4, system_time=1741157657
+2025-03-05 01:54:18,314 INFO: Internal event: updated logical clock to 5, system_time=1741157658
+2025-03-05 01:54:18,650 INFO: Internal event: updated logical clock to 6, system_time=1741157658
+2025-03-05 01:54:18,986 INFO: Internal event: updated logical clock to 7, system_time=1741157658
+2025-03-05 01:54:19,326 INFO: Internal event: updated logical clock to 8, system_time=1741157659
+2025-03-05 01:54:19,664 INFO: Internal event: updated logical clock to 9, system_time=1741157659
+2025-03-05 01:54:19,999 INFO: Internal event: updated logical clock to 10, system_time=1741157659
+2025-03-05 01:54:20,332 INFO: Internal event: updated logical clock to 11, system_time=1741157660
+2025-03-05 01:54:20,674 INFO: Sent message to localhost:50051: sent_clock=12, system_time=1741157660
+2025-03-05 01:54:20,674 INFO: Sent event to localhost:50051: updated logical clock to 12, system_time=1741157660
+2025-03-05 01:54:21,008 INFO: Internal event: updated logical clock to 13, system_time=1741157661
+2025-03-05 01:54:21,346 INFO: Internal event: updated logical clock to 14, system_time=1741157661
+2025-03-05 01:54:21,378 INFO: Received message from machine1: received_clock=27, system_time=1741157661
+2025-03-05 01:54:21,684 INFO: Processed received message: updated logical clock to 28, system_time=1741157661, queue_length=0
+2025-03-05 01:54:22,025 INFO: Sent message to localhost:50053: sent_clock=29, system_time=1741157662
+2025-03-05 01:54:22,025 INFO: Sent event to localhost:50053: updated logical clock to 29, system_time=1741157662
+2025-03-05 01:54:22,359 INFO: Internal event: updated logical clock to 30, system_time=1741157662
+2025-03-05 01:54:22,684 INFO: Received message from machine3: received_clock=31, system_time=1741157662
+2025-03-05 01:54:22,697 INFO: Processed received message: updated logical clock to 32, system_time=1741157662, queue_length=0
+2025-03-05 01:54:23,026 INFO: Received message from machine3: received_clock=32, system_time=1741157663
+2025-03-05 01:54:23,035 INFO: Processed received message: updated logical clock to 33, system_time=1741157663, queue_length=0
+2025-03-05 01:54:23,373 INFO: Internal event: updated logical clock to 34, system_time=1741157663
+2025-03-05 01:54:23,707 INFO: Internal event: updated logical clock to 35, system_time=1741157663
+2025-03-05 01:54:23,935 INFO: Received message from machine1: received_clock=42, system_time=1741157663
+2025-03-05 01:54:24,045 INFO: Processed received message: updated logical clock to 43, system_time=1741157664, queue_length=0
+2025-03-05 01:54:24,106 INFO: Received message from machine1: received_clock=43, system_time=1741157664
+2025-03-05 01:54:24,370 INFO: Received message from machine3: received_clock=44, system_time=1741157664
+2025-03-05 01:54:24,379 INFO: Processed received message: updated logical clock to 44, system_time=1741157664, queue_length=1
+2025-03-05 01:54:24,708 INFO: Received message from machine3: received_clock=45, system_time=1741157664
+2025-03-05 01:54:24,717 INFO: Processed received message: updated logical clock to 45, system_time=1741157664, queue_length=1
+2025-03-05 01:54:25,051 INFO: Processed received message: updated logical clock to 46, system_time=1741157665, queue_length=0
+2025-03-05 01:54:25,124 INFO: Received message from machine1: received_clock=49, system_time=1741157665
+2025-03-05 01:54:25,389 INFO: Processed received message: updated logical clock to 50, system_time=1741157665, queue_length=0
+2025-03-05 01:54:25,727 INFO: Internal event: updated logical clock to 51, system_time=1741157665
+2025-03-05 01:54:26,058 INFO: Received message from machine3: received_clock=52, system_time=1741157666
+2025-03-05 01:54:26,063 INFO: Processed received message: updated logical clock to 53, system_time=1741157666, queue_length=0
+2025-03-05 01:54:26,152 INFO: Received message from machine1: received_clock=55, system_time=1741157666
+2025-03-05 01:54:26,399 INFO: Processed received message: updated logical clock to 56, system_time=1741157666, queue_length=0
+2025-03-05 01:54:26,663 INFO: Received message from machine1: received_clock=58, system_time=1741157666
+2025-03-05 01:54:26,730 INFO: Received message from machine3: received_clock=54, system_time=1741157666
+2025-03-05 01:54:26,738 INFO: Processed received message: updated logical clock to 59, system_time=1741157666, queue_length=1
+2025-03-05 01:54:26,831 INFO: Received message from machine1: received_clock=59, system_time=1741157666
+2025-03-05 01:54:27,073 INFO: Processed received message: updated logical clock to 60, system_time=1741157667, queue_length=1
+2025-03-05 01:54:27,176 INFO: Received message from machine1: received_clock=61, system_time=1741157667
+2025-03-05 01:54:27,411 INFO: Processed received message: updated logical clock to 61, system_time=1741157667, queue_length=1
+2025-03-05 01:54:27,750 INFO: Processed received message: updated logical clock to 62, system_time=1741157667, queue_length=0
+2025-03-05 01:54:28,084 INFO: Received message from machine3: received_clock=64, system_time=1741157668
+2025-03-05 01:54:28,086 INFO: Processed received message: updated logical clock to 65, system_time=1741157668, queue_length=0
+2025-03-05 01:54:28,425 INFO: Internal event: updated logical clock to 66, system_time=1741157668
+2025-03-05 01:54:28,536 INFO: Received message from machine1: received_clock=69, system_time=1741157668
+2025-03-05 01:54:28,762 INFO: Processed received message: updated logical clock to 70, system_time=1741157668, queue_length=0
+2025-03-05 01:54:28,878 INFO: Received message from machine1: received_clock=71, system_time=1741157668
+2025-03-05 01:54:29,097 INFO: Processed received message: updated logical clock to 72, system_time=1741157669, queue_length=0
+2025-03-05 01:54:29,434 INFO: Internal event: updated logical clock to 73, system_time=1741157669
+2025-03-05 01:54:29,563 INFO: Received message from machine1: received_clock=75, system_time=1741157669
+2025-03-05 01:54:29,734 INFO: Received message from machine1: received_clock=76, system_time=1741157669
+2025-03-05 01:54:29,770 INFO: Processed received message: updated logical clock to 76, system_time=1741157669, queue_length=1
+2025-03-05 01:54:30,109 INFO: Processed received message: updated logical clock to 77, system_time=1741157670, queue_length=0
+2025-03-05 01:54:30,434 INFO: Received message from machine3: received_clock=78, system_time=1741157670
+2025-03-05 01:54:30,445 INFO: Processed received message: updated logical clock to 79, system_time=1741157670, queue_length=0
+2025-03-05 01:54:30,782 INFO: Internal event: updated logical clock to 80, system_time=1741157670
+2025-03-05 01:54:31,122 INFO: Sent message to localhost:50051: sent_clock=81, system_time=1741157671
+2025-03-05 01:54:31,124 INFO: Sent message to localhost:50053: sent_clock=81, system_time=1741157671
+2025-03-05 01:54:31,124 INFO: Broadcast sent: updated logical clock to 81, system_time=1741157671
+2025-03-05 01:54:31,459 INFO: Sent message to localhost:50053: sent_clock=82, system_time=1741157671
+2025-03-05 01:54:31,459 INFO: Sent event to localhost:50053: updated logical clock to 82, system_time=1741157671
+2025-03-05 01:54:31,797 INFO: Sent message to localhost:50051: sent_clock=83, system_time=1741157671
+2025-03-05 01:54:31,799 INFO: Sent message to localhost:50053: sent_clock=83, system_time=1741157671
+2025-03-05 01:54:31,799 INFO: Broadcast sent: updated logical clock to 83, system_time=1741157671
+2025-03-05 01:54:32,136 INFO: Sent message to localhost:50051: sent_clock=84, system_time=1741157672
+2025-03-05 01:54:32,139 INFO: Sent message to localhost:50053: sent_clock=84, system_time=1741157672
+2025-03-05 01:54:32,139 INFO: Broadcast sent: updated logical clock to 84, system_time=1741157672
+2025-03-05 01:54:32,469 INFO: Internal event: updated logical clock to 85, system_time=1741157672
+2025-03-05 01:54:32,789 INFO: Received message from machine1: received_clock=94, system_time=1741157672
+2025-03-05 01:54:32,806 INFO: Processed received message: updated logical clock to 95, system_time=1741157672, queue_length=0
+2025-03-05 01:54:33,142 INFO: Internal event: updated logical clock to 96, system_time=1741157673
+2025-03-05 01:54:33,480 INFO: Internal event: updated logical clock to 97, system_time=1741157673
+2025-03-05 01:54:33,813 INFO: Internal event: updated logical clock to 98, system_time=1741157673
+2025-03-05 01:54:34,140 INFO: Received message from machine3: received_clock=98, system_time=1741157674
+2025-03-05 01:54:34,147 INFO: Processed received message: updated logical clock to 99, system_time=1741157674, queue_length=0
+2025-03-05 01:54:34,486 INFO: Internal event: updated logical clock to 100, system_time=1741157674
+2025-03-05 01:54:34,824 INFO: Internal event: updated logical clock to 101, system_time=1741157674
+2025-03-05 01:54:34,996 INFO: Received message from machine1: received_clock=107, system_time=1741157674
+2025-03-05 01:54:35,162 INFO: Processed received message: updated logical clock to 108, system_time=1741157675, queue_length=0
+2025-03-05 01:54:35,499 INFO: Internal event: updated logical clock to 109, system_time=1741157675
+2025-03-05 01:54:35,834 INFO: Internal event: updated logical clock to 110, system_time=1741157675
+2025-03-05 01:54:36,174 INFO: Received message from machine1: received_clock=114, system_time=1741157676
+2025-03-05 01:54:36,174 INFO: Sent message to localhost:50053: sent_clock=111, system_time=1741157676
+2025-03-05 01:54:36,175 INFO: Sent event to localhost:50053: updated logical clock to 111, system_time=1741157676
+2025-03-05 01:54:36,345 INFO: Received message from machine1: received_clock=115, system_time=1741157676
+2025-03-05 01:54:36,508 INFO: Processed received message: updated logical clock to 115, system_time=1741157676, queue_length=1
+2025-03-05 01:54:36,513 INFO: Received message from machine1: received_clock=116, system_time=1741157676
+2025-03-05 01:54:36,846 INFO: Processed received message: updated logical clock to 116, system_time=1741157676, queue_length=1
+2025-03-05 01:54:36,853 INFO: Received message from machine1: received_clock=118, system_time=1741157676
+2025-03-05 01:54:37,018 INFO: Received message from machine1: received_clock=119, system_time=1741157677
+2025-03-05 01:54:37,183 INFO: Processed received message: updated logical clock to 117, system_time=1741157677, queue_length=2
+2025-03-05 01:54:37,521 INFO: Processed received message: updated logical clock to 119, system_time=1741157677, queue_length=1
+2025-03-05 01:54:37,857 INFO: Processed received message: updated logical clock to 120, system_time=1741157677, queue_length=0
+2025-03-05 01:54:38,194 INFO: Sent message to localhost:50051: sent_clock=121, system_time=1741157678
+2025-03-05 01:54:38,196 INFO: Sent message to localhost:50053: sent_clock=121, system_time=1741157678
+2025-03-05 01:54:38,196 INFO: Broadcast sent: updated logical clock to 121, system_time=1741157678
+2025-03-05 01:54:38,533 INFO: Sent message to localhost:50051: sent_clock=122, system_time=1741157678
+2025-03-05 01:54:38,535 INFO: Sent message to localhost:50053: sent_clock=122, system_time=1741157678
+2025-03-05 01:54:38,535 INFO: Broadcast sent: updated logical clock to 122, system_time=1741157678
+2025-03-05 01:54:38,866 INFO: Internal event: updated logical clock to 123, system_time=1741157678
+2025-03-05 01:54:38,883 INFO: Received message from machine1: received_clock=130, system_time=1741157678
+2025-03-05 01:54:39,050 INFO: Received message from machine1: received_clock=131, system_time=1741157679
+2025-03-05 01:54:39,205 INFO: Processed received message: updated logical clock to 131, system_time=1741157679, queue_length=1
+2025-03-05 01:54:39,540 INFO: Processed received message: updated logical clock to 132, system_time=1741157679, queue_length=0
+2025-03-05 01:54:39,877 INFO: Internal event: updated logical clock to 133, system_time=1741157679
+2025-03-05 01:54:39,903 INFO: Received message from machine1: received_clock=136, system_time=1741157679
+2025-03-05 01:54:40,213 INFO: Processed received message: updated logical clock to 137, system_time=1741157680, queue_length=0
+2025-03-05 01:54:40,413 INFO: Received message from machine1: received_clock=139, system_time=1741157680
+2025-03-05 01:54:40,552 INFO: Processed received message: updated logical clock to 140, system_time=1741157680, queue_length=0
+2025-03-05 01:54:40,890 INFO: Internal event: updated logical clock to 141, system_time=1741157680
+2025-03-05 01:54:41,228 INFO: Internal event: updated logical clock to 142, system_time=1741157681
+2025-03-05 01:54:41,440 INFO: Received message from machine1: received_clock=145, system_time=1741157681
+2025-03-05 01:54:41,565 INFO: Processed received message: updated logical clock to 146, system_time=1741157681, queue_length=0
+2025-03-05 01:54:41,904 INFO: Sent message to localhost:50051: sent_clock=147, system_time=1741157681
+2025-03-05 01:54:41,906 INFO: Sent message to localhost:50053: sent_clock=147, system_time=1741157681
+2025-03-05 01:54:41,906 INFO: Broadcast sent: updated logical clock to 147, system_time=1741157681
+2025-03-05 01:54:42,117 INFO: Received message from machine1: received_clock=149, system_time=1741157682
+2025-03-05 01:54:42,239 INFO: Processed received message: updated logical clock to 150, system_time=1741157682, queue_length=0
+2025-03-05 01:54:42,577 INFO: Sent message to localhost:50053: sent_clock=151, system_time=1741157682
+2025-03-05 01:54:42,577 INFO: Sent event to localhost:50053: updated logical clock to 151, system_time=1741157682
+2025-03-05 01:54:42,624 INFO: Received message from machine1: received_clock=152, system_time=1741157682
+2025-03-05 01:54:42,912 INFO: Processed received message: updated logical clock to 153, system_time=1741157682, queue_length=0
+2025-03-05 01:54:43,248 INFO: Internal event: updated logical clock to 154, system_time=1741157683
+2025-03-05 01:54:43,586 INFO: Internal event: updated logical clock to 155, system_time=1741157683
+2025-03-05 01:54:43,924 INFO: Internal event: updated logical clock to 156, system_time=1741157683
+2025-03-05 01:54:44,160 INFO: Received message from machine1: received_clock=161, system_time=1741157684
+2025-03-05 01:54:44,261 INFO: Processed received message: updated logical clock to 162, system_time=1741157684, queue_length=0
+2025-03-05 01:54:44,332 INFO: Received message from machine1: received_clock=162, system_time=1741157684
+2025-03-05 01:54:44,598 INFO: Processed received message: updated logical clock to 163, system_time=1741157684, queue_length=0
+2025-03-05 01:54:44,904 INFO: Received message from machine3: received_clock=164, system_time=1741157684
+2025-03-05 01:54:44,932 INFO: Processed received message: updated logical clock to 165, system_time=1741157684, queue_length=0
+2025-03-05 01:54:45,236 INFO: Received message from machine3: received_clock=165, system_time=1741157685
+2025-03-05 01:54:45,270 INFO: Processed received message: updated logical clock to 166, system_time=1741157685, queue_length=0
+2025-03-05 01:54:45,612 INFO: Sent message to localhost:50051: sent_clock=167, system_time=1741157685
+2025-03-05 01:54:45,614 INFO: Sent message to localhost:50053: sent_clock=167, system_time=1741157685
+2025-03-05 01:54:45,615 INFO: Broadcast sent: updated logical clock to 167, system_time=1741157685
+2025-03-05 01:54:45,944 INFO: Internal event: updated logical clock to 168, system_time=1741157685
+2025-03-05 01:54:46,028 INFO: Received message from machine1: received_clock=172, system_time=1741157686
+2025-03-05 01:54:46,282 INFO: Processed received message: updated logical clock to 173, system_time=1741157686, queue_length=0
+2025-03-05 01:54:46,539 INFO: Received message from machine1: received_clock=175, system_time=1741157686
+2025-03-05 01:54:46,620 INFO: Processed received message: updated logical clock to 176, system_time=1741157686, queue_length=0
+2025-03-05 01:54:46,957 INFO: Internal event: updated logical clock to 177, system_time=1741157686
+2025-03-05 01:54:47,294 INFO: Internal event: updated logical clock to 178, system_time=1741157687
+2025-03-05 01:54:47,377 INFO: Received message from machine1: received_clock=180, system_time=1741157687
+2025-03-05 01:54:47,628 INFO: Processed received message: updated logical clock to 181, system_time=1741157687, queue_length=0
+2025-03-05 01:54:47,888 INFO: Received message from machine1: received_clock=183, system_time=1741157687
+2025-03-05 01:54:47,966 INFO: Processed received message: updated logical clock to 184, system_time=1741157687, queue_length=0
+2025-03-05 01:54:48,301 INFO: Internal event: updated logical clock to 185, system_time=1741157688
+2025-03-05 01:54:48,645 INFO: Sent message to localhost:50051: sent_clock=186, system_time=1741157688
+2025-03-05 01:54:48,645 INFO: Sent event to localhost:50051: updated logical clock to 186, system_time=1741157688
+2025-03-05 01:54:48,902 INFO: Received message from machine1: received_clock=189, system_time=1741157688
+2025-03-05 01:54:48,974 INFO: Processed received message: updated logical clock to 190, system_time=1741157688, queue_length=0
+2025-03-05 01:54:49,074 INFO: Received message from machine1: received_clock=190, system_time=1741157689
+2025-03-05 01:54:49,265 INFO: Received message from machine3: received_clock=184, system_time=1741157689
+2025-03-05 01:54:49,310 INFO: Processed received message: updated logical clock to 191, system_time=1741157689, queue_length=1
+2025-03-05 01:54:49,648 INFO: Processed received message: updated logical clock to 192, system_time=1741157689, queue_length=0
+2025-03-05 01:54:49,935 INFO: Received message from machine3: received_clock=186, system_time=1741157689
+2025-03-05 01:54:49,985 INFO: Processed received message: updated logical clock to 193, system_time=1741157689, queue_length=0
+2025-03-05 01:54:50,323 INFO: Internal event: updated logical clock to 194, system_time=1741157690
+2025-03-05 01:54:50,596 INFO: Received message from machine1: received_clock=199, system_time=1741157690
+2025-03-05 01:54:50,661 INFO: Processed received message: updated logical clock to 200, system_time=1741157690, queue_length=0
+2025-03-05 01:54:50,939 INFO: Received message from machine1: received_clock=201, system_time=1741157690
+2025-03-05 01:54:50,998 INFO: Processed received message: updated logical clock to 202, system_time=1741157690, queue_length=0
+2025-03-05 01:54:51,341 INFO: Sent message to localhost:50053: sent_clock=203, system_time=1741157691
+2025-03-05 01:54:51,342 INFO: Sent event to localhost:50053: updated logical clock to 203, system_time=1741157691
+2025-03-05 01:54:51,672 INFO: Internal event: updated logical clock to 204, system_time=1741157691
+2025-03-05 01:54:52,010 INFO: Internal event: updated logical clock to 205, system_time=1741157692
+2025-03-05 01:54:52,126 INFO: Received message from machine1: received_clock=208, system_time=1741157692
+2025-03-05 01:54:52,345 INFO: Processed received message: updated logical clock to 209, system_time=1741157692, queue_length=0
+2025-03-05 01:54:52,678 INFO: Internal event: updated logical clock to 210, system_time=1741157692
+2025-03-05 01:54:52,977 INFO: Received message from machine1: received_clock=213, system_time=1741157692
+2025-03-05 01:54:53,013 INFO: Processed received message: updated logical clock to 214, system_time=1741157693, queue_length=0
+2025-03-05 01:54:53,351 INFO: Sent message to localhost:50051: sent_clock=215, system_time=1741157693
+2025-03-05 01:54:53,351 INFO: Sent event to localhost:50051: updated logical clock to 215, system_time=1741157693
+2025-03-05 01:54:53,685 INFO: Internal event: updated logical clock to 216, system_time=1741157693
+2025-03-05 01:54:54,023 INFO: Internal event: updated logical clock to 217, system_time=1741157694
+2025-03-05 01:54:54,359 INFO: Internal event: updated logical clock to 218, system_time=1741157694
+2025-03-05 01:54:54,675 INFO: Received message from machine1: received_clock=223, system_time=1741157694
+2025-03-05 01:54:54,697 INFO: Processed received message: updated logical clock to 224, system_time=1741157694, queue_length=0
+2025-03-05 01:54:55,033 INFO: Internal event: updated logical clock to 225, system_time=1741157695
+2025-03-05 01:54:55,370 INFO: Internal event: updated logical clock to 226, system_time=1741157695
+2025-03-05 01:54:55,707 INFO: Internal event: updated logical clock to 227, system_time=1741157695
+2025-03-05 01:54:55,867 INFO: Received message from machine1: received_clock=230, system_time=1741157695
+2025-03-05 01:54:56,041 INFO: Processed received message: updated logical clock to 231, system_time=1741157696, queue_length=0
+2025-03-05 01:54:56,378 INFO: Internal event: updated logical clock to 232, system_time=1741157696
+2025-03-05 01:54:56,379 INFO: Received message from machine1: received_clock=233, system_time=1741157696
+2025-03-05 01:54:56,714 INFO: Processed received message: updated logical clock to 234, system_time=1741157696, queue_length=0
+2025-03-05 01:54:57,051 INFO: Internal event: updated logical clock to 235, system_time=1741157697
+2025-03-05 01:54:57,390 INFO: Internal event: updated logical clock to 236, system_time=1741157697
+2025-03-05 01:54:57,399 INFO: Received message from machine1: received_clock=239, system_time=1741157697
+2025-03-05 01:54:57,726 INFO: Processed received message: updated logical clock to 240, system_time=1741157697, queue_length=0
+2025-03-05 01:54:58,007 INFO: Received message from machine3: received_clock=241, system_time=1741157698
+2025-03-05 01:54:58,061 INFO: Processed received message: updated logical clock to 242, system_time=1741157698, queue_length=0
+2025-03-05 01:54:58,083 INFO: Received message from machine1: received_clock=243, system_time=1741157698
+2025-03-05 01:54:58,395 INFO: Processed received message: updated logical clock to 244, system_time=1741157698, queue_length=0
+2025-03-05 01:54:58,733 INFO: Internal event: updated logical clock to 245, system_time=1741157698
+2025-03-05 01:54:58,761 INFO: Received message from machine1: received_clock=247, system_time=1741157698
+2025-03-05 01:54:59,072 INFO: Processed received message: updated logical clock to 248, system_time=1741157699, queue_length=0
+2025-03-05 01:54:59,100 INFO: Received message from machine1: received_clock=249, system_time=1741157699
+2025-03-05 01:54:59,408 INFO: Processed received message: updated logical clock to 250, system_time=1741157699, queue_length=0
+2025-03-05 01:54:59,744 INFO: Internal event: updated logical clock to 251, system_time=1741157699
+2025-03-05 01:55:00,080 INFO: Internal event: updated logical clock to 252, system_time=1741157700
+2025-03-05 01:55:00,418 INFO: Internal event: updated logical clock to 253, system_time=1741157700
+2025-03-05 01:55:00,756 INFO: Internal event: updated logical clock to 254, system_time=1741157700
+2025-03-05 01:55:01,095 INFO: Sent message to localhost:50051: sent_clock=255, system_time=1741157701
+2025-03-05 01:55:01,096 INFO: Sent event to localhost:50051: updated logical clock to 255, system_time=1741157701
+2025-03-05 01:55:01,428 INFO: Internal event: updated logical clock to 256, system_time=1741157701
+2025-03-05 01:55:01,766 INFO: Internal event: updated logical clock to 257, system_time=1741157701
+2025-03-05 01:55:02,103 INFO: Internal event: updated logical clock to 258, system_time=1741157702
+2025-03-05 01:55:02,147 INFO: Received message from machine1: received_clock=267, system_time=1741157702
+2025-03-05 01:55:02,440 INFO: Processed received message: updated logical clock to 268, system_time=1741157702, queue_length=0
+2025-03-05 01:55:02,719 INFO: Received message from machine3: received_clock=268, system_time=1741157702
+2025-03-05 01:55:02,776 INFO: Processed received message: updated logical clock to 269, system_time=1741157702, queue_length=0
+2025-03-05 01:55:03,119 INFO: Sent message to localhost:50051: sent_clock=270, system_time=1741157703
+2025-03-05 01:55:03,120 INFO: Sent event to localhost:50051: updated logical clock to 270, system_time=1741157703
+2025-03-05 01:55:03,449 INFO: Internal event: updated logical clock to 271, system_time=1741157703
+2025-03-05 01:55:03,789 INFO: Sent message to localhost:50053: sent_clock=272, system_time=1741157703
+2025-03-05 01:55:03,789 INFO: Sent event to localhost:50053: updated logical clock to 272, system_time=1741157703
+2025-03-05 01:55:04,123 INFO: Internal event: updated logical clock to 273, system_time=1741157704
+2025-03-05 01:55:04,457 INFO: Internal event: updated logical clock to 274, system_time=1741157704
+2025-03-05 01:55:04,689 INFO: Received message from machine1: received_clock=282, system_time=1741157704
+2025-03-05 01:55:04,794 INFO: Processed received message: updated logical clock to 283, system_time=1741157704, queue_length=0
+2025-03-05 01:55:05,132 INFO: Internal event: updated logical clock to 284, system_time=1741157705
+2025-03-05 01:55:05,413 INFO: Received message from machine3: received_clock=277, system_time=1741157705
+2025-03-05 01:55:05,466 INFO: Processed received message: updated logical clock to 285, system_time=1741157705, queue_length=0
+2025-03-05 01:55:05,801 INFO: Internal event: updated logical clock to 286, system_time=1741157705
+2025-03-05 01:55:06,136 INFO: Internal event: updated logical clock to 287, system_time=1741157706
+2025-03-05 01:55:06,391 INFO: Received message from machine1: received_clock=292, system_time=1741157706
+2025-03-05 01:55:06,471 INFO: Processed received message: updated logical clock to 293, system_time=1741157706, queue_length=0
+2025-03-05 01:55:06,809 INFO: Internal event: updated logical clock to 294, system_time=1741157706
+2025-03-05 01:55:07,144 INFO: Internal event: updated logical clock to 295, system_time=1741157707
+2025-03-05 01:55:07,480 INFO: Internal event: updated logical clock to 296, system_time=1741157707
+2025-03-05 01:55:07,749 INFO: Received message from machine1: received_clock=300, system_time=1741157707
+2025-03-05 01:55:07,818 INFO: Processed received message: updated logical clock to 301, system_time=1741157707, queue_length=0
+2025-03-05 01:55:08,157 INFO: Sent message to localhost:50051: sent_clock=302, system_time=1741157708
+2025-03-05 01:55:08,158 INFO: Sent event to localhost:50051: updated logical clock to 302, system_time=1741157708
+2025-03-05 01:55:08,428 INFO: Received message from machine1: received_clock=304, system_time=1741157708
+2025-03-05 01:55:08,490 INFO: Processed received message: updated logical clock to 305, system_time=1741157708, queue_length=0
+2025-03-05 01:55:08,827 INFO: Internal event: updated logical clock to 306, system_time=1741157708
+2025-03-05 01:55:08,933 INFO: Received message from machine1: received_clock=307, system_time=1741157708
+2025-03-05 01:55:09,165 INFO: Processed received message: updated logical clock to 308, system_time=1741157709, queue_length=0
+2025-03-05 01:55:09,504 INFO: Sent message to localhost:50051: sent_clock=309, system_time=1741157709
+2025-03-05 01:55:09,506 INFO: Sent message to localhost:50053: sent_clock=309, system_time=1741157709
+2025-03-05 01:55:09,506 INFO: Broadcast sent: updated logical clock to 309, system_time=1741157709
+2025-03-05 01:55:09,843 INFO: Sent message to localhost:50053: sent_clock=310, system_time=1741157709
+2025-03-05 01:55:09,844 INFO: Sent event to localhost:50053: updated logical clock to 310, system_time=1741157709
+2025-03-05 01:55:09,949 INFO: Received message from machine1: received_clock=313, system_time=1741157709
+2025-03-05 01:55:10,178 INFO: Processed received message: updated logical clock to 314, system_time=1741157710, queue_length=0
+2025-03-05 01:55:10,517 INFO: Internal event: updated logical clock to 315, system_time=1741157710
+2025-03-05 01:55:10,815 INFO: Received message from machine3: received_clock=313, system_time=1741157710
+2025-03-05 01:55:10,853 INFO: Processed received message: updated logical clock to 316, system_time=1741157710, queue_length=0
+2025-03-05 01:55:11,134 INFO: Received message from machine1: received_clock=320, system_time=1741157711
+2025-03-05 01:55:11,190 INFO: Processed received message: updated logical clock to 321, system_time=1741157711, queue_length=0
+2025-03-05 01:55:11,526 INFO: Internal event: updated logical clock to 322, system_time=1741157711
+2025-03-05 01:55:11,815 INFO: Received message from machine1: received_clock=324, system_time=1741157711
+2025-03-05 01:55:11,864 INFO: Processed received message: updated logical clock to 325, system_time=1741157711, queue_length=0
+2025-03-05 01:55:12,200 INFO: Internal event: updated logical clock to 326, system_time=1741157712
+2025-03-05 01:55:12,324 INFO: Received message from machine1: received_clock=327, system_time=1741157712
+2025-03-05 01:55:12,537 INFO: Processed received message: updated logical clock to 328, system_time=1741157712, queue_length=0
+2025-03-05 01:55:12,834 INFO: Received message from machine3: received_clock=326, system_time=1741157712
+2025-03-05 01:55:12,872 INFO: Processed received message: updated logical clock to 329, system_time=1741157712, queue_length=0
+2025-03-05 01:55:13,005 INFO: Received message from machine1: received_clock=331, system_time=1741157713
+2025-03-05 01:55:13,206 INFO: Processed received message: updated logical clock to 332, system_time=1741157713, queue_length=0
+2025-03-05 01:55:13,544 INFO: Internal event: updated logical clock to 333, system_time=1741157713
+2025-03-05 01:55:13,883 INFO: Internal event: updated logical clock to 334, system_time=1741157713
+2025-03-05 01:55:14,178 INFO: Received message from machine3: received_clock=336, system_time=1741157714
+2025-03-05 01:55:14,220 INFO: Processed received message: updated logical clock to 337, system_time=1741157714, queue_length=0
+2025-03-05 01:55:14,555 INFO: Internal event: updated logical clock to 338, system_time=1741157714
+2025-03-05 01:55:14,891 INFO: Internal event: updated logical clock to 339, system_time=1741157714
+2025-03-05 01:55:15,227 INFO: Internal event: updated logical clock to 340, system_time=1741157715
+2025-03-05 01:55:15,401 INFO: Received message from machine1: received_clock=345, system_time=1741157715
+2025-03-05 01:55:15,562 INFO: Processed received message: updated logical clock to 346, system_time=1741157715, queue_length=0
+2025-03-05 01:55:15,575 INFO: Received message from machine1: received_clock=346, system_time=1741157715
+2025-03-05 01:55:15,900 INFO: Processed received message: updated logical clock to 347, system_time=1741157715, queue_length=0
+2025-03-05 01:55:16,236 INFO: Internal event: updated logical clock to 348, system_time=1741157716
+2025-03-05 01:55:16,420 INFO: Received message from machine1: received_clock=351, system_time=1741157716
+2025-03-05 01:55:16,580 INFO: Processed received message: updated logical clock to 352, system_time=1741157716, queue_length=0
+2025-03-05 01:55:16,915 INFO: Internal event: updated logical clock to 353, system_time=1741157716
+2025-03-05 01:55:17,254 INFO: gRPC server stopped

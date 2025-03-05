@@ -1,6 +1,5 @@
 import subprocess
 import sys
-import time
 
 def main():
     # Define configurations for three machines:
